@@ -1,0 +1,768 @@
+code[class*="language-"],
+pre[class*="language-"] {
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    color: #eee;
+    background: #2f2f2f;
+    font-family: Roboto Mono, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    hyphens: none;
+}
+
+code[class*="language-"]::-moz-selection,
+pre[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+pre[class*="language-"] ::-moz-selection {
+    background: #363636;
+}
+
+code[class*="language-"]::-moz-selection, pre[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection, pre[class*="language-"] ::-moz-selection {
+    background: #363636;
+}
+
+code[class*="language-"]::selection,
+pre[class*="language-"]::selection,
+code[class*="language-"] ::selection,
+pre[class*="language-"] ::selection {
+    background: #363636;
+}
+
+:not(pre)>code[class*="language-"] {
+    white-space: normal;
+    border-radius: 0.2em;
+    padding: 0.1em;
+}
+
+pre[class*="language-"] {
+    overflow: auto;
+    position: relative;
+    margin: 0.5em 0;
+    padding: 1.25em 1em;
+}
+
+.language-css>code,
+.language-sass>code,
+.language-scss>code {
+    color: #fd9170;
+}
+
+[class*="language-"] .namespace {
+    opacity: 0.7;
+}
+
+.token.atrule {
+    color: #c792ea;
+}
+
+.token.attr-name {
+    color: #ffcb6b;
+}
+
+.token.attr-value {
+    color: #a5e844;
+}
+
+.token.attribute {
+    color: #a5e844;
+}
+
+.token.boolean {
+    color: #c792ea;
+}
+
+.token.builtin {
+    color: #ffcb6b;
+}
+
+.token.cdata {
+    color: #80cbc4;
+}
+
+.token.char {
+    color: #80cbc4;
+}
+
+.token.class {
+    color: #ffcb6b;
+}
+
+.token.class-name {
+    color: #f2ff00;
+}
+
+.token.comment {
+    color: #616161;
+}
+
+.token.constant {
+    color: #c792ea;
+}
+
+.token.deleted {
+    color: #ff6666;
+}
+
+.token.doctype {
+    color: #616161;
+}
+
+.token.entity {
+    color: #ff6666;
+}
+
+.token.function {
+    color: #c792ea;
+}
+
+.token.hexcode {
+    color: #f2ff00;
+}
+
+.token.id {
+    color: #c792ea;
+    font-weight: bold;
+}
+
+.token.important {
+    color: #c792ea;
+    font-weight: bold;
+}
+
+.token.inserted {
+    color: #80cbc4;
+}
+
+.token.keyword {
+    color: #c792ea;
+}
+
+.token.number {
+    color: #fd9170;
+}
+
+.token.operator {
+    color: #89ddff;
+}
+
+.token.prolog {
+    color: #616161;
+}
+
+.token.property {
+    color: #80cbc4;
+}
+
+.token.pseudo-class {
+    color: #a5e844;
+}
+
+.token.pseudo-element {
+    color: #a5e844;
+}
+
+.token.punctuation {
+    color: #89ddff;
+}
+
+.token.regex {
+    color: #f2ff00;
+}
+
+.token.selector {
+    color: #ff6666;
+}
+
+.token.string {
+    color: #a5e844;
+}
+
+.token.symbol {
+    color: #c792ea;
+}
+
+.token.tag {
+    color: #ff6666;
+}
+
+.token.unit {
+    color: #fd9170;
+}
+
+.token.url {
+    color: #ff6666;
+}
+
+.token.variable {
+    color: #ff6666;
+}
+
+.block-editor-block-inspector .block-editor-link-control {
+  min-width: auto;
+}
+
+.block-editor-block-inspector .block-editor-link-control .block-editor-link-control__search-input input[type=text] {
+  width: 100%;
+  margin: 0;
+}
+
+.block-editor-block-inspector .block-editor-link-control .block-editor-link-control__search-actions {
+  top: 3px;
+  right: 3px;
+}
+
+.block-editor-block-inspector .block-editor-link-control .block-editor-link-control__search-results {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: #dddddd;
+  margin-top: 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.block-editor-block-inspector .block-editor-link-control .block-editor-link-control__search-item.is-current {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.block-editor-block-inspector .block-editor-link-control .block-editor-link-control__settings {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.block-editor .agni-components-iconpicker-control__panel {
+  width: 90vw;
+  max-width: 240px;
+}
+
+.block-editor .agni-components-iconpicker-control__edit-actions {
+  display: flex;
+}
+
+.block-editor .agni-components-iconpicker-control__reset-button {
+  margin-left: auto;
+}
+
+.block-editor .agni-components-iconpicker-control__back-button {
+  float: right;
+  margin-top: -25px;
+}
+
+.block-editor .agni-components-iconpicker-control__icon-button {
+  padding: 6px 12px;
+}
+
+.block-editor .agni-components-iconpicker-control__icon-button svg {
+  width: 13px;
+  height: 13px;
+}
+
+.block-editor .agni-components-iconpicker-control__category {
+  margin-bottom: 5px;
+}
+
+.block-editor .agni-components-iconpicker-control__label {
+  display: none;
+}
+
+.block-editor .agni-components-iconpicker-control__icons-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block-editor .agni-components-iconpicker-control__icons-list span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border: 1px solid;
+  border-color: transparent;
+}
+
+.block-editor .agni-components-iconpicker-control__icons-list svg {
+  width: 16px;
+  height: 16px;
+}
+
+.block-editor .agni-components-iconpicker-control__icons-list .agni-icon-themeicons svg {
+  fill: #3c434a;
+}
+
+.block-editor .agni-components-iconpicker-control__toolbar-button i {
+  font-size: 16px;
+}
+
+.block-editor .agni-components-iconpicker-control__toolbar-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.block-editor .agni-components-iconpicker-control__popup-dropdown .agni-components-iconpicker-control__icon {
+  width: 39px;
+  height: 39px;
+}
+
+.block-editor .agni-components-search-control {
+  position: relative;
+}
+
+.block-editor .agni-components-search-control .components-input-control input {
+  height: auto;
+  padding: 11px 36px 11px 16px;
+}
+
+.block-editor .agni-components-search-control button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.block-editor .agni-components-product-search-control__results {
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.block-editor .agni-components-iconpicker-panel-control {
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.block-editor .agni-components-iconpicker-panel-control:hover {
+  border-color: #1e1e1e;
+}
+
+.block-editor .agni-components-iconpicker-panel-control .active {
+  background-color: #1e1e1e;
+  color: #fff;
+  fill: #fff;
+  border-radius: 2px;
+}
+
+.block-editor .agni-components-iconpicker-panel-control .hide {
+  display: none;
+}
+
+.block-editor .agni-components-width-ratio-picker-control__popup-dropdown .components-popover__content > div {
+  padding: 0;
+}
+
+.block-editor .agni-components-width-ratio-picker-control__popup-dropdown .components-toolbar-group {
+  border-right: 0;
+}
+
+.block-editor .agni-components-width-ratio-picker-control__toolbar-content .components-toolbar-group {
+  padding: 8px;
+}
+
+.block-editor .agni-components-product-search-control .components-text-control__input {
+  padding: 4px;
+}
+
+.block-editor .agni-components-taxonomy-select-control__items {
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+.block-editor .agni-components-taxonomy-select-control__items li {
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.block-editor .agni-components-taxonomy-select-control .components-base-control {
+  margin-bottom: 0;
+}
+
+.block-editor .agni_builder_field_responsive-devices {
+  text-align: right;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  z-index: 1;
+}
+
+.block-editor .agni_builder_field_responsive-device {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  margin: 3px;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.block-editor .agni_builder_field_responsive-device.active {
+  background-color: var(--wp-admin-theme-color);
+  color: #fff;
+}
+
+.block-editor .agni_builder_field_responsive-device > span {
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+}
+
+.block-editor .agni_builder_field_responsive-device > span:first-child {
+  display: none;
+}
+
+.editor-styles-wrapper.block-editor-writing-flow .agni_builder_field_responsive-devices {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 10px;
+}
+
+.components-panel__row {
+  align-items: flex-start;
+}
+
+.components-panel__row > div:not(:last-child) {
+  margin-right: 10px;
+}
+
+.components-panel__row > .components-base-control {
+  margin-bottom: 8px;
+  flex: 1;
+}
+
+.components-resizable-box__container {
+  position: absolute;
+  inset: 0;
+}
+
+.components-resizable-box__tooltip {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 9px;
+  padding: 5px;
+  background-color: var(--wp-admin-theme-color);
+  display: block;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: 0;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.components-notice.is-warning.is-dismissible {
+  display: none;
+}
+
+.agni-block-slider .agni-slider {
+  overflow: hidden !important;
+}
+
+.agni-block-slider .agni-slider.slick {
+  opacity: 1;
+  visibility: visible;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons {
+  opacity: 1;
+  visibility: visible;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-in,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-in,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-in {
+  animation-name: fade-in;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-in-bottom,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-in-bottom,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-in-bottom {
+  animation-name: fade-in-bottom;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-in-bck,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-in-bck,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-in-bck {
+  animation-name: fade-in-bck;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-in-fwd,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-in-fwd,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-in-fwd {
+  animation-name: fade-in-fwd;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-in-top,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-in-top,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-in-top {
+  animation-name: fade-in-top;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-in-left,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-in-left,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-in-left {
+  animation-name: fade-in-left;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-in-right,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-in-right,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-in-right {
+  animation-name: fade-in-right;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-out,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-out,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-out {
+  animation-name: fade-out;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-out-bck,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-out-bck,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-out-bck {
+  animation-name: fade-out-bck;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-out-fwd,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-out-fwd,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-out-fwd {
+  animation-name: fade-out-fwd;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-out-top,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-out-top,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-out-top {
+  animation-name: fade-out-top;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-out-right,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-out-right,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-out-right {
+  animation-name: fade-out-right;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-out-left,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-out-left,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-out-left {
+  animation-name: fade-out-left;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.fade-out-bottom,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.fade-out-bottom,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.fade-out-bottom {
+  animation-name: fade-out-bottom;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.slide-in-bck-center,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.slide-in-bck-center,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.slide-in-bck-center {
+  animation-name: slide-in-bck-center;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.slide-in-fwd-center,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.slide-in-fwd-center,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.slide-in-fwd-center {
+  animation-name: slide-in-fwd-center;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.slide-in-top,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.slide-in-top,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.slide-in-top {
+  animation-name: slide-in-top;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.slide-in-left,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.slide-in-left,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.slide-in-left {
+  animation-name: slide-in-left;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.slide-in-right,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.slide-in-right,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.slide-in-right {
+  animation-name: slide-in-right;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.slide-in-bottom,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.slide-in-bottom,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.slide-in-bottom {
+  animation-name: slide-in-bottom;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.tilt-in-top-1,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.tilt-in-top-1,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.tilt-in-top-1 {
+  animation-name: tilt-in-top-1;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.tilt-in-top-2,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.tilt-in-top-2,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.tilt-in-top-2 {
+  animation-name: tilt-in-top-2;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.tilt-in-bottom-1,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.tilt-in-bottom-1,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.tilt-in-bottom-1 {
+  animation-name: tilt-in-bottom-1;
+}
+
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-text.tilt-in-bottom-2,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-image.tilt-in-bottom-2,
+.agni-block-slider .agni-slider .agni-slide.has-animation .agni-slide-buttons.tilt-in-bottom-2 {
+  animation-name: tilt-in-bottom-2;
+}
+
+.agni-block-gallery-item figure {
+  position: relative;
+}
+
+.agni-block-gallery-item figure.is-selected:before {
+  box-shadow: 0 0 0 1px #fff inset, 0 0 0 3px var(--wp-admin-theme-color) inset;
+  content: "";
+  outline: 2px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.agni-block-gallery-item img {
+  width: 100%;
+}
+
+.agni-block-gallery-item__options {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 2px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.agni-block-gallery-items {
+  position: relative;
+}
+
+.agni-block-gallery-items .agni_builder_field_responsive-devices {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+}
+
+.agni-block-patterns-modal {
+  width: 1400px;
+}
+
+.agni-block-patterns-container {
+  display: flex;
+}
+
+.agni-block-patterns-sidebar {
+  width: 240px;
+  border-right: 1px solid #ddd;
+  padding-right: 30px;
+}
+
+.agni-block-patterns-sidebar__content {
+  position: sticky;
+  top: 30px;
+}
+
+.agni-block-patterns-list {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.agni-block-patterns-list-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.agni-block-patterns-list-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  cursor: pointer;
+}
+
+.agni-block-patterns-list-item__thumbnail {
+  flex: 1;
+  place-items: center;
+  display: flex;
+  border: 1px solid #ddd;
+}
+
+.agni-block-patterns-list-item__thumbnail img {
+  max-width: 100%;
+}
+
+.agni-block-patterns-list-item.chosen .agni-block-patterns-list-item__thumbnail {
+  border: 1px solid #000;
+}
+
+.agni-block-patterns-drawer {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  bottom: -24px;
+  padding-bottom: 32px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+.agni-block-patterns-drawer-chosen-list {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.agni-block-patterns-drawer-chosen-list img {
+  max-width: 100px;
+}
+
+.agni-block-patterns-categories {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.agni-block-patterns-categories ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+}
+
+.agni-block-patterns-categories li {
+  cursor: pointer;
+}
+
+.agni-block-patterns-categories li:hover, .agni-block-patterns-categories li.active {
+  text-decoration: underline;
+}
+
+.agni-block-patterns-search__input .components-text-control__input {
+  background-color: #f0f0f0;
+  border: 0;
+  padding: 14px;
+  font-size: 15px;
+}
+
+.agni-block-patterns-search__input .components-text-control__input:active, .agni-block-patterns-search__input .components-text-control__input:focus {
+  outline: none;
+  box-shadow: none;
+}
+/*# sourceMappingURL=main.css.map */

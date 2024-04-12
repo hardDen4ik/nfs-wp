@@ -1,0 +1,44 @@
+/*
+Theme Name: Cartify Child
+Theme URI: http://demo.agnidesigns.com/cartify
+Author: AgniHD
+Author URI: http://agnidesigns.com/
+Description: Multipurpose WooCommerce WordPress Theme
+Version: 1.0.0
+template: cartify
+Requires at least: 5.0
+Tested up to: 5.6.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: cartify-child
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+*/
+
+.woocommerce-checkout-account-info__login-social:before {
+  content: "- или -" !important;
+}
+
+.site-header-login-panel__login--social:before {
+  content: " " !important;
+}	
+
+.woocommerce-checkout-account-info__login-social:before,
+.woocommerce-myaccount-account-info__login-social:before {
+   content: " " !important;
+}	
+
+.woocommerce-form-login .show-password-input:after, .woocommerce-form-register .show-password-input:after {
+   content: "показать" !important;
+}
+
+
+div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpforms-container-full button[type=submit]:not(:hover):not(:active), div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active) {
+  /*  background-color: #FCDFB0 !important;*/
+		
+}
+
+.woocommerce-order-details .product-total {
+  flex: 2;
+}

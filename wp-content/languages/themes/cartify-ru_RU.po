@@ -1,0 +1,2212 @@
+# Copyright (C) 2023 AgniHD
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cartify 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cartify\n"
+"POT-Creation-Date: 2023-05-14T06:48:20+00:00\n"
+"PO-Revision-Date: 2023-06-05 12:54+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Domain: cartify\n"
+
+#. Theme Name of the theme
+#: inc/admin/admin.php:37
+msgid "Cartify"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://demo.agnidesigns.com/cartify"
+msgstr ""
+
+#. Description of the theme
+msgid "Multipurpose WooCommerce WordPress Theme"
+msgstr ""
+
+#. Author of the theme
+msgid "AgniHD"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://agnidesigns.com/"
+msgstr ""
+
+#: comments.php:30
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/admin/admin.php:39
+msgid "Admin Panel"
+msgstr ""
+
+#: inc/admin/admin.php:39
+msgid "Welcome"
+msgstr ""
+
+#: inc/admin/admin.php:41
+msgid "Agni Importer & Exporter"
+msgstr ""
+
+#: inc/admin/admin.php:41
+msgid "Demo Import/Export"
+msgstr ""
+
+#: inc/admin/admin.php:43
+msgid "Header Builder"
+msgstr ""
+
+#: inc/admin/admin.php:45
+msgid "Product Layout Builder"
+msgstr ""
+
+#: inc/admin/admin.php:47
+msgid "Slider Builder"
+msgstr ""
+
+#: inc/admin/admin.php:49
+msgid "Font Manager"
+msgstr ""
+
+#: inc/admin/admin.php:94
+msgid "Registered"
+msgstr ""
+
+#: inc/admin/admin.php:97
+msgid "Unregistered"
+msgstr ""
+
+#: inc/admin/admin.php:103
+msgid "version %s%s"
+msgstr ""
+
+#: inc/admin/admin.php:105
+msgid " (Update available)"
+msgstr ""
+
+#: inc/admin/admin.php:112
+msgid "Install new version %s"
+msgstr ""
+
+#: inc/admin/admin.php:115
+msgid "No update available"
+msgstr ""
+
+#: inc/admin/admin.php:121
+msgid "Go to Registration"
+msgstr ""
+
+#: inc/admin/admin.php:125
+msgid "Copy system status"
+msgstr ""
+
+#: inc/admin/admin.php:129
+msgid "Video Tutorials"
+msgstr ""
+
+#: inc/admin/admin.php:130
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/admin.php:131
+msgid "Submit a Ticket"
+msgstr ""
+
+#: inc/admin/admin.php:136
+msgid "Get started"
+msgstr ""
+
+#: inc/admin/admin.php:138
+msgid "1. Register Your Product"
+msgstr ""
+
+#: inc/admin/admin.php:139
+msgid ""
+"Enter your Envato Personal token and click Register that’s it. Now you’ve "
+"register this copy of purchase."
+msgstr ""
+
+#: inc/admin/admin.php:142
+msgid "2. Install Plugins"
+msgstr ""
+
+#: inc/admin/admin.php:143
+msgid ""
+"Register the theme to get access to install all premium & core plugins. "
+"It’ll let you build site using enhanced Gutenberg editor."
+msgstr ""
+
+#: inc/admin/admin.php:146
+msgid "3. Import Demo contents"
+msgstr ""
+
+#: inc/admin/admin.php:147
+msgid ""
+"Start building your site from pre-designed demo pages by single click. You "
+"can even customise what to import."
+msgstr ""
+
+#: inc/admin/admin.php:217
+msgid "This feature requires \"%s\" plugin to be installed & activated."
+msgstr ""
+
+#: inc/admin/admin.php:218
+msgid ""
+"Make sure that you've registered the product license. You can install all "
+"required & recommended plugins from \"Install Plugins\" tab on the left side "
+"under \"Cartify\" menu."
+msgstr ""
+
+#: inc/admin/admin.php:220
+msgid "Go to install plugins"
+msgstr ""
+
+#: inc/admin/admin.php:221
+msgid "Register your product"
+msgstr ""
+
+#: inc/admin/admin.php:298
+msgid "Update available - %s"
+msgstr ""
+
+#: inc/admin/admin.php:336
+msgid "Already using latest version"
+msgstr ""
+
+#: inc/admin/admin.php:400
+msgid "Failed to install theme"
+msgstr ""
+
+#: inc/admin/admin.php:413
+msgid "Theme updated successfully"
+msgstr ""
+
+#: inc/admin/admin.php:417
+#: inc/plugins-installer/class-plugins-installer.php:660
+msgid "Failed to extract package"
+msgstr ""
+
+#: inc/admin/admin.php:422
+#: inc/plugins-installer/class-plugins-installer.php:665
+msgid "Failed to delete existing version"
+msgstr ""
+
+#: inc/agni-additional-variation-images/admin-agni-additional-variation-images.php:45
+#: inc/agni-additional-variation-images/agni-additional-variation-images.php:35
+msgid "Add More Images"
+msgstr ""
+
+#: inc/agni-addon-products/admin-agni-addon-products.php:17
+msgid "Cartify Addon Products"
+msgstr ""
+
+#: inc/agni-addon-products/admin-agni-addon-products.php:51
+msgid "Products to addon products"
+msgstr ""
+
+#: inc/agni-addon-products/agni-addon-products.php:33
+msgid "Frequently Bought Together"
+msgstr ""
+
+#: inc/agni-addon-products/agni-addon-products.php:143
+msgid "This item: "
+msgstr ""
+
+#: inc/agni-addon-products/agni-addon-products.php:166
+msgid "Sorry no variation chosen."
+msgstr ""
+
+#: inc/agni-addon-products/agni-addon-products.php:225
+msgid "Total:"
+msgstr "Итого:"
+
+#: inc/agni-addon-products/agni-addon-products.php:238
+msgid " items"
+msgstr ""
+
+#: inc/agni-addon-products/agni-addon-products.php:244
+msgid "Choose the variation first!"
+msgstr ""
+
+#: inc/agni-addon-products/agni-addon-products.php:249
+msgid "Add all to cart"
+msgstr "Добавить все в корзину"
+
+#: inc/agni-ajax-login.php:49
+msgid "Customer Login"
+msgstr "Вход для клиентов"
+
+#: inc/agni-ajax-login.php:50
+msgid "If you have an account, sign in with your email address."
+msgstr "Если у вас уже есть аккаунт, войдите с помощью почты."
+
+#: inc/agni-ajax-login.php:58
+msgid "Username or email address"
+msgstr "Имя пользователя или почта"
+
+#: inc/agni-ajax-login.php:62 inc/template-functions-woocommerce.php:1848
+msgid "Password"
+msgstr "Пароль"
+
+#: inc/agni-ajax-login.php:66
+msgid "Lost your password?"
+msgstr "Забыли пароль?"
+
+#: inc/agni-ajax-login.php:73
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: inc/agni-ajax-login.php:76
+msgid "Log in"
+msgstr "Войти"
+
+#: inc/agni-ajax-search.php:56
+msgid "Search Products.."
+msgstr "Поиск продуктов.."
+
+#: inc/agni-ajax-search.php:62
+msgid "All Categories"
+msgstr "Все категории"
+
+#: inc/agni-ajax-search.php:226 inc/agni-ajax-search.php:227
+msgid "in"
+msgstr "в"
+
+#: inc/agni-ajax-search.php:231
+msgid "categories"
+msgstr "категориях"
+
+#: inc/agni-ajax-search.php:243
+msgid "View results"
+msgstr "Посмотреть результат"
+
+#: inc/agni-ajax-search.php:253
+msgid "No products found."
+msgstr "Ничего не найдено."
+
+#: inc/agni-ajax-sidecart.php:32
+msgid "Updating Cart!"
+msgstr "Корзина обновлена!"
+
+#: inc/agni-ajax-sidecart.php:42
+msgid "Your Cart"
+msgstr "Корзина"
+
+#: inc/agni-ajax-sidecart.php:105
+msgctxt "Side cart remove"
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/agni-ajax-sidecart.php:134
+msgid "Cart is Empty"
+msgstr "В корзине ничего нет"
+
+#: inc/agni-ajax-sidecart.php:148
+msgid "Have a coupon?"
+msgstr "У вас есть промокод?"
+
+#: inc/agni-ajax-sidecart.php:167
+msgctxt "Side cart subtotal"
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: inc/agni-ajax-sidecart.php:168 woocommerce/cart/cart-totals.php:31
+#: woocommerce/cart/cart.php:133
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: inc/agni-ajax-sidecart.php:175
+msgctxt "Side cart coupon remove"
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/agni-ajax-sidecart.php:191 inc/agni-ajax-sidecart.php:192
+#: woocommerce/cart/cart-totals.php:54 woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#: inc/agni-ajax-sidecart.php:211 woocommerce/cart/cart-totals.php:74
+msgid "(estimated for %s)"
+msgstr ""
+
+#: inc/agni-ajax-sidecart.php:236
+msgctxt "Side cart total"
+msgid "Total"
+msgstr "Итого"
+
+#: inc/agni-ajax-sidecart.php:237 woocommerce/cart/cart-totals.php:100
+msgid "Total"
+msgstr "Всего"
+
+#: inc/agni-ajax-sidecart.php:245 inc/agni-ajax-sidecart.php:267
+#: inc/custom-kirki-options.php:568
+msgid "Checkout"
+msgstr "Оформить заказ"
+
+#: inc/agni-ajax-sidecart.php:246 inc/agni-ajax-sidecart.php:268
+msgid "Go to Shopping Cart"
+msgstr "Перейти в корзину"
+
+#: inc/agni-ajax-sidecart.php:263
+msgid "Subtotal:"
+msgstr "Промежуточный итог:"
+
+#: inc/agni-ajax-sidecart.php:363
+msgid "Something went wrong"
+msgstr ""
+
+#: inc/agni-ajax-sidecart.php:418 inc/agni-multistep-navigation.php:175
+msgid "Sorry there was a problem removing this coupon."
+msgstr ""
+
+#: inc/agni-ajax-sidecart.php:421 inc/agni-multistep-navigation.php:178
+msgid "Coupon has been removed."
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:38
+msgid "Insert Image"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:58
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:106
+msgid "Choose color"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:67
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:114
+msgid "Choose Image"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:76
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:122
+msgid "Enter Label"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:178
+msgid "Color"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:179
+msgid "Image"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:180
+#: inc/custom-kirki-options.php:469
+msgid "Label"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:192
+msgid "Select terms"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:208
+msgid "Select all"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:209
+msgid "Select none"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/admin-agni-ajax-variation-swatches.php:210
+msgid "Add new"
+msgstr ""
+
+#: inc/agni-ajax-variation-swatches/agni-ajax-variation-swatches.php:39
+msgid "Choose an option"
+msgstr ""
+
+#: inc/agni-compare/admin-agni-compare.php:9
+msgid "Cartify Compare"
+msgstr ""
+
+#: inc/agni-compare/admin-agni-compare.php:43
+msgid "Products to compare"
+msgstr ""
+
+#: inc/agni-compare/agni-compare.php:55
+msgid "Go to compare"
+msgstr ""
+
+#: inc/agni-compare/agni-compare.php:55
+msgid "Add to compare"
+msgstr "Сравнить с другими"
+
+#: inc/agni-compare/agni-compare.php:129
+msgid "Compare Products (%s)"
+msgstr ""
+
+#: inc/agni-compare/agni-compare.php:131
+msgid "Clear all"
+msgstr ""
+
+#: inc/agni-compare/agni-compare.php:140
+msgid "It looks like nothing to compare at this page. Check the link below."
+msgstr ""
+
+#: inc/agni-compare/agni-compare.php:141
+msgid "Add Products to Compare"
+msgstr ""
+
+#: inc/agni-compare/agni-compare.php:152
+msgid "Similar products to compare"
+msgstr ""
+
+#: inc/agni-compare/agni-compare.php:273 inc/agni-compare/agni-compare.php:490
+msgid "You're here: "
+msgstr ""
+
+#: inc/agni-compare/agni-compare.php:457
+msgctxt "Compare remove"
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:9
+msgid "Cartify Additional Tabs"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:15
+msgid "Cartify Additional Info"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:29
+msgid "Data Key"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:30
+msgid "Model"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:33
+msgid "Data Value"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:34
+msgid "#ML20673"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:36
+msgctxt "Product Options Specification remove"
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:47
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:48
+msgid "Icon"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:51
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:52
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:64
+msgid "Text"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:54
+msgctxt "Product Options Feature remove"
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:65
+msgid "Offer Text"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:66
+msgctxt "Product Options Offers remove"
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:86
+msgid "Specification Tab"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:101
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:135
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:185
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:231
+#: inc/custom-kirki-options.php:789
+msgid "Title"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:117
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:222
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:248
+msgid "Duplicate"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:120
+msgid "Shipping Info Tab"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:140
+#: inc/custom-kirki-options.php:936
+msgid "Content"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:174
+msgid "Shipping Info"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:191
+msgid "Short Description"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:197
+msgid "Link Text"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:202
+msgid "Popup Content"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:209
+msgid "Features"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:225
+msgid "Offers"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:253
+msgid "360 Degree Image"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:256
+msgid "Choose Images"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:277
+msgid "Add Images"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:278
+msgid "Add atleast 30 images to see flawless view."
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:282
+msgid "Produce Video"
+msgstr ""
+
+#: inc/agni-custom-tabs/admin-agni-custom-tabs.php:288
+msgid "Embed URL"
+msgstr ""
+
+#: inc/agni-megamenu.php:29
+msgid "Agni Menu Options"
+msgstr ""
+
+#: inc/agni-megamenu.php:33
+msgid "Label Text"
+msgstr ""
+
+#: inc/agni-megamenu.php:40
+msgid "Show Dropdown Menu on"
+msgstr ""
+
+#: inc/agni-megamenu.php:43
+msgid "Hover"
+msgstr ""
+
+#: inc/agni-megamenu.php:44
+msgid "Click"
+msgstr ""
+
+#: inc/agni-megamenu.php:50
+msgid "Dropdown Menu Block Choice"
+msgstr ""
+
+#: inc/agni-megamenu.php:66
+msgid "Width"
+msgstr ""
+
+#: inc/agni-megamenu.php:73
+msgid "Height"
+msgstr ""
+
+#: inc/agni-megamenu.php:82 inc/custom-kirki-options.php:247
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/agni-megamenu.php:88
+msgid "Hide Menu Text"
+msgstr ""
+
+#: inc/agni-megamenu.php:93
+msgid "Icon Class"
+msgstr ""
+
+#: inc/agni-megamenu.php:96
+msgid "Click here"
+msgstr ""
+
+#: inc/agni-megamenu.php:96
+msgid " to see all available icons."
+msgstr ""
+
+#: inc/agni-multistep-navigation.php:54
+msgid "Account information"
+msgstr "Информация о профиле"
+
+#: inc/agni-multistep-navigation.php:57
+#: inc/template-functions-woocommerce.php:2095
+msgid "Billing & shipping address"
+msgstr "Данные для оплаты"
+
+#: inc/agni-multistep-navigation.php:60
+msgid "Review order"
+msgstr "Данные заказа"
+
+#: inc/agni-multistep-navigation.php:63
+msgid "Payment"
+msgstr "Оплата"
+
+#: inc/agni-multistep-navigation.php:91
+msgid "Skip login"
+msgstr "Пропустить авторизацию"
+
+#: inc/agni-multistep-navigation.php:96 inc/agni-multistep-navigation.php:101
+#: inc/agni-multistep-navigation.php:105
+msgid "Go back"
+msgstr "Назад"
+
+#: inc/agni-multistep-navigation.php:98 inc/agni-multistep-navigation.php:102
+msgid "Continue"
+msgstr "Продолжить"
+
+#: inc/agni-quickview.php:21
+msgid "Quickview"
+msgstr "Быстрый просмотр"
+
+#: inc/agni-quickview.php:75
+msgid "More Details"
+msgstr "Больше деталей"
+
+#: inc/agni-recently-viewed-products.php:10
+msgid "Recently viewed items"
+msgstr "Недавно смотрели"
+
+#: inc/agni-wishlist/agni-wishlist.php:34
+msgid "My Wishlist"
+msgstr "Мой список желаний"
+
+#: inc/agni-wishlist/agni-wishlist.php:54
+msgid "Add to wishlist"
+msgstr "Добавить в список желаний"
+
+#: inc/agni-wishlist/agni-wishlist.php:81
+msgid "Existing Wishlist"
+msgstr "Список уже существует"
+
+#: inc/agni-wishlist/agni-wishlist.php:98
+msgid "Create New Wishlist"
+msgstr "Создать новый список желаний"
+
+#: inc/agni-wishlist/agni-wishlist.php:100
+#: inc/agni-wishlist/class-wishlist-page.php:35
+msgid "Wishlist name"
+msgstr "Имя списка желаний"
+
+#: inc/agni-wishlist/agni-wishlist.php:101
+#: inc/agni-wishlist/class-wishlist-page.php:38
+#: inc/agni-wishlist/class-wishlist-page.php:140
+#: woocommerce/single-product-reviews.php:45
+msgid "Submit"
+msgstr "Отправить"
+
+#: inc/agni-wishlist/agni-wishlist.php:104
+msgid "Adding to list"
+msgstr "Добавить в список"
+
+#: inc/agni-wishlist/class-wishlist-api.php:17
+msgid "Sorry, you are not allowed to do that."
+msgstr "Операция невозможна."
+
+#: inc/agni-wishlist/class-wishlist-api.php:81
+msgid "Wishlist created."
+msgstr "Список создан."
+
+#: inc/agni-wishlist/class-wishlist-api.php:92
+#: inc/agni-wishlist/class-wishlist-api.php:155
+msgid "Go to wishlist."
+msgstr "Перейти в список."
+
+#: inc/agni-wishlist/class-wishlist-api.php:112
+msgid "Changes saved."
+msgstr "Изменения сохранены."
+
+#: inc/agni-wishlist/class-wishlist-api.php:126
+msgid "Product removed from list."
+msgstr "Продукт удален из списка."
+
+#: inc/agni-wishlist/class-wishlist-api.php:129
+msgid "Already in list."
+msgstr "Продукт уже в списке."
+
+#: inc/agni-wishlist/class-wishlist-api.php:134
+msgid "Product added to list."
+msgstr "Продукт добавлен в список."
+
+#: inc/agni-wishlist/class-wishlist-api.php:168
+msgid "Wishlist deleted."
+msgstr "Список удален."
+
+#: inc/agni-wishlist/class-wishlist-endpoint.php:30
+#: inc/template-functions-woocommerce.php:2112
+msgid "Wishlists"
+msgstr "Списки желаний"
+
+#: inc/agni-wishlist/class-wishlist-page.php:30
+msgid "Create new wishlist"
+msgstr "Создать новый список желаний"
+
+#: inc/agni-wishlist/class-wishlist-page.php:41
+msgid "Creating wishlist."
+msgstr ""
+
+#: inc/agni-wishlist/class-wishlist-page.php:111
+msgid "No items in Wishlist"
+msgstr "Список желаний пуст"
+
+#: inc/agni-wishlist/class-wishlist-page.php:130
+msgid "%s Product"
+msgid_plural "%s Products"
+msgstr[0] "Продукт"
+msgstr[1] "Продукт"
+msgstr[2] "Продукт"
+
+#: inc/agni-wishlist/class-wishlist-page.php:132
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/agni-wishlist/class-wishlist-page.php:137
+msgid "Edit name"
+msgstr "Редактировать название"
+
+#: inc/agni-wishlist/class-wishlist-page.php:143
+msgid "Saving new settings."
+msgstr "Сохранить."
+
+#: inc/agni-wishlist/class-wishlist-page.php:146
+msgid "Delete"
+msgstr "Удалить"
+
+#: inc/agni-wishlist/class-wishlist-page.php:153
+msgid "Add more products"
+msgstr "Дополнить список"
+
+#: inc/agni-wishlist/class-wishlist-page.php:236
+msgid "Remove from wishlist"
+msgstr "Удалить из списка"
+
+#: inc/custom-kirki-options.php:39
+msgid "Top Left"
+msgstr ""
+
+#: inc/custom-kirki-options.php:40
+msgid "Top Center"
+msgstr ""
+
+#: inc/custom-kirki-options.php:41
+msgid "Top Right"
+msgstr ""
+
+#: inc/custom-kirki-options.php:42
+msgid "Center Left"
+msgstr ""
+
+#: inc/custom-kirki-options.php:43
+msgid "Center Center"
+msgstr ""
+
+#: inc/custom-kirki-options.php:44
+msgid "Center Right"
+msgstr ""
+
+#: inc/custom-kirki-options.php:45
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/custom-kirki-options.php:46
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/custom-kirki-options.php:47
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/custom-kirki-options.php:73
+msgid "Cartify Theme Options"
+msgstr ""
+
+#: inc/custom-kirki-options.php:74
+msgid "My panel description"
+msgstr ""
+
+#: inc/custom-kirki-options.php:77
+msgid "Header Settings"
+msgstr ""
+
+#: inc/custom-kirki-options.php:78 inc/custom-kirki-options.php:107
+#: inc/custom-kirki-options.php:206 inc/custom-kirki-options.php:614
+#: inc/custom-kirki-options.php:773 inc/custom-kirki-options.php:820
+#: inc/custom-kirki-options.php:864 inc/custom-kirki-options.php:907
+#: inc/custom-kirki-options.php:990 inc/custom-kirki-options.php:1006
+#: inc/custom-kirki-options.php:1054
+msgid "My section description."
+msgstr ""
+
+#: inc/custom-kirki-options.php:85 inc/custom-kirki-options.php:213
+#: inc/custom-kirki-options.php:621 inc/custom-kirki-options.php:780
+#: inc/custom-kirki-options.php:827 inc/custom-kirki-options.php:871
+#: inc/custom-kirki-options.php:915
+msgid "General"
+msgstr ""
+
+#: inc/custom-kirki-options.php:94
+msgid "Header Source"
+msgstr ""
+
+#: inc/custom-kirki-options.php:97
+msgid "Builder"
+msgstr ""
+
+#: inc/custom-kirki-options.php:98 inc/custom-kirki-options.php:119
+#: inc/custom-kirki-options.php:929
+msgid "Content Block"
+msgstr ""
+
+#: inc/custom-kirki-options.php:106
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/custom-kirki-options.php:115
+msgid "Footer Source"
+msgstr ""
+
+#: inc/custom-kirki-options.php:118 inc/custom-kirki-options.php:388
+msgid "Default"
+msgstr ""
+
+#: inc/custom-kirki-options.php:126 inc/custom-kirki-options.php:974
+msgid "Block Choice"
+msgstr ""
+
+#: inc/custom-kirki-options.php:205
+msgid "Shop Settings"
+msgstr ""
+
+#: inc/custom-kirki-options.php:221
+msgid "Hot label"
+msgstr ""
+
+#: inc/custom-kirki-options.php:222
+msgid "It will add hot label to chosen products on archive & product page"
+msgstr ""
+
+#: inc/custom-kirki-options.php:225 inc/custom-kirki-options.php:237
+msgid "Select products..."
+msgstr "Выберите продукт..."
+
+#: inc/custom-kirki-options.php:233
+msgid "New label"
+msgstr ""
+
+#: inc/custom-kirki-options.php:234
+msgid "It will add new label to chosen products on archive & product page"
+msgstr ""
+
+#: inc/custom-kirki-options.php:257
+msgid "View"
+msgstr "Смотреть"
+
+#: inc/custom-kirki-options.php:262 inc/template-functions-woocommerce.php:930
+msgid "Grid"
+msgstr "Плиткой"
+
+#: inc/custom-kirki-options.php:263 inc/template-functions-woocommerce.php:929
+msgid "List"
+msgstr "Списком"
+
+#: inc/custom-kirki-options.php:271
+msgid "Categories Bar"
+msgstr ""
+
+#: inc/custom-kirki-options.php:279
+msgid "Archives thumbnail Choice"
+msgstr ""
+
+#: inc/custom-kirki-options.php:282
+msgid "Simple (Single image)"
+msgstr ""
+
+#: inc/custom-kirki-options.php:283
+msgid "Hover (Two images)"
+msgstr ""
+
+#: inc/custom-kirki-options.php:284
+msgid "Slider (All images)"
+msgstr ""
+
+#: inc/custom-kirki-options.php:291 inc/custom-kirki-options.php:836
+#: inc/custom-kirki-options.php:880
+msgid "Archives Display Style"
+msgstr ""
+
+#: inc/custom-kirki-options.php:294 inc/custom-kirki-options.php:839
+#: inc/custom-kirki-options.php:883
+msgid "Style 1"
+msgstr ""
+
+#: inc/custom-kirki-options.php:295 inc/custom-kirki-options.php:840
+#: inc/custom-kirki-options.php:884
+msgid "Style 2"
+msgstr ""
+
+#: inc/custom-kirki-options.php:296 inc/custom-kirki-options.php:841
+#: inc/custom-kirki-options.php:885
+msgid "Style 3"
+msgstr ""
+
+#: inc/custom-kirki-options.php:297
+msgid "Style 4"
+msgstr ""
+
+#: inc/custom-kirki-options.php:298
+msgid "Style 5"
+msgstr ""
+
+#: inc/custom-kirki-options.php:299
+msgid "Style 1 Alt"
+msgstr ""
+
+#: inc/custom-kirki-options.php:300
+msgid "Style 2 Alt"
+msgstr ""
+
+#: inc/custom-kirki-options.php:308
+msgid "Archives Product Category"
+msgstr ""
+
+#: inc/custom-kirki-options.php:316
+msgid "Archives Product Quickview"
+msgstr ""
+
+#: inc/custom-kirki-options.php:324
+msgid "Archives Product Compare"
+msgstr ""
+
+#: inc/custom-kirki-options.php:332
+msgid "Archives Product Stock"
+msgstr ""
+
+#: inc/custom-kirki-options.php:340
+msgid "Archives Product Countdown"
+msgstr ""
+
+#: inc/custom-kirki-options.php:349
+msgid "Variable Products Add to cart"
+msgstr ""
+
+#: inc/custom-kirki-options.php:358
+msgid "Show Qty"
+msgstr "Показать количество"
+
+#: inc/custom-kirki-options.php:359
+msgid "Display quantity field near products to change cart quantity"
+msgstr ""
+
+#: inc/custom-kirki-options.php:368
+msgid "Qty Display choice"
+msgstr ""
+
+#: inc/custom-kirki-options.php:373
+msgid "Visible After added to cart"
+msgstr ""
+
+#: inc/custom-kirki-options.php:374
+msgid "Before adding to cart"
+msgstr ""
+
+#: inc/custom-kirki-options.php:383
+msgid "Qty style"
+msgstr ""
+
+#: inc/custom-kirki-options.php:389
+msgid "Dropdown"
+msgstr ""
+
+#: inc/custom-kirki-options.php:396
+msgid "Show Descriptionn"
+msgstr ""
+
+#: inc/custom-kirki-options.php:405 inc/custom-kirki-options.php:489
+#: inc/custom-kirki-options.php:533 inc/custom-kirki-options.php:849
+#: inc/template-functions.php:78
+msgid "Sidebar"
+msgstr ""
+
+#: inc/custom-kirki-options.php:410 inc/custom-kirki-options.php:538
+#: inc/custom-kirki-options.php:854
+msgid "No sidebar"
+msgstr ""
+
+#: inc/custom-kirki-options.php:411 inc/custom-kirki-options.php:539
+#: inc/custom-kirki-options.php:855
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/custom-kirki-options.php:412 inc/custom-kirki-options.php:540
+#: inc/custom-kirki-options.php:856
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/custom-kirki-options.php:419 inc/custom-kirki-options.php:490
+msgid "Topbar"
+msgstr ""
+
+#: inc/custom-kirki-options.php:430
+msgid "Pagination Style"
+msgstr ""
+
+#: inc/custom-kirki-options.php:435
+msgid "Number/Default)"
+msgstr ""
+
+#: inc/custom-kirki-options.php:436
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/custom-kirki-options.php:443
+msgid "Search"
+msgstr ""
+
+#: inc/custom-kirki-options.php:451
+msgid "Hide out of stock"
+msgstr ""
+
+#: inc/custom-kirki-options.php:461
+msgid "Filter"
+msgstr "Фильтр"
+
+#: inc/custom-kirki-options.php:478
+msgid "Toggle on Desktop"
+msgstr ""
+
+#: inc/custom-kirki-options.php:486
+msgid "Content Choice"
+msgstr ""
+
+#: inc/custom-kirki-options.php:506
+msgid "Compare"
+msgstr ""
+
+#: inc/custom-kirki-options.php:515
+msgid "Page to populate"
+msgstr ""
+
+#: inc/custom-kirki-options.php:523
+msgid "Single"
+msgstr ""
+
+#: inc/custom-kirki-options.php:549 inc/template-functions-body.php:175
+msgid "Cart"
+msgstr "Корзина"
+
+#: inc/custom-kirki-options.php:558
+msgid "Empty Cart Block Choice"
+msgstr ""
+
+#: inc/custom-kirki-options.php:577
+msgid "Multi Step Checkout"
+msgstr ""
+
+#: inc/custom-kirki-options.php:587 inc/template-functions-body.php:198
+msgid "My Account"
+msgstr "Мой профиль"
+
+#: inc/custom-kirki-options.php:596
+msgid "Social Login Facebook"
+msgstr "Войти с помощью Facebook"
+
+#: inc/custom-kirki-options.php:605
+msgid "Social Login Google"
+msgstr "Войти с помощью Google"
+
+#: inc/custom-kirki-options.php:613
+msgid "Dock Settings"
+msgstr ""
+
+#: inc/custom-kirki-options.php:630
+msgid "Enable Dock"
+msgstr ""
+
+#: inc/custom-kirki-options.php:639
+msgid "Shop Dock"
+msgstr ""
+
+#: inc/custom-kirki-options.php:656
+msgid "Shop Dock Link"
+msgstr ""
+
+#: inc/custom-kirki-options.php:672
+msgid "Category Dock"
+msgstr ""
+
+#: inc/custom-kirki-options.php:688
+msgid "Category Dock Link"
+msgstr ""
+
+#: inc/custom-kirki-options.php:689
+msgid "Keep this empty to open side category menu"
+msgstr ""
+
+#: inc/custom-kirki-options.php:706
+msgid "Cart Dock"
+msgstr ""
+
+#: inc/custom-kirki-options.php:722
+msgid "Cart Dock Link"
+msgstr ""
+
+#: inc/custom-kirki-options.php:723
+msgid "Keep this empty to open side cart panel"
+msgstr ""
+
+#: inc/custom-kirki-options.php:740
+msgid "Myaccount Dock"
+msgstr ""
+
+#: inc/custom-kirki-options.php:756
+msgid "Myaccount Dock Link"
+msgstr ""
+
+#: inc/custom-kirki-options.php:757
+msgid "Keep this empty to open side login panel"
+msgstr ""
+
+#: inc/custom-kirki-options.php:772
+msgid "Page Settings"
+msgstr ""
+
+#: inc/custom-kirki-options.php:797
+msgid "Title Alignment"
+msgstr ""
+
+#: inc/custom-kirki-options.php:802
+msgid "Left"
+msgstr ""
+
+#: inc/custom-kirki-options.php:803
+msgid "Center"
+msgstr ""
+
+#: inc/custom-kirki-options.php:804
+msgid "Right"
+msgstr ""
+
+#: inc/custom-kirki-options.php:811
+msgid "Remove Margin"
+msgstr ""
+
+#: inc/custom-kirki-options.php:819
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/custom-kirki-options.php:863
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/custom-kirki-options.php:894
+msgid "Archive Page"
+msgstr ""
+
+#: inc/custom-kirki-options.php:906
+msgid "404 Page Settings"
+msgstr ""
+
+#: inc/custom-kirki-options.php:923
+msgid "404 Source"
+msgstr ""
+
+#: inc/custom-kirki-options.php:928
+msgid "Preset with Content Block"
+msgstr ""
+
+#: inc/custom-kirki-options.php:944
+msgid "Image (Icon/Logo)"
+msgstr ""
+
+#: inc/custom-kirki-options.php:958
+msgid "Search only for Products"
+msgstr ""
+
+#: inc/custom-kirki-options.php:989
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/custom-kirki-options.php:998
+msgid "Custom Thumbnail Sizes"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1005
+msgid "API Keys"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1014
+msgid "Facebook App ID"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1015
+msgid ""
+"You can get/create App ID by following these steps <a href=\"%s\" "
+"target=\"_blank\">steps</a>"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1024
+msgid "Google Client ID"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1025
+msgid ""
+"You can get/create Client ID by following these steps <a href=\"%s\" "
+"target=\"_blank\">steps</a>"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1034
+msgid "Google Map API"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1035
+msgid ""
+"You can get API key by following these steps <a href=\"%s\" "
+"target=\"_blank\">steps</a>"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1044
+msgid "Instagram Token"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1045
+msgid ""
+"You can get/create token by following these steps <a href=\"%s\" "
+"target=\"_blank\">steps</a>. It might be same as facebook app id."
+msgstr ""
+
+#: inc/custom-kirki-options.php:1053
+msgid "Cookie Notice"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1062
+msgid "Enable"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1071
+msgid "Enable Privacy Policy Page"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1072
+msgid ""
+"It will display the Privacy Policy Page you choose at Settings -> Privacy"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1081
+msgid "Expiry Period (in hrs)"
+msgstr ""
+
+#: inc/custom-kirki-options.php:1082
+msgid ""
+"To convert duration to hrs <a href=\"%s\" target=\"_blank\">Click Here</a>"
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:97
+msgid "Howdy,"
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:158
+msgid "Log Out"
+msgstr "Выйти"
+
+#: inc/header/header-builder-block-processor.php:277
+#: inc/template-functions-body.php:25
+msgid "Howdy, "
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:282
+#: inc/template-functions-body.php:30
+msgid "Guest"
+msgstr "Гость"
+
+#: inc/header/header-builder-block-processor.php:286
+#: inc/template-functions-body.php:34
+msgid "Sign in"
+msgstr "Войти"
+
+#: inc/header/header-builder-block-processor.php:552
+msgid "Support:"
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:553
+msgid "+0 123 456 789"
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:556
+msgid "Email:"
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:557
+msgid "yourmail@mail.ccom"
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:611
+msgid "Search.."
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:882
+msgid "Setup Menu"
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:920
+#: inc/template-functions-woocommerce.php:1825
+#: inc/template-functions-woocommerce.php:1862
+#: inc/template-functions-woocommerce.php:1902
+#: inc/template-functions-woocommerce.php:2004
+msgid "Register"
+msgstr "Регистрация"
+
+#: inc/header/header-builder-block-processor.php:927
+#: inc/template-functions-woocommerce.php:1919
+#: inc/template-functions-woocommerce.php:2025
+msgid "Continue with Facebook"
+msgstr ""
+
+#: inc/header/header-builder-block-processor.php:930
+#: inc/template-functions-woocommerce.php:1922
+#: inc/template-functions-woocommerce.php:2028
+msgid "Continue with Google"
+msgstr "Войти с помощью Google"
+
+#: inc/header/header-builder-block-processor.php:934
+#: inc/template-functions-woocommerce.php:1381
+msgid "Loading"
+msgstr "Загружается"
+
+#: inc/plugins-installer/class-plugins-installer.php:133
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:147
+msgid "Agni Plugins Manager"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:223
+msgid "Required"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:226
+msgid "Premium"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:237
+msgid "By "
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:240
+msgid "v"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:242
+msgid " (Update available - %s)"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:251
+msgid "Deactivate"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:259
+msgid "Activate"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:267
+msgid "Install"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:287
+msgid "Download & Install Update"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:288
+msgid "Update"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:501
+msgid "Failed to activate plugin"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:504
+msgid "Plugin activated successfully"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:513
+msgid "Failed to deactivate plugin"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:516
+msgid "Plugin deactivated successfully"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:564
+#: inc/plugins-installer/class-plugins-installer.php:653
+msgid "Plugin updated successfully"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:567
+#: inc/plugins-installer/class-plugins-installer.php:656
+msgid "Plugin installed successfully"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:572
+msgid "Failed to update plugin"
+msgstr ""
+
+#: inc/plugins-installer/class-plugins-installer.php:575
+#: inc/plugins-installer/class-plugins-installer.php:637
+msgid "Failed to install plugin"
+msgstr ""
+
+#: inc/product-layout/blocks/add-to-cart.php:68
+msgid "Config Product"
+msgstr ""
+
+#: inc/product-layout/blocks/add-to-cart.php:76
+msgid "Out of stock"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:96
+msgid "Product Registration"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:105
+msgid "Agni Product Registration"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:138
+msgid "Register Your Product"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:139
+msgid ""
+"This registration process will make you eligible to get automatic updates, "
+"install premium plugins and import demo content."
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:142
+msgid "Product Registered"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:143
+msgid ""
+"Congratulations! Now you’re eligible to automatic updates, install premium "
+"plugins and import demo contents."
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:147
+msgid "Envato Purchase Code"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:152
+msgid "Enter your address (Optional)"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:154
+msgid ""
+"We send you promotions & discounts (Not more than once or twice a month). "
+"Also you'll receive an update notifications with changelog & tutorials."
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:158
+msgid "This is staging/local site"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:162
+msgid ""
+"Purchase code, Site addresses will be encrypted & stored on our server for "
+"verification."
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:178
+msgid "Register this site"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:181
+msgid "Register this site with token"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:184
+msgid "Deregister this site"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:194
+msgid "Instruction"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:250
+msgid "License Details"
+msgstr ""
+
+#: inc/product-registration/class-product-registration.php:263
+msgid "Renew"
+msgstr ""
+
+#: inc/slider/slider-builder-block-processor.php:412
+#: inc/template-functions-woocommerce.php:1581
+msgid "Days"
+msgstr ""
+
+#: inc/slider/slider-builder-block-processor.php:416
+#: inc/template-functions-woocommerce.php:1585
+msgid "Hrs"
+msgstr ""
+
+#: inc/slider/slider-builder-block-processor.php:420
+#: inc/template-functions-woocommerce.php:1589
+msgid "Mins"
+msgstr ""
+
+#: inc/slider/slider-builder-block-processor.php:424
+#: inc/template-functions-woocommerce.php:1593
+msgid "Secs"
+msgstr ""
+
+#: inc/template-functions-404.php:22
+msgid "Sorry!"
+msgstr ""
+
+#: inc/template-functions-404.php:23
+msgid ""
+"It looks like nothing was found at this location. Try a search or check the "
+"links below."
+msgstr ""
+
+#: inc/template-functions-404.php:25
+msgid "Go back to "
+msgstr ""
+
+#: inc/template-functions-404.php:39
+msgctxt "404_placeholder"
+msgid "Search Products.."
+msgstr ""
+
+#: inc/template-functions-blog.php:18
+msgid "Search:"
+msgstr ""
+
+#: inc/template-functions-blog.php:25
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/template-functions-blog.php:34
+msgid ""
+"We could not find any results for your search. You can give it another try "
+"through the search form below."
+msgstr ""
+
+#: inc/template-functions-blog.php:68
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/template-functions-blog.php:69
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: inc/template-functions-blog.php:76
+msgid "There is no posts!"
+msgstr ""
+
+#: inc/template-functions-blog.php:95
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/template-functions-blog.php:110
+msgid "By"
+msgstr ""
+
+#: inc/template-functions-blog.php:126
+msgid "View all posts"
+msgstr ""
+
+#: inc/template-functions-blog.php:145
+msgid " "
+msgstr ""
+
+#: inc/template-functions-blog.php:146
+msgid "%1$s"
+msgstr ""
+
+#: inc/template-functions-blog.php:168
+msgid "Newer Posts"
+msgstr ""
+
+#: inc/template-functions-blog.php:172
+msgid "Older Posts"
+msgstr ""
+
+#: inc/template-functions-blog.php:220 inc/template-functions-portfolio.php:130
+msgid "Previous Post"
+msgstr ""
+
+#: inc/template-functions-blog.php:232 inc/template-functions-portfolio.php:142
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-functions-blog.php:262
+msgid "Continue reading"
+msgstr ""
+
+#: inc/template-functions-blog.php:508 inc/template-functions-page.php:92
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: inc/template-functions-body.php:42
+msgid "Departments"
+msgstr ""
+
+#: inc/template-functions-body.php:138
+msgid "Shop"
+msgstr ""
+
+#: inc/template-functions-body.php:156
+msgid "Categories"
+msgstr ""
+
+#: inc/template-functions-body.php:227
+msgid "Cookies"
+msgstr ""
+
+#: inc/template-functions-body.php:230
+msgid ""
+"We use cookies to give you the best possible experience. By continuing to "
+"visit our website, you agree to the use of cookies as described in our"
+msgstr ""
+
+#: inc/template-functions-body.php:233
+msgid "Accept Cookies"
+msgstr ""
+
+#: inc/template-functions-footer.php:48
+msgid "copyright @ 2022 AgniHD. All rights reserved."
+msgstr ""
+
+#: inc/template-functions-portfolio.php:68
+msgid "Explore this item"
+msgstr "Посмотреть детали"
+
+#: inc/template-functions-portfolio.php:186
+msgid "Explore More"
+msgstr "Больше"
+
+#: inc/template-functions-woocommerce.php:71
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:73
+#: inc/template-functions-woocommerce.php:82
+#: inc/template-functions-woocommerce.php:91 inc/template-functions.php:80
+#: inc/template-functions.php:90
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:80
+msgid "WooCommerce Single Sidebar"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:89
+msgid "WooCommerce Topbar"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:384
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "Главная"
+
+#: inc/template-functions-woocommerce.php:391
+#: woocommerce/cart/cart-shipping.php:53
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:404
+msgid "cartify's choice"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:487
+msgid "Hot!"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:506
+msgid "New!"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:533
+msgid "by"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:569
+msgid "Compare with similar items"
+msgstr "Сравнить с похожими"
+
+#: inc/template-functions-woocommerce.php:592
+msgid "Buy now"
+msgstr "Купить"
+
+#: inc/template-functions-woocommerce.php:600
+msgid "Add to Wishlist"
+msgstr "В список желаний"
+
+#: inc/template-functions-woocommerce.php:606
+msgid "Add to Compare"
+msgstr "Сравнить с другими"
+
+#: inc/template-functions-woocommerce.php:699
+msgid "Clear"
+msgstr "Очистить"
+
+#: inc/template-functions-woocommerce.php:966
+msgid "Filters"
+msgstr "Фильтры"
+
+#: inc/template-functions-woocommerce.php:1027
+msgid "All"
+msgstr "Все"
+
+#: inc/template-functions-woocommerce.php:1088
+msgid "Shop by Categories"
+msgstr "По категориям"
+
+#: inc/template-functions-woocommerce.php:1270
+msgid "%s customer rating"
+msgid_plural "%s customer ratings"
+msgstr[0] "%s рейтинг покупателей"
+msgstr[1] "%s рейтинг покупателей"
+msgstr[2] "%s рейтинг покупателей"
+
+#: inc/template-functions-woocommerce.php:1305
+#: woocommerce/single-product/rating.php:55
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s отзыв"
+msgstr[1] "%s отзыв"
+msgstr[2] "%s отзыв"
+
+#: inc/template-functions-woocommerce.php:1325
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/template-functions-woocommerce.php:1333
+msgid "See all reviews"
+msgstr "Смотреть все отзывы"
+
+#: inc/template-functions-woocommerce.php:1380
+msgid "Load More"
+msgstr "Показать больше"
+
+#: inc/template-functions-woocommerce.php:1387
+#: inc/template-functions-woocommerce.php:1697
+msgid "Previous"
+msgstr "Предыдущие"
+
+#: inc/template-functions-woocommerce.php:1392
+msgid "of %s Pages"
+msgstr "из %s страниц"
+
+#: inc/template-functions-woocommerce.php:1396
+#: inc/template-functions-woocommerce.php:1700
+msgid "Next"
+msgstr "Далее"
+
+#: inc/template-functions-woocommerce.php:1465
+msgid "Sold - "
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1505
+msgid "In stock"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1508
+msgid "%s In stock"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1529
+msgid "Sale!"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1646
+msgid "Play video"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1689
+msgid "360<sup>o</sup> image"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1698
+msgid "Play"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1699
+msgid "Stop"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1706
+msgctxt "360 close"
+msgid "Close"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1760
+#: inc/template-functions-woocommerce.php:1810
+msgid "Coupon:"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1760
+msgctxt "Cart coupon code"
+msgid "Coupon code"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1760
+msgid "Apply coupon"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1781
+msgid "Free shipping coupon"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1811
+msgctxt "Checkout coupon code"
+msgid "Coupon code"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1834
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: inc/template-functions-woocommerce.php:1841
+msgid "Email address"
+msgstr "Почта"
+
+#: inc/template-functions-woocommerce.php:1854
+msgid "A password will be sent to your email address."
+msgstr "Пароль будет отправлен вам на почту."
+
+#: inc/template-functions-woocommerce.php:1897
+#: inc/template-functions-woocommerce.php:1999
+msgid "Already have an account"
+msgstr "Аккаунт уже существует"
+
+#: inc/template-functions-woocommerce.php:1898
+#: inc/template-functions-woocommerce.php:2000
+msgid "Login"
+msgstr "Войти"
+
+#: inc/template-functions-woocommerce.php:1901
+#: inc/template-functions-woocommerce.php:2003
+msgid "Don't have an account"
+msgstr "У меня нет аккаунта"
+
+#: inc/template-functions-woocommerce.php:1954
+msgid "Returning customer?"
+msgstr ""
+
+#: inc/template-functions-woocommerce.php:1955
+msgid "Click here to login"
+msgstr "Нажми, чтобы войти"
+
+#: inc/template-functions-woocommerce.php:2088
+msgid "Payment details"
+msgstr "Платежная информация"
+
+#: inc/template-functions-woocommerce.php:2115
+msgid "Orders"
+msgstr "Заказы"
+
+#: inc/template-functions-woocommerce.php:2118
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: inc/template-functions-woocommerce.php:2121
+msgid "Addresses"
+msgstr "Адреса"
+
+#: inc/template-functions-woocommerce.php:2124
+msgid "Account details"
+msgstr "Данные профиля"
+
+#: inc/template-functions.php:63
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/template-functions.php:64
+msgid "Additional Menu"
+msgstr ""
+
+#: inc/template-functions.php:65
+msgid "Category Menu"
+msgstr ""
+
+#: inc/template-functions.php:88
+msgid "Footerbar"
+msgstr ""
+
+#: sidebar-shop.php:45
+msgid "More filters"
+msgstr "Больше фильтров"
+
+#: sidebar-shop.php:46
+msgid "Less filters"
+msgstr "Меньше фильтров"
+
+#: sidebar-shop.php:51
+msgctxt "Sidebar Close"
+msgid "Close"
+msgstr "Закрыть"
+
+#: sidebar-shop.php:52
+msgid "Apply filter"
+msgstr "Применить фильтр"
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid "Shipping to %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:51
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:60
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:62
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:75
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:79
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:25
+msgid "Cart totals"
+msgstr "Всего в корзине"
+
+#: woocommerce/cart/cart-totals.php:30
+msgctxt "Main cart subtotal"
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: woocommerce/cart/cart-totals.php:38
+msgctxt "Cart coupon remove"
+msgid "Remove"
+msgstr "Удалить"
+
+#: woocommerce/cart/cart-totals.php:99
+msgctxt "Main cart total"
+msgid "Total"
+msgstr "Всего"
+
+#: woocommerce/cart/cart.php:61
+msgid "Product"
+msgstr "Продукт"
+
+#: woocommerce/cart/cart.php:75
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:81
+msgid "Price"
+msgstr "Цена"
+
+#: woocommerce/cart/cart.php:96
+msgid "Remove %s from cart"
+msgstr "Удалить %s из корзины"
+
+#: woocommerce/cart/cart.php:99
+msgctxt "Cart item remove"
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/cart.php:108 woocommerce/global/quantity-input.php:21
+msgid "Quantity"
+msgstr "Количество"
+
+#: woocommerce/cart/cart.php:148
+msgid "Update cart"
+msgstr "Обновить"
+
+#: woocommerce/checkout/form-checkout.php:25
+msgid "You must be logged in to checkout."
+msgstr ""
+"Для оформления заказа необходимо войти на сайт под своей учетной записью."
+
+#: woocommerce/checkout/form-checkout.php:57
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: woocommerce/checkout/review-order.php:23
+msgid "Item details"
+msgstr "Детали позиции"
+
+#: woocommerce/checkout/review-order.php:40
+#: woocommerce/order/order-details-item.php:43
+msgid "Qty:"
+msgstr "Количество:"
+
+#: woocommerce/checkout/review-order.php:61
+msgctxt "Checkout subtotal"
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: woocommerce/checkout/review-order.php:69
+msgctxt "Checkout coupon remove"
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:110
+msgctxt "Checkout total"
+msgid "Total"
+msgstr "Всего"
+
+#: woocommerce/global/quantity-input.php:21
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:31
+msgid "Qty"
+msgstr "Количество"
+
+#: woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/order/order-details.php:44
+msgid "Order details"
+msgstr "Детали заказа"
+
+#: woocommerce/order/order-details.php:85
+msgid "Note:"
+msgstr "Примечание:"
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Add a review"
+msgstr "Добавить отзыв"
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Оставить отзыв &ldquo;%s&rdquo;"
+
+#: woocommerce/single-product-reviews.php:41
+msgid "Leave a Reply to %s"
+msgstr "Ответить на %s"
+
+#: woocommerce/single-product-reviews.php:53
+msgid "Name"
+msgstr "Имя"
+
+#: woocommerce/single-product-reviews.php:59
+msgid "Email"
+msgstr "Почта"
+
+#: woocommerce/single-product-reviews.php:84
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Your rating"
+msgstr "Ваша оценка"
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your review"
+msgstr "Ваш отзыв"
+
+#: woocommerce/single-product-reviews.php:106
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:116
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: woocommerce/single-product-reviews.php:118
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: woocommerce/single-product-reviews.php:150
+msgid "There are no reviews yet."
+msgstr "Отзывов нет."
+
+#: woocommerce/single-product/product-image.php:60
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:44
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:58
+msgid "Be the first to review"
+msgstr "Оставить отзыв"

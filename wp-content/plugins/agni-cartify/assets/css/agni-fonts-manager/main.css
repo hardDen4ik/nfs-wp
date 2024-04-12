@@ -1,0 +1,762 @@
+.agni_builder_fields input,
+.agni_builder_fields textarea {
+  border: 0; }
+
+.agni_builder_fields input,
+.agni_builder_fields input:active,
+.agni_builder_fields input:focus {
+  background-color: transparent;
+  outline: none; }
+
+.agni_builder_fields textarea,
+.agni_builder_fields textarea:active,
+.agni_builder_fields textarea:focus {
+  outline: none; }
+
+.agni_builder_fields button {
+  background-color: transparent;
+  color: #777;
+  padding: 4px 6px;
+  margin-top: 3px;
+  line-height: 1;
+  border: 1px solid #777;
+  border-radius: 3px;
+  cursor: pointer; }
+
+.agni_builder_fields button:focus, .agni_builder_fields button:active {
+    outline: 0; }
+
+.agni_builder_fields .agni_builder_field_text {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  padding: 5px 0 2px;
+  border-bottom: 2px solid;
+  border-color: #cacaca; }
+
+.agni_builder_fields .agni_builder_field_text:focus {
+  border-color: #ccdfff; }
+
+.agni_builder_fields .agni_builder_field_textarea {
+  background-color: #e6e6e6;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: vertical; }
+
+.agni_builder_fields .agni_builder_field_number {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+          flex-direction: row-reverse; }
+
+.agni_builder_fields .agni_builder_field_number-text {
+  width: 42px;
+  padding: 7px 4px 4px;
+  border: 1px solid #cacaca;
+  text-align: center;
+  font-size: 15px; }
+
+.agni_builder_fields .agni_builder_field_number-text::-webkit-inner-spin-button, .agni_builder_fields .agni_builder_field_number-text::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+
+.agni_builder_fields .agni_builder_field_number-controls {
+  width: 20px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: -2px;
+  cursor: pointer; }
+
+.agni_builder_fields .agni_builder_field_number-controls span {
+    font-size: 20px;
+    padding: 0px 5px;
+    outline: 0;
+    line-height: 14px;
+    color: #999; }
+
+.agni_builder_fields .agni_builder_field_slider {
+  position: relative;
+  height: 40px; }
+
+.agni_builder_fields .agni_builder_field_slider-range {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 4px;
+  background-color: #e0e0e0;
+  border: 0;
+  border-radius: 4px;
+  width: 72%;
+  margin-top: 16px; }
+
+.agni_builder_fields .agni_builder_field_slider-range:focus {
+  background-color: #e0e0e0; }
+
+.agni_builder_fields .agni_builder_field_slider-range:active {
+  background-color: #ccdfff; }
+
+.agni_builder_fields .agni_builder_field_slider-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  height: 16px;
+  width: 16px;
+  display: block;
+  background-color: #005FF5;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+.agni_builder_fields .agni_builder_field_slider-range:hover::-webkit-slider-thumb {
+  height: 24px;
+  width: 24px; }
+
+.agni_builder_fields .agni_builder_field_slider-range-text, .agni_builder_fields .agni_builder_field_slider-range-text:active, .agni_builder_fields .agni_builder_field_slider-range-text:focus {
+  border: 1px solid;
+  border-color: #cacaca; }
+
+.agni_builder_fields .agni_builder_field_slider-range-text {
+  width: 42px;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  margin-top: 0px;
+  padding: 3px 3px;
+  font-size: 14px; }
+
+.agni_builder_fields .agni_builder_field_slider-range-radio {
+  position: absolute;
+  top: 0;
+  margin-top: 29px;
+  right: 0;
+  width: 44px;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  padding: 3px 0px 0px; }
+
+.agni_builder_fields .agni_builder_field_dropdown {
+  position: relative;
+  cursor: pointer; }
+
+.agni_builder_fields .agni_builder_field_dropdown-text {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  padding: 8px 10px 8px;
+  background-color: #e6e6e6; }
+
+.agni_builder_fields .agni_builder_field_dropdown-items {
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 4px 0;
+  max-height: 200px;
+  font-size: 90%;
+  background-color: #f5f5f5;
+  overflow: scroll;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden; }
+
+.agni_builder_fields .agni_builder_field_dropdown.active .agni_builder_field_dropdown-items {
+  opacity: 1;
+  visibility: visible; }
+
+.agni_builder_fields .agni_builder_field_dropdown-item {
+  padding: 7px 10px 2px; }
+
+.agni_builder_fields .agni_builder_field_dropdown-item:hover, .agni_builder_fields .agni_builder_field_dropdown-item.selected {
+    color: #005FF5; }
+
+.agni_builder_fields .agni_builder_field_color {
+  cursor: pointer; }
+
+.agni_builder_fields .agni_builder_field_color-toggle span {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%; }
+
+.agni_builder_fields .agni_builder_field_color-picker-panel {
+  position: absolute;
+  right: 0;
+  z-index: 2; }
+
+.agni_builder_fields .agni_builder_field_gradient {
+  cursor: pointer; }
+
+.agni_builder_fields .agni_builder_field_gradient-toggle span {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%; }
+
+.agni_builder_fields .agni_builder_field_gradient-picker-panel {
+  position: absolute;
+  z-index: 2; }
+
+.agni_builder_fields .agni_builder_field_gradient-picker-container {
+  position: relative;
+  width: 200px;
+  height: 36px; }
+
+.agni_builder_fields .agni_builder_field_gradient-holder {
+  display: block;
+  height: 20px; }
+
+.agni_builder_fields .agni_builder_field_gradient-pick-points {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  margin-top: 0;
+  height: 36px;
+  width: 100%;
+  overflow: hidden; }
+
+.agni_builder_fields .agni_builder_field_gradient-pick-points .gradient-pick-point {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+            align-items: flex-end;
+    position: absolute;
+    left: 0; }
+
+.agni_builder_fields .agni_builder_field_gradient-pick-points .gradient-pick-point span {
+      position: relative;
+      left: -5px;
+      width: 10px;
+      height: 10px;
+      margin-top: 24px;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      border-top-left-radius: 50%;
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      text-indent: -20px; }
+
+.agni_builder_fields .agni_builder_field_switch {
+  background-color: transparent;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 0;
+          flex: 0 0 auto;
+  height: 24px;
+  margin: 0 0 10px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 56px;
+  cursor: pointer; }
+
+.agni_builder_fields .agni_builder_field_switch-input {
+  opacity: 0; }
+
+.agni_builder_fields .agni_builder_field_switch-input:checked ~ .agni_builder_field_switch-text {
+  background: #005FF5; }
+
+.agni_builder_fields .agni_builder_field_switch-input:checked ~ .agni_builder_field_switch-text:before {
+    opacity: 0;
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%); }
+
+.agni_builder_fields .agni_builder_field_switch-input:checked ~ .agni_builder_field_switch-text:after {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+
+.agni_builder_fields .agni_builder_field_switch-input:checked ~ .agni_builder_field_switch-handle {
+  -webkit-transform: translateX(32px);
+          transform: translateX(32px); }
+
+.agni_builder_fields .agni_builder_field_switch-text {
+  background-color: #e6e6e6;
+  border-radius: 50px;
+  box-sizing: border-box;
+  display: block;
+  -webkit-box-flex: 0;
+          flex: 0 0 auto;
+  height: 24px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 56px;
+  padding-top: 1px; }
+
+.agni_builder_fields .agni_builder_field_switch-text:before, .agni_builder_fields .agni_builder_field_switch-text:after {
+  color: #999;
+  font-size: 11px;
+  line-height: 22px;
+  position: absolute;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform; }
+
+.agni_builder_fields .agni_builder_field_switch-text:before {
+  content: attr(data-off);
+  right: 9px;
+  -webkit-transform: translateX(0);
+          transform: translateX(0); }
+
+.agni_builder_fields .agni_builder_field_switch-text:after {
+  color: #fff;
+  content: attr(data-on);
+  left: 11px;
+  opacity: 0;
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%); }
+
+.agni_builder_fields .agni_builder_field_switch-handle {
+  background-color: #fff;
+  border-radius: 18px;
+  display: block;
+  height: 20px;
+  margin: 2px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  width: 20px; }
+
+.agni_builder_fields .agni_builder_field_radio {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  cursor: pointer; }
+
+.agni_builder_fields .agni_builder_field_radio span {
+    border-bottom: 1px solid;
+    border-color: transparent;
+    cursor: pointer; }
+
+.agni_builder_fields .agni_builder_field_radio .active {
+    border-color: #005FF5; }
+
+.agni_builder_fields .agni_builder_field_image-picker {
+  cursor: pointer; }
+
+.agni_builder_fields .agni_builder_field_image-picker span {
+    margin-left: 5px; }
+
+.agni_builder_fields .agni_builder_field_image-picker-holder {
+    margin-bottom: 5px; }
+
+.agni_builder_fields .agni_builder_field_image-select-items {
+  display: -webkit-box;
+  display: flex; }
+
+.agni_builder_fields .agni_builder_field_image-select-item {
+  max-width: 20px;
+  padding: 4px;
+  margin-right: 4px;
+  border: 1px solid transparent; }
+
+.agni_builder_fields .agni_builder_field_image-select-item.selected {
+    border-color: #ccdfff; }
+
+.agni_builder_fields .agni_builder_field_number-group-items {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
+
+.agni_builder_fields .agni_builder_field_number-group-item-text {
+  width: 38px;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid #cacaca;
+  padding-top: 4px; }
+
+.agni_builder_fields .agni_builder_field_number-group-item-text::-webkit-inner-spin-button, .agni_builder_fields .agni_builder_field_number-group-item-text::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+
+.agni_builder_fields .agni_builder_field_number-group-controls, .agni_builder_fields .agni_builder_field_number-group-strings {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+  cursor: pointer; }
+
+.agni_builder_fields .agni_builder_field_number-group-controls {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+          flex-direction: row-reverse;
+  font-size: 16px; }
+
+.agni_builder_fields .agni_builder_field_number-group-controls span {
+    width: 50%;
+    text-align: center; }
+
+.agni_builder_fields .agni_builder_field_number-group-strings {
+  font-size: 11px; }
+
+.agni_builder_fields .agni_builder_field_number-group-linked {
+  width: 20px; }
+
+.agni-header-builder-block__title {
+  font-size: 15px;
+  border-bottom: 2px solid;
+  padding-bottom: 3px; }
+
+.agni-header-builder-block__fields {
+  margin-top: 15px; }
+
+.agni-header-builder-block-field {
+  position: relative;
+  margin-bottom: 18px; }
+
+.agni-header-builder-block-field__title {
+    margin-bottom: 6px;
+    font-weight: 600; }
+
+.agni-header-builder-block-field__desc {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 6px; }
+
+.agni-header-builder-block-field__checkbox, .agni-header-builder-block-field__colorPicker {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between; }
+
+.agni-header-builder-block-field__checkbox > div:first-child, .agni-header-builder-block-field__colorPicker > div:first-child {
+      -webkit-box-flex: 1;
+              flex: 1; }
+
+.agni-font-manager {
+  position: relative;
+  overflow: hidden;
+  max-width: calc(860px + 50px);
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15); }
+
+.agni-font-manager a {
+    text-decoration: none; }
+
+.agni-font-manager a:focus, .agni-font-manager a:active {
+      outline: 0;
+      box-shadow: none; }
+
+.agni-font-manager h1,
+  .agni-font-manager h2 {
+    letter-spacing: -0.04em;
+    line-height: 1.4em; }
+
+.agni-font-manager h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px; }
+
+.agni-font-manager h2 {
+    margin-bottom: 0px;
+    font-size: 20px; }
+
+.agni-font-manager-dashboard__actions {
+  height: 296px; }
+
+.agni-font-manager-dashboard__actions-container {
+    height: 240px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    border: 1px dashed #999; }
+
+.agni-font-manager-dashboard__actions-container a {
+      width: 150px;
+      display: -webkit-inline-box;
+      display: inline-flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+      -webkit-box-align: center;
+              align-items: center;
+      gap: 10px;
+      padding: 16px 20px;
+      font-size: 14px;
+      color: #005FF5;
+      background-color: transparent;
+      border: 1px solid;
+      border-color: #999;
+      border-radius: 5px; }
+
+.agni-font-manager-dashboard__actions-container a:hover {
+        color: #005FF5;
+        border-color: #005FF5; }
+
+.agni-font-manager-dashboard__actions-container a:first-child {
+        -webkit-box-ordinal-group: 2;
+                order: 1; }
+
+.agni-font-manager-dashboard__actions-container a:last-child {
+        -webkit-box-ordinal-group: 3;
+                order: 2; }
+
+.agni-font-manager-dashboard__actions-container a img {
+        width: 32px;
+        height: 32px;
+        border-radius: 6px; }
+
+.agni-font-manager-dashboard__actions-link {
+    display: -webkit-box;
+    display: flex;
+    gap: 16px;
+    max-width: 450px;
+    text-align: center; }
+
+.agni-font-manager-editor__header {
+  display: -webkit-box;
+  display: flex; }
+
+.agni-font-manager-editor__title {
+  -webkit-box-flex: 1;
+          flex: 1; }
+
+.agni-font-manager-editor__title h1 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: baseline;
+            align-items: baseline; }
+
+.agni-font-manager-editor__title span {
+    margin-right: 6px;
+    color: #999;
+    cursor: pointer; }
+
+.agni-font-manager-editor__contents {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  border: 1px dashed #999; }
+
+.agni-font-manager-editor__upload-files {
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column; }
+
+.agni-font-manager-editor__upload-files button {
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid #cacaca;
+    border-radius: 3px;
+    padding: 15px 20px;
+    margin-bottom: 7px; }
+
+.agni-font-manager-editor__upload-files.has-dropzone {
+    background-color: #ccdfff; }
+
+.agni-font-manager-editor-custom-fonts__text input, .agni-font-manager-editor-adobe-fonts__text input {
+  font-size: 32px;
+  color: #23282d;
+  text-align: center;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #cacaca;
+  font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: -0.04em; }
+
+.agni-font-manager-editor-custom-fonts__text input:focus, .agni-font-manager-editor-adobe-fonts__text input:focus {
+    border-color: #005FF5; }
+
+.agni-font-manager-editor-custom-fonts__text input:active, .agni-font-manager-editor-custom-fonts__text input:focus, .agni-font-manager-editor-adobe-fonts__text input:active, .agni-font-manager-editor-adobe-fonts__text input:focus {
+    outline: none;
+    box-shadow: none; }
+
+.agni-font-manager-editor-custom-fonts input {
+  font-size: 32px; }
+
+.agni-font-manager-editor-custom-fonts__text {
+  margin-top: 20px; }
+
+.agni-font-manager-editor-custom-fonts__weights {
+  width: 780px;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  overflow-y: scroll;
+  margin: 20px 0; }
+
+.agni-font-manager-editor-custom-fonts__weights-title {
+  -webkit-box-flex: 1;
+          flex: 1;
+  flex-basis: 100%;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  color: #23282d;
+  margin-top: 15px;
+  margin-bottom: 5px; }
+
+.agni-font-manager-editor-custom-fonts__weights-content {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  margin-bottom: 15px; }
+
+.agni-font-manager-editor-custom-fonts__weights-content select {
+    max-width: 70px;
+    margin-bottom: 5px; }
+
+.agni-font-manager-editor-custom-fonts__weights-name span, .agni-font-manager-editor-custom-fonts__weights-extensions span {
+  display: inline-block; }
+
+.agni-font-manager-editor-custom-fonts__weights-name span:first-child, .agni-font-manager-editor-custom-fonts__weights-extensions span:first-child {
+    width: 80px; }
+
+.agni-font-manager-editor-custom-fonts__weights-name span:last-child:before, .agni-font-manager-editor-custom-fonts__weights-extensions span:last-child:before {
+    content: ":";
+    display: inline-block;
+    margin-right: 4px; }
+
+.agni-font-manager-editor-google-fonts__container {
+  width: 600px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+          justify-content: center; }
+
+.agni-font-manager-editor-google-fonts__container label {
+    display: block;
+    margin-bottom: 2px; }
+
+.agni-font-manager-editor-google-fonts__name {
+  margin-right: 30px; }
+
+.agni-font-manager-editor-google-fonts__weights {
+  width: 180px;
+  height: 120px;
+  overflow-y: scroll;
+  padding: 3px 7px;
+  border: 1px solid;
+  border-color: #7e8993;
+  border-radius: 4px; }
+
+.agni-font-manager-editor-google-fonts__weights span {
+    display: block;
+    padding: 0 3px;
+    border-radius: 2px; }
+
+.agni-font-manager-editor-google-fonts__weights span.selected {
+      background-color: #005FF5;
+      color: #fff; }
+
+.agni-font-manager-editor__go-back {
+  font-size: 15px;
+  color: #23282d; }
+
+.agni-font-manager-editor__go-back:hover {
+    color: #23282d;
+    text-decoration: underline; }
+
+.agni-font-manager-editor__save-font {
+  padding: 13px 18px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #005FF5;
+  border: 1px solid #005FF5;
+  border-radius: 5px;
+  margin-top: 4px;
+  margin-right: 15px;
+  cursor: pointer; }
+
+.agni-font-manager-list__font-title, .agni-font-manager-list__font-name {
+  color: #23282d; }
+
+.agni-font-manager-list__font-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
+
+.agni-font-manager-list__font-title > div {
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 10px; }
+
+.agni-font-manager-list__font-family {
+  background-color: #F8F9FA;
+  padding: 7px 10px 3px 10px;
+  margin: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
+
+.agni-font-manager-list__font-family:first-child {
+    padding-top: 10px; }
+
+.agni-font-manager-list__font-family:last-child {
+    padding-bottom: 10px;
+    margin-bottom: 12px; }
+
+.agni-font-manager-list__font-name {
+  width: 240px; }
+
+.agni-font-manager-list__font-variants, .agni-font-manager-list__delete {
+  color: #777; }
+
+.agni-font-manager-list__font-variants {
+  margin-right: auto; }
+
+.agni-font-manager-list__delete {
+  cursor: pointer;
+  text-decoration: none; }
+
+.agni-font-manager-list__delete:hover {
+    text-decoration: underline; }

@@ -1,0 +1,291 @@
+.agni-importer-exporter {
+  position: relative;
+  overflow: hidden;
+  max-width: calc(860px + 50px);
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15); }
+  .agni-importer-exporter h1 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 24px; }
+  .agni-importer-exporter-dashboard {
+    border: 1px dashed #ddd; }
+  .agni-importer-exporter-dashboard__actions-link {
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px; }
+  .agni-importer-exporter-dashboard__actions-link a {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        color: #005FF5;
+        border: 1px solid;
+        border-color: #999;
+        border-radius: 5px;
+        padding: 30px;
+        text-decoration: none;
+        box-sizing: border-box; }
+  .agni-importer-exporter-dashboard__actions-link a:hover {
+          border-color: #005FF5; }
+  .agni-importer-exporter-dashboard__actions-link a img {
+          width: 32px; }
+  .agni-importer-exporter-dashboard__actions-link a span {
+          font-size: 17px;
+          margin-top: 10px; }
+  .agni-importer-exporter-dashboard .agni-export-container {
+      width: 360px;
+      margin: auto;
+      margin-top: 25px;
+      margin-bottom: 25px; }
+  .agni-importer-exporter-dashboard .agni-export-container .agni-export-btn-all,
+      .agni-importer-exporter-dashboard .agni-export-container .agni-export-btn-chosen {
+        width: 100%;
+        font-size: 17px;
+        padding: 8px 10px;
+        background-color: transparent;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer; }
+  .agni-importer-exporter-dashboard .agni-export-container .agni-export-chosen-title {
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        letter-spacing: -0.02em; }
+  .agni-importer-exporter-dashboard .agni-export-container .agni-export-choices {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        margin-top: 8px;
+        padding: 0 12px;
+        max-height: 240px;
+        overflow-y: scroll; }
+  .agni-importer-exporter-dashboard .agni-export-container .agni-export-btn-all {
+        background-color: #005FF5;
+        color: #fff;
+        border-color: #005FF5; }
+  .agni-importer-exporter-dashboard .agni-export-container .agni-export-btn-chosen {
+        margin-top: 20px;
+        color: #005FF5;
+        border-color: #005FF5; }
+  .agni-importer-exporter-dashboard .agni-import-choices,
+    .agni-importer-exporter-dashboard .agni-import-individual-choices,
+    .agni-importer-exporter-dashboard .agni-import-notices {
+      width: 360px;
+      margin: auto; }
+  .agni-importer-exporter-dashboard .agni-import-notices {
+      margin-top: 25px;
+      margin-bottom: 25px; }
+  .agni-importer-exporter-dashboard .agni-import-choices {
+      margin-top: 25px;
+      margin-bottom: 25px; }
+  .agni-importer-exporter-dashboard .agni-import-individual-choices {
+      margin-top: 25px;
+      margin-bottom: 25px; }
+  .agni-importer-exporter-dashboard .or {
+      display: block;
+      font-size: 15px;
+      text-align: center;
+      margin: 25px 0; }
+  .agni-importer-exporter-dashboard hr {
+      max-width: 620px;
+      border-top: 1px solid;
+      border-color: #eee; }
+  .agni-import-plugins-list {
+  width: 70%; }
+  .agni-import-plugins-list ol {
+    margin: 5px 15px;
+    font-size: 11px; }
+  .agni-import-plugins-list ol li {
+      margin-bottom: 0px; }
+  .agni-import-plugins-list + a {
+    align-self: flex-start;
+    margin-top: 3px;
+    margin-left: auto; }
+  .agni-import-notice {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; }
+  .agni-import-notice a,
+  .agni-import-notice button {
+    border: 1px solid #000;
+    color: #000;
+    font-size: var(--gulp_env_theme_name_font_size_small_1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-decoration: none; }
+  .agni-import-notice span {
+    flex: 1;
+    font-size: 11px; }
+  .agni-import-notice.info {
+    color: #005FF5; }
+  .agni-import-notice.info a,
+    .agni-import-notice.info button {
+      border: 1px solid #005FF5;
+      color: #005FF5; }
+  .agni-import-notice.warning {
+    color: #eca83b; }
+  .agni-import-notice.warning a,
+    .agni-import-notice.warning button {
+      border: 1px solid #eca83b;
+      color: #eca83b; }
+  .agni-import-choice__buttons,
+.agni-import-individual-choice__buttons {
+  display: flex;
+  gap: 20px; }
+  .agni-import-choice__buttons button,
+  .agni-import-individual-choice__buttons button {
+    position: relative;
+    height: 42px;
+    font-size: 17px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer; }
+  .agni-import-choice__buttons button:hover, .agni-import-choice__buttons button:focus,
+    .agni-import-individual-choice__buttons button:hover,
+    .agni-import-individual-choice__buttons button:focus {
+      outline: 0; }
+  .agni-import-choice__buttons button .import-progress-bar,
+    .agni-import-individual-choice__buttons button .import-progress-bar {
+      position: absolute;
+      inset: 2px;
+      background-color: #FF856B; }
+  .agni-import-choice__buttons button .import-status > span:last-child,
+    .agni-import-individual-choice__buttons button .import-status > span:last-child {
+      position: relative; }
+  .agni-import-choice__buttons button .import-status:not(:last-child),
+    .agni-import-individual-choice__buttons button .import-status:not(:last-child) {
+      display: none; }
+  .agni-import-choice__buttons button .import-status-indicator,
+    .agni-import-individual-choice__buttons button .import-status-indicator {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 13px;
+      padding: 0;
+      margin: 3px 5px;
+      opacity: 0.6; }
+  .agni-import-choice__buttons .agni-import-choice__button-import,
+.agni-import-individual-choice__buttons .agni-import-choice__button-import, .agni-import-choice__buttons
+.agni-import-individual-choice__button-import,
+.agni-import-individual-choice__buttons
+.agni-import-individual-choice__button-import {
+  flex: 2;
+  background-color: #005FF5;
+  color: #fff;
+  border-color: #005FF5; }
+  .agni-import-choice__buttons .agni-import-choice__button-remove,
+.agni-import-individual-choice__buttons .agni-import-choice__button-remove, .agni-import-choice__buttons
+.agni-import-individual-choice__button-remove,
+.agni-import-individual-choice__buttons
+.agni-import-individual-choice__button-remove {
+  flex: 1;
+  background-color: transparent;
+  color: #E34646;
+  border-color: #E34646; }
+  .agni-import-choice-form,
+.agni-import-individual-choice-form {
+  margin-top: 20px; }
+  .agni-import-choice-form__checkbox,
+  .agni-import-individual-choice-form__checkbox {
+    display: flex;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+    color: #222; }
+  .agni-import-choice-form__checkbox-icon,
+    .agni-import-individual-choice-form__checkbox-icon {
+      display: inline-block;
+      border: 1px solid #999;
+      position: relative;
+      width: 14px;
+      height: 14px;
+      margin-right: 7px; }
+  .agni-import-choice-form__checkbox-icon span,
+      .agni-import-individual-choice-form__checkbox-icon span {
+        color: #222;
+        font-size: 18px;
+        position: absolute;
+        left: -25%;
+        top: -2px; }
+  .agni-import-choice-form__checkbox span:last-child,
+    .agni-import-individual-choice-form__checkbox span:last-child {
+      flex: 1; }
+  .agni-import-choice-form__checkbox small,
+    .agni-import-individual-choice-form__checkbox small {
+      display: block;
+      color: #999;
+      font-weight: 400;
+      letter-spacing: 0;
+      margin-top: 2px;
+      line-height: 1.4; }
+  .agni-import-choice img {
+  max-width: 360px;
+  background-color: #f5f5f5; }
+  .agni-import-choice__title {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  letter-spacing: -0.02em; }
+  .agni-import-choice__author {
+  color: #555; }
+  .agni-import-choice__author span {
+    margin-right: 4px; }
+  .agni-import-individual-choice__buttons button {
+  font-size: 15px;
+  padding: 8px 10px; }
+  .agni-import-individual-choice__buttons .agni-import-individual-choice__button-import {
+  background-color: transparent;
+  color: #005FF5; }
+  .agni-import-individual-choice__dropdown {
+  margin-bottom: 20px; }
+  .agni-import-individual-choice__chosen {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  font-size: var(--gulp_env_theme_name_font_size_small_3);
+  font-weight: 600;
+  border-radius: 5px; }
+  .agni-import-individual-choice__chosen:after {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    color: #999;
+    font-family: dashicons;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    content: "\f347"; }
+  .agni-import-individual-choice__items {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+  padding: 0 12px;
+  max-height: 240px;
+  overflow-y: scroll; }
+  .agni-import-individual-choice__items > span {
+    display: block;
+    padding: 6px 0px;
+    font-size: 15px; }
+  .agni-import-individual-choice__item {
+  cursor: pointer; }
+  .agni-import-individual-btn {
+  font-size: 15px;
+  padding: 8px 10px;
+  position: relative;
+  width: 100%;
+  height: 42px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer; }

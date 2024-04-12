@@ -1,0 +1,968 @@
+:root {
+  --cartify_font_family_primary: "Segment", "Satoshi-Variable", sans-serif;
+  --cartify_font_family_body: "Segment", "Satoshi-Variable", sans-serif;
+  --cartify_font_size_h1: 40px;
+  --cartify_font_size_h2: 34px;
+  --cartify_font_size_h3: 28px;
+  --cartify_font_size_h4: 24px;
+  --cartify_font_size_h5: 20px;
+  --cartify_font_size_h6: 18px;
+  --cartify_font_size_body: 16px;
+  --cartify_font_size_small_1: 13px;
+  --cartify_font_size_small_2: 14px;
+  --cartify_font_size_small_3: 15px;
+  --cartify_font_size_big_1: 17px;
+  --cartify_font_size_h1_mobile: 38px;
+  --cartify_font_size_h2_mobile: 32px;
+  --cartify_font_size_h3_mobile: 26px;
+  --cartify_font_size_h4_mobile: 22px;
+  --cartify_font_size_h5_mobile: 18px;
+  --cartify_font_size_h6_mobile: 16px;
+  --cartify_font_size_body_mobile: 14px;
+  --cartify_font_size_small_1_mobile: 11px;
+  --cartify_font_size_small_2_mobile: 12px;
+  --cartify_font_size_small_3_mobile: 13px;
+  --cartify_font_size_big_1_mobile: 15px;
+  --cartify_font_weight_primary: 600;
+  --cartify_font_weight_regular: 400;
+  --cartify_line_height_primary_1: 1.2;
+  --cartify_line_height_primary_2: 1.3;
+  --cartify_line_height_primary_3: 1.4;
+  --cartify_line_height_body: 1.6;
+  --cartify_letter_spacing_primary_1: -0.02em;
+  --cartify_letter_spacing_primary_2: -0.01em;
+  --cartify_letter_spacing_regular_1: 0.02em;
+  --cartify_letter_spacing_regular_2: 0.01em;
+  --cartify_font_feature_settings_primary: normal;
+  --cartify_font_feature_settings_body: normal;
+  --cartify_button_font_size: 15px;
+  --cartify_button_font_size_sm: 14px;
+  --cartify_button_font_size_lg: 16px;
+  --cartify_button_padding: 10px 18px 10px;
+  --cartify_button_padding_sm: 8px 13px 8px;
+  --cartify_button_padding_lg: 14px 26px 14px;
+  --cartify_button_font_size_mobile: 13px;
+  --cartify_button_font_size_sm_mobile: 12px;
+  --cartify_button_font_size_lg_mobile: 14px;
+  --cartify_button_padding_mobile: 8px 15px 8px;
+  --cartify_button_padding_sm_mobile: 6px 11px 6px;
+  --cartify_button_padding_lg_mobile: 12px 22px 12px;
+  --cartify_button_border_radius: 5px;
+  --cartify_button_border_width: 2px;
+  --cartify_color_text_success: #11dd55;
+  --cartify_color_text_danger: #FF2752;
+  --cartify_color_text_accent: #FCDFB0;
+  --cartify_color_text_primary: #222;
+  --cartify_color_text_body: #222;
+  --cartify_color_text_body_1: #777;
+  --cartify_color_text_white: #fff;
+  --cartify_color_text_accent_lite: #baa78a;
+  --cartify_background_color_body: #fff;
+  --cartify_background_color_lite: #f5f5f5;
+  --cartify_color_line_lite_grey: #ccc;
+  --cartify_color_line_accent: #d0b999;
+  --cartify_product_bg_color: #efefef;
+  --cartify_width_device_container_2xl: 1560;
+  --cartify_width_device_container_xl: 1440;
+  --cartify_width_device_container_lg: 1200;
+  --cartify_width_device_container_md: 1024;
+  --cartify_width_device_container_sm: 667;
+  --cartify_gap_device_container: 20px;
+  --cartify_gap_device_container_fluid: 25px;
+  --cartify_width_post_device_container: 920px;
+  --cartify_width_post_device_container_wide: 1080px;
+  --cartify_width_blog_sidebar_xl: 240px;
+  --cartify_width_blog_sidebar_md: 210px;
+  --cartify_width_blog_sidebar_sm: 100%;
+  --cartify_width_blog_gutter: 25px;
+  --cartify_width_shop_sidebar_xl: 240px;
+  --cartify_width_shop_sidebar_md: 210px;
+  --cartify_width_shop_sidebar_sm: 100%;
+  --cartify_width_shop_gutter: 25px;
+  --cartify_scroll_behaviour: smooth;
+}
+
+.ionicon {
+  --agni-ionicon-stroke-width: 24px;
+}
+
+.feather {
+  --agni-feather-stroke-width: 1.2px;
+}
+
+#toplevel_page_cartify .wp-menu-image img {
+  padding: 7px 0;
+}
+
+#toplevel_page_cartify ul li:nth-child(5):after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 4px 0;
+}
+
+.kirki-framework-agni-divider {
+  height: 3px;
+  background-color: #333;
+  color: #fff;
+}
+
+.agni-required-registration {
+  position: relative;
+  overflow: hidden;
+  max-width: 910px;
+  padding: 25px;
+  background-color: #ffb6b6;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.agni-required-registration__container {
+  border: 1px dashed #EF2626;
+}
+
+.agni-required-registration__content {
+  padding: 25px;
+}
+
+.agni-required-registration h1 {
+  margin-top: 0;
+  width: 70%;
+  line-height: 1.2;
+}
+
+.agni-required-registration p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.agni-required-registration a {
+  color: #222;
+}
+
+.agni-required-registration .agni-required-registration__btn {
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 4px;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.agni-required-registration .agni-required-registration__btn.install-plugins {
+  background-color: #005ff5;
+  border: 1px solid #005ff5;
+  color: #fff;
+}
+
+.agni-required-registration .agni-required-registration__btn.registration {
+  background-color: transparent;
+  border: 1px solid #005ff5;
+  color: #005ff5;
+  margin-left: 15px;
+}
+
+.agni-welcome {
+  position: relative;
+  overflow: hidden;
+  max-width: 910px;
+  padding: 25px;
+  margin-top: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.agni-welcome h1 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.agni-welcome-dashboard {
+  border: 1px dashed #ddd;
+}
+
+.agni-welcome-dashboard__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.agni-welcome-dashboard__left, .agni-welcome-dashboard__right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.agni-welcome-dashboard__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-right: 1px dashed #ddd;
+}
+
+.agni-welcome-dashboard-themeinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  padding: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px dashed #ddd;
+}
+
+.agni-welcome-dashboard-themeinfo__label {
+  padding: 2px 6px;
+  margin-bottom: 15px;
+  border: 1px solid;
+}
+
+.agni-welcome-dashboard-themeinfo__label.registered {
+  border-color: #21da95;
+  color: #21da95;
+}
+
+.agni-welcome-dashboard-themeinfo__label.unregistered {
+  border-color: #FF2752;
+  color: #FF2752;
+}
+
+.agni-welcome-dashboard-themeinfo__version {
+  font-size: var(--cartify_font_size_small_2);
+  color: #777;
+}
+
+.agni-welcome-dashboard-themeinfo button,
+.agni-welcome-dashboard-themeinfo a {
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #222;
+  color: #222;
+  border-radius: 4px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.agni-welcome-dashboard-themeinfo button:hover, .agni-welcome-dashboard-themeinfo button:focus,
+.agni-welcome-dashboard-themeinfo a:hover,
+.agni-welcome-dashboard-themeinfo a:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.agni-welcome-dashboard-themeinfo button.check-update, .agni-welcome-dashboard-themeinfo button.download-update,
+.agni-welcome-dashboard-themeinfo a.check-update,
+.agni-welcome-dashboard-themeinfo a.download-update {
+  background-color: #005FF5;
+  border-color: #005FF5;
+  color: #fff;
+}
+
+.agni-welcome-dashboard-themeinfo button.check-update.btn-error, .agni-welcome-dashboard-themeinfo button.download-update.btn-error,
+.agni-welcome-dashboard-themeinfo a.check-update.btn-error,
+.agni-welcome-dashboard-themeinfo a.download-update.btn-error {
+  background-color: #FF2752;
+  border-color: #FF2752;
+}
+
+.agni-welcome-dashboard-themeinfo button.check-update.btn-success, .agni-welcome-dashboard-themeinfo button.download-update.btn-success,
+.agni-welcome-dashboard-themeinfo a.check-update.btn-success,
+.agni-welcome-dashboard-themeinfo a.download-update.btn-success {
+  background-color: #11dd55;
+  border-color: #11dd55;
+}
+
+.agni-welcome-dashboard-themeinfo button.unregistered,
+.agni-welcome-dashboard-themeinfo a.unregistered {
+  border-color: #FF2752;
+  color: #FF2752;
+}
+
+.agni-welcome-dashboard-themeinfo button.status,
+.agni-welcome-dashboard-themeinfo a.status {
+  border-color: #005FF5;
+  color: #005FF5;
+}
+
+.agni-welcome-dashboard-themeinfo .error {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  font-size: 12px;
+  color: #FF2752;
+}
+
+.agni-welcome-dashboard__additionalinfo {
+  margin-bottom: 25px;
+}
+
+.agni-welcome-dashboard__additionalinfo a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #555;
+}
+
+.agni-welcome-dashboard-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 300px;
+  margin: 25px auto;
+}
+
+.agni-welcome-dashboard-steps h3,
+.agni-welcome-dashboard-steps h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.agni-welcome-dashboard-steps h3 {
+  width: 100%;
+  font-size: 18px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.agni-welcome-dashboard-steps h4 {
+  font-size: 16px;
+}
+
+.agni-welcome-dashboard-steps p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.agni-welcome-dashboard img {
+  max-width: 96px;
+  margin-bottom: 8px;
+}
+
+.agni-welcome-dashboard hr {
+  max-width: 620px;
+  border-top: 1px solid;
+  border-color: #eee;
+}
+
+.agni-system-status {
+  position: relative;
+  overflow: hidden;
+  max-width: 910px;
+  padding: 25px;
+  margin-top: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.agni-system-status h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 24px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.agni-system-status h3 {
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.agni-system-status h4 {
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.agni-system-status a {
+  color: #222;
+}
+
+.agni-system-status mark {
+  background-color: transparent;
+}
+
+.agni-system-status mark.yes {
+  color: #21da95;
+}
+
+.agni-system-status mark.error {
+  color: #EF2626;
+}
+
+.agni-system-status mark.error a {
+  color: #EF2626;
+}
+
+.agni-system-status__container {
+  border: 1px dashed #ddd;
+  padding: 25px;
+}
+
+.agni-system-status__panel table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px dashed #ddd;
+}
+
+.agni-system-status__panel table td {
+  padding: 5px 10px;
+  padding-right: 0;
+}
+
+.agni-system-status__panel table td:first-child {
+  width: 30%;
+}
+
+.agni-system-status__panel table td:first-child span {
+  float: right;
+}
+
+.agni-system-status__panel table tr:first-child td {
+  padding-top: 10px;
+}
+
+.agni-system-status__panel table tr:last-child td {
+  padding-bottom: 10px;
+}
+
+.agni-additional-variation-images__holder img {
+  width: 64px;
+  height: 64px;
+}
+
+.agni-additional-variation-images__image {
+  position: relative;
+  display: inline-block;
+}
+
+.agni-additional-variation-images__image div {
+  display: inline-block;
+}
+
+.agni-additional-variation-images__remove {
+  font-family: "dashicons";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.agni-additional-variation-images__remove:before {
+  content: "\f335";
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.agni-additional-variation-images__image:hover .agni-additional-variation-images__remove {
+  display: block;
+}
+
+.woocommerce_options_panel div.form-field {
+  padding: 5px 20px 5px 162px !important;
+}
+
+.agni_product_data_tab_threesixty_images__holder > div {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.agni_product_data_tab_threesixty_images__holder img {
+  max-width: 45px;
+  width: 100%;
+  height: auto;
+}
+
+.agni-plugins-manager {
+  position: relative;
+  max-width: 910px;
+  margin-top: 20px;
+}
+
+.agni-plugins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.agni-plugin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(50% - 24px);
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 12px;
+  margin-bottom: 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.agni-plugin h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.agni-plugin h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.agni-plugin.disabled {
+  opacity: 0.5;
+}
+
+.agni-plugin.disabled .agni-plugin-action {
+  cursor: not-allowed;
+}
+
+.agni-plugin__left {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 18px;
+  background-color: #F7F7F7;
+}
+
+.agni-plugin__left img {
+  max-width: 160px;
+  height: auto;
+  line-height: 1;
+}
+
+.agni-plugin__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.agni-plugin__right p {
+  color: #777;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.agni-plugin__right p a {
+  color: #005FF5;
+}
+
+.agni-plugin__meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+.agni-plugin__meta span {
+  background-color: #fff;
+  border: 1px solid;
+  padding: 2px 6px;
+  font-size: 11px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.agni-plugin__meta span.required {
+  border-color: #FF2752;
+  color: #FF2752;
+}
+
+.agni-plugin__meta span.premium {
+  border-color: #005ff5;
+  color: #005ff5;
+}
+
+.agni-plugin-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3px 10px;
+  margin-top: auto;
+}
+
+.agni-plugin-actions .update {
+  position: relative;
+}
+
+.agni-plugin-actions .update span:not(.tooltip) {
+  display: none;
+}
+
+.agni-plugin-actions .update .tooltip {
+  display: none;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  margin-top: -30px;
+  left: 11px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #005FF5;
+  background-color: #fff;
+  padding: 2px 7px;
+  border: 1px solid;
+  border-color: #005FF5;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.agni-plugin-actions .update:hover .tooltip {
+  display: block;
+}
+
+.agni-plugin-actions .update:before {
+  content: "\f463";
+  font-family: "dashicons";
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.agni-plugin-actions .update.updating:before {
+  -webkit-animation: rotation 1.4s infinite linear;
+          animation: rotation 1.4s infinite linear;
+}
+
+.agni-plugin-actions .update.updated {
+  color: #11dd55;
+  border-color: #11dd55;
+}
+
+.agni-plugin-actions .update.updated:hover {
+  background-color: transparent;
+  color: #11dd55;
+  border-color: #11dd55;
+}
+
+.agni-plugin-actions .update.updated:before {
+  content: "\f15e";
+}
+
+.agni-plugin-actions .update.error:before {
+  content: "\f14c";
+}
+
+.agni-plugin-actions .install,
+.agni-plugin-actions .activate,
+.agni-plugin-actions .deactivate {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.agni-plugin-actions .deactivate,
+.agni-plugin-actions .update {
+  color: #005FF5;
+  background-color: transparent;
+  border-color: #005FF5;
+}
+
+.agni-plugin-actions .deactivate:hover,
+.agni-plugin-actions .update:hover {
+  color: #fff;
+  background-color: #005FF5;
+  border-color: #005FF5;
+}
+
+.agni-plugin-actions .error {
+  width: 100%;
+  font-size: 12px;
+  color: #FF2752;
+}
+
+.agni-plugin-action {
+  display: block;
+  text-align: center;
+  padding: 7px;
+  border: 1px solid;
+  border-color: #005FF5;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #005FF5;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.agni-plugin-action:focus, .agni-plugin-action:active {
+  color: #fff;
+}
+
+.agni-plugin-action:hover, .agni-plugin-action.loading {
+  color: #005FF5;
+  background-color: transparent;
+  border-color: #005FF5;
+}
+
+.agni-plugin-action:hover, .agni-plugin-action:active, .agni-plugin-action:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.agni-plugin-action > span:first-child:not(:only-child) {
+  display: none;
+}
+
+.agni-product-registration {
+  position: relative;
+  overflow: hidden;
+  max-width: 910px;
+  padding: 25px;
+  margin-top: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.agni-product-registration h1 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.agni-product-registration__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.agni-product-registration__heading span {
+  border: 2px solid #21da95;
+  border-radius: 50%;
+  padding: 6px;
+  margin-left: 0px;
+  margin-right: 6px;
+  font-size: 30px;
+  color: #21da95;
+  position: relative;
+}
+
+.agni-product-registration__heading span:before {
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+
+.agni-product-registration__description {
+  font-size: 15px;
+}
+
+.agni-product-registration-dashboard__container, .agni-product-registration-instruction__container, .agni-product-registration-details__container {
+  width: 360px;
+  margin: auto;
+}
+
+.agni-product-registration-dashboard {
+  border: 1px dashed #ddd;
+}
+
+.agni-product-registration-dashboard hr {
+  max-width: 620px;
+  border-top: 1px solid;
+  border-color: #eee;
+}
+
+.agni-product-registration-form {
+  margin: 30px 0;
+}
+
+.agni-product-registration-form label {
+  display: block;
+  color: #999;
+}
+
+.agni-product-registration-form p {
+  margin-bottom: 22px;
+}
+
+.agni-product-registration-form p small,
+.agni-product-registration-form p span {
+  font-size: 11px;
+  display: inline-block;
+}
+
+.agni-product-registration-form p span {
+  margin-top: 10px;
+  color: #777;
+}
+
+.agni-product-registration-form p span.required {
+  font-size: 100%;
+  margin-left: 3px;
+  color: #f00;
+}
+
+.agni-product-registration-form input {
+  width: 100%;
+  font-size: 16px;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 4px 0;
+}
+
+.agni-product-registration-form input:active, .agni-product-registration-form input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.agni-product-registration-form input[type=checkbox] {
+  width: 16px;
+  border: 1px solid #d1d1d1;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.agni-product-registration-form button {
+  width: 100%;
+  font-size: 16px;
+  padding: 13px;
+  color: #fff;
+  background-color: #005FF5;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.agni-product-registration-form button:active, .agni-product-registration-form button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.agni-product-registration-form .error {
+  color: #FF2752;
+}
+
+.agni-product-registration-form .btn-error {
+  background-color: #FF2752;
+}
+
+.agni-product-registration-form .btn-success {
+  background-color: #11dd55;
+}
+
+.agni-product-registration-instruction {
+  margin: 30px 0;
+}
+
+.agni-product-registration-instruction ol {
+  margin-left: 15px;
+}
+
+.agni-product-registration-instruction small {
+  font-size: 11px;
+}
+
+.agni-product-registration-details h2 {
+  font-size: 18px;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+.agni-product-registration-details table {
+  width: 100%;
+  background-color: #d7fff0;
+  padding: 12px 18px;
+  margin-bottom: 5px;
+}
+
+.agni-product-registration-details table td {
+  padding: 5px 0;
+}
+
+.agni-product-registration-details table a {
+  color: #3c434a;
+}
+
+#agni-page-meta-options-panel .form-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+#agni-page-meta-options-panel .form-field label {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+#agni-page-meta-options-panel .form-field select {
+  width: 200px;
+}
+
+#agni_product_cat_banner_image img {
+  width: 300px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

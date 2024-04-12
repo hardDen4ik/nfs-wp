@@ -1,0 +1,192 @@
+2024-03-27T13:50:13+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(182): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->maybe_handle('')
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T13:51:16+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(454): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->handle_cron_healthcheck()
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-cron.php(191): do_action_ref_array('wpbackitup_clea...', Array)
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T13:53:16+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(454): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->handle_cron_healthcheck()
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-cron.php(191): do_action_ref_array('wpbackitup_clea...', Array)
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T13:54:19+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(454): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->handle_cron_healthcheck()
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-cron.php(191): do_action_ref_array('wpbackitup_clea...', Array)
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T13:55:24+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(182): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->maybe_handle('')
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T13:57:17+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(454): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->handle_cron_healthcheck()
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-cron.php(191): do_action_ref_array('wpbackitup_clea...', Array)
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T14:00:09+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(454): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->handle_cron_healthcheck()
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-cron.php(191): do_action_ref_array('wpbackitup_clea...', Array)
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T14:01:52+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(454): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->handle_cron_healthcheck()
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-cron.php(191): do_action_ref_array('wpbackitup_clea...', Array)
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T14:02:55+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(454): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->handle_cron_healthcheck()
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-cron.php(191): do_action_ref_array('wpbackitup_clea...', Array)
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T14:03:59+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(454): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->handle_cron_healthcheck()
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-cron.php(191): do_action_ref_array('wpbackitup_clea...', Array)
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T14:05:01+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(454): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->handle_cron_healthcheck()
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-cron.php(191): do_action_ref_array('wpbackitup_clea...', Array)
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+
+2024-03-27T14:06:06+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php:737
+Stack trace:
+#0 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-cleanup.php(171): WPBackItUp_Job::purge_jobs('backup', '3')
+#1 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Cleanup->purge_job_control(Object(WPBackItUp_Job_Task))
+#2 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-cleanup-processor.php(54): do_action('wpbackitup_clea...', Object(WPBackItUp_Job_Task))
+#5 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(308): WPBackItUp_Cleanup_Processor->task('21')
+#6 /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/background-processing/class-background-process.php(182): WPBackItUp_Background_Process->handle()
+#7 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(324): WPBackItUp_Background_Process->maybe_handle('')
+#8 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/u2042308/data/www/nfsmir.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/u2042308/data/www/nfsmir.ru/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#11 {main}
+  thrown в /var/www/u2042308/data/www/nfsmir.ru/wp-content/plugins/wp-backitup/lib/includes/class-job.php на строке 737
+

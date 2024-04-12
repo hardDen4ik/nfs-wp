@@ -1,0 +1,67 @@
+<?php
+$available_plugins = array(
+    array(
+        'name'                  => 'Agni Cartify', 
+        'slug'                  => 'agni-cartify', 
+        'source'                => 'bundled', 
+        'required'              => true,
+        'version'               => '2.0.0', 
+        'force_activation'      => false,
+        'force_deactivation'    => false,
+        'external_url'          => '',
+        'thumbnail_url'         => '',
+        'premium'               => true,
+        'author'                => 'AgniHD',
+        'author_uri'            => esc_url( 'agnidesigns.com' )
+    ),
+    array(
+        'name'                  => 'Agni Builder', 
+        'slug'                  => 'agni-builder', 
+        'source'                => 'bundled', 
+        'required'              => true,
+        'version'               => '1.0', 
+        'force_activation'      => false,
+        'force_deactivation'    => false,
+        'external_url'          => '',
+        'thumbnail_url'         => '',
+        'premium'               => true,
+        'author'                => 'AgniHD',
+        'author_uri'            => esc_url( 'agnidesigns.com' )
+    ), 
+    array(
+        'name'                  => 'Agni Importer Exporter', 
+        'slug'                  => 'agni-importer-exporter', 
+        'source'                => 'bundled', 
+        'required'              => false,
+        'version'               => '1.0', 
+        'force_activation'      => false,
+        'force_deactivation'    => false,
+        'external_url'          => '',
+        'thumbnail_url'         => '',
+        'premium'               => true,
+        'author'                => 'AgniHD',
+        'author_uri'            => esc_url( 'agnidesigns.com' )
+    ), 
+    array(
+        'name'                  => 'WooCommerce',
+        'slug'                  => 'woocommerce',
+        'source'                => '',
+        'required'              => false,
+        'version'               => '8.5.2',
+        'force_activation'      => false,
+        'force_deactivation'    => false,
+        'installation_path'     => 'woocommerce/woocommerce.php',
+        'external_url'          => esc_url('wordpress.org/plugins/woocommerce/'),
+    ),
+    array(
+        'name'                  => 'Kirki Customizer Framework',
+        'slug'                  => 'kirki',
+        'source'                => '',
+        'required'              => true,
+        'version'               => '3.0.44',
+        'force_activation'      => false,
+        'force_deactivation'    => false,
+        'installation_path'     => 'kirki/kirki.php',
+        'external_url'          => esc_url( 'wordpress.org/plugins/kirki/' ),
+    )
+);

@@ -1,0 +1,843 @@
+{
+    "id": 0,
+    "title": "Product Layout Predefined",
+    "template": 0,
+    "content": [
+        {
+            "slug": "before_single_product",
+            "content": [
+                {
+                    "id": 0,
+                    "slug": "breadcrumbs",
+                    "name": "Breadcrumbs",
+                    "settings": {
+                        "className": "breadcrumbs-0",
+                        "color": "",
+                        "link-color": "",
+                        "bg-color": "",
+                        "border-color": "",
+                        "css-margin": {
+                            "desktop": "0px 0px 10px 0px",
+                            "laptop": "0px 0px 10px 0px",
+                            "tab": "0px 0px 10px 0px",
+                            "mobile": "0px 0px 10px 0px"
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "slug": "spacer",
+                    "name": "Spacer",
+                    "settings": {
+                        "className": "spacer-1",
+                        "height": {
+                            "desktop": "15px",
+                            "laptop": "10px",
+                            "tab": "10px",
+                            "mobile": "10px"
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "className": "before_single_product"
+            }
+        },
+        {
+            "slug": "before_single_product_summary",
+            "content": [
+                {
+                    "id": 2,
+                    "slug": "columns",
+                    "name": "Columns",
+                    "content": [
+                        {
+                            "id": 0,
+                            "slug": "column",
+                            "content": [
+                                {
+                                    "id": 2,
+                                    "slug": "new",
+                                    "name": "Badge New",
+                                    "settings": {
+                                        "className": "badge-new-2",
+                                        "bg-color": "",
+                                        "border-color": "",
+                                        "color": "",
+                                        "css-margin": {
+                                            "desktop": "0px 0px 15px 0px",
+                                            "laptop": "0px 0px 15px 0px",
+                                            "tab": "0px 0px 15px 0px",
+                                            "mobile": "0px 0px 15px 0px"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 1,
+                                    "slug": "hot",
+                                    "name": "Badge Hot",
+                                    "settings": {
+                                        "className": "badge-hot-1",
+                                        "bg-color": "",
+                                        "border-color": "",
+                                        "color": "",
+                                        "css-margin": {
+                                            "desktop": "0px 0px 15px 0px",
+                                            "laptop": "0px 0px 15px 0px",
+                                            "tab": "0px 0px 15px 0px",
+                                            "mobile": "0px 0px 15px 0px"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 0,
+                                    "slug": "sale",
+                                    "name": "Badge Sale",
+                                    "settings": {
+                                        "className": "badge-sale-0",
+                                        "bg-color": "",
+                                        "border-color": "",
+                                        "color": "",
+                                        "css-margin": {
+                                            "desktop": "0px 0px 15px 0px",
+                                            "laptop": "0px 0px 15px 0px",
+                                            "tab": "0px 0px 15px 0px",
+                                            "mobile": "0px 0px 15px 0px"
+                                        }
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "className": "column-0",
+                                "width": {
+                                    "desktop": "100%",
+                                    "laptop": "50%",
+                                    "tab": "50%",
+                                    "mobile": "100%"
+                                },
+                                "direction": "horizontal"
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "className": "columns-2",
+                        "css-margin": {
+                            "desktop": "0% 0% 0px 0px",
+                            "laptop": "0% 0% 0px 0px",
+                            "tab": "0% 0% 0px 0px",
+                            "mobile": "0% 0% 0px 0px"
+                        },
+                        "bg-color": "",
+                        "border-color": ""
+                    }
+                },
+                {
+                    "id": 0,
+                    "slug": "images",
+                    "name": "Product Images",
+                    "settings": {
+                        "className": "product-images-0",
+                        "display-style": "2",
+                        "easyzoom": {
+                            "desktop": true,
+                            "laptop": true,
+                            "tab": true,
+                            "mobile": false
+                        },
+                        "thumbnails-on-mobile": {
+                            "desktop": false
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "slug": "columns",
+                    "name": "Columns",
+                    "content": [
+                        {
+                            "id": 0,
+                            "slug": "column",
+                            "content": [
+                                {
+                                    "id": 0,
+                                    "slug": "product_360",
+                                    "name": "Product 360 Icon",
+                                    "settings": {
+                                        "className": "product-360-icon-0"
+                                    }
+                                },
+                                {
+                                    "id": 1,
+                                    "slug": "product_video",
+                                    "name": "Product Video Icon",
+                                    "settings": {
+                                        "className": "product-video-icon-1"
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "className": "column-0",
+                                "width": {
+                                    "desktop": "100%",
+                                    "laptop": "100%",
+                                    "tab": "100%",
+                                    "mobile": "100%"
+                                },
+                                "direction": "horizontal",
+                                "gap": "30px",
+                                "align": "center",
+                                "bg-color": "",
+                                "border-color": ""
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "className": "columns-1",
+                        "css-margin": {
+                            "desktop": "15px 0px 0px 0px",
+                            "laptop": "15px 0px 0px 0px",
+                            "tab": "15px 0px 0px 0px",
+                            "mobile": "15px 0px 0px 0px"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "slug": "spacer",
+                    "name": "Spacer",
+                    "settings": {
+                        "className": "spacer-3",
+                        "height": {
+                            "desktop": "0px",
+                            "laptop": "0px",
+                            "tab": "30px",
+                            "mobile": "30px"
+                        }
+                    }
+                }
+            ],
+            "settings": {
+                "className": "before_single_product_summary",
+                "bg-color": "",
+                "border-color": "",
+                "width": {
+                    "desktop": "50",
+                    "laptop": "50",
+                    "tab": "100",
+                    "mobile": "100"
+                }
+            }
+        },
+        {
+            "slug": "single_product_summary",
+            "content": [
+                {
+                    "id": 0,
+                    "slug": "featured_label",
+                    "name": "Featured Product Label",
+                    "settings": {
+                        "className": "featured-product-label-0",
+                        "display-style": "3",
+                        "css-margin": {
+                            "desktop": "0px 0px 5px 0px",
+                            "laptop": "0px 0px 5px 0px",
+                            "tab": "0px 0px 5px 0px",
+                            "mobile": "0px 0px 5px 0px"
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "slug": "title",
+                    "name": "Product Title",
+                    "settings": {
+                        "className": "product-title-1",
+                        "css-margin": {
+                            "desktop": "0px 0px 5px 0px",
+                            "laptop": "0px 0px 5px 0px",
+                            "tab": "0px 0px 5px 0px",
+                            "mobile": "0px 0px 5px 0px"
+                        },
+                        "color": "",
+                        "font-size": {
+                            "desktop": "34px",
+                            "laptop": "30px",
+                            "tab": "30px",
+                            "mobile": "26px"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "slug": "brand",
+                    "name": "Product Brand",
+                    "settings": {
+                        "className": "product-brand-2",
+                        "css-margin": {
+                            "desktop": "0px 0px 5px 0px",
+                            "laptop": "0px 0px 5px 0px",
+                            "tab": "0px 0px 5px 0px",
+                            "mobile": "0px 0px 5px 0px"
+                        },
+                        "by-text-color": "",
+                        "brand-color": "",
+                        "brand-logo-bg-color": "",
+                        "brand-logo-border-color": ""
+                    }
+                },
+                {
+                    "id": 3,
+                    "slug": "rating",
+                    "name": "Product Rating",
+                    "settings": {
+                        "className": "product-rating-3",
+                        "css-margin": {
+                            "desktop": "0px 0px 15px 0px",
+                            "laptop": "0px 0px 10px 0px",
+                            "tab": "0px 0px 15px 0px",
+                            "mobile": "0px 0px 15px 0px"
+                        },
+                        "star-color": "",
+                        "star-base-color": "",
+                        "avg-color": "",
+                        "avg-bg-color": "",
+                        "avg-border-color": "",
+                        "rating-color": "",
+                        "review-color": ""
+                    }
+                },
+                {
+                    "id": 14,
+                    "slug": "separator",
+                    "name": "Separator",
+                    "settings": {
+                        "className": "separator-14"
+                    }
+                },
+                {
+                    "id": 4,
+                    "slug": "price",
+                    "name": "Product Price",
+                    "settings": {
+                        "className": "product-price-4",
+                        "css-margin": {
+                            "desktop": "15px 0px 15px 0px",
+                            "laptop": "10px 0px 15px 0px",
+                            "tab": "15px 0px 0px 15px",
+                            "mobile": "15px 0px 15px 0px"
+                        },
+                        "color": "",
+                        "old-color": "",
+                        "font-size": {
+                            "desktop": "32px",
+                            "laptop": "28px",
+                            "tab": "28px",
+                            "mobile": "26px"
+                        },
+                        "old-font-size": {
+                            "desktop": "24px",
+                            "laptop": "21px",
+                            "tab": "21px",
+                            "mobile": "20px"
+                        }
+                    }
+                },
+                {
+                    "id": 19,
+                    "slug": "countdown",
+                    "name": "Sale Countdown",
+                    "settings": {
+                        "className": "sale-countdown-19",
+                        "color": "",
+                        "bg-color": "",
+                        "border-color": "",
+                        "label-color": ""
+                    }
+                },
+                {
+                    "id": 5,
+                    "slug": "features",
+                    "name": "Product Features",
+                    "settings": {
+                        "className": "product-features-5",
+                        "css-margin": {
+                            "desktop": "15px 0px 15px 0px",
+                            "laptop": "15px 0px 15px 0px",
+                            "tab": "15px 0px 15px 0px",
+                            "mobile": "15px 0px 15px 0px"
+                        },
+                        "feature-bg-color": "",
+                        "feature-border-color": "",
+                        "icon-color": "",
+                        "color": "",
+                        "feature-width": {
+                            "desktop": "115px",
+                            "laptop": "115px",
+                            "tab": "115px",
+                            "mobile": "33.3%"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "slug": "short_description",
+                    "name": "Product Short Description",
+                    "settings": {
+                        "className": "product-short-description-6",
+                        "css-margin": {
+                            "desktop": "0px 0px 25px 0px",
+                            "laptop": "0px 0px 25px 0px",
+                            "tab": "0px 0px 25px 0px",
+                            "mobile": "0px 0px 25px 0px"
+                        },
+                        "color": ""
+                    }
+                },
+                {
+                    "id": 7,
+                    "slug": "add_to_cart",
+                    "name": "Add to cart",
+                    "settings": {
+                        "className": "add-to-cart-7",
+                        "css-margin": {
+                            "desktop": "0px 0px 25px 0px",
+                            "laptop": "0px 0px 25px 0px",
+                            "tab": "0px 0px 25px 0px",
+                            "mobile": "0px 0px 25px 0px"
+                        },
+                        "stock-color": "",
+                        "variations-label-color": "",
+                        "variations-value-color": "",
+                        "variations-price-color": "",
+                        "variations-price-old-color": "",
+                        "atc-btn-color": "",
+                        "atc-btn-bg-color": "",
+                        "atc-btn-border-color": "",
+                        "atc-btn-hover-color": "",
+                        "atc-btn-hover-bg-color": "",
+                        "atc-btn-hover-border-color": "",
+                        "bn-btn-color": "",
+                        "bn-btn-bg-color": "",
+                        "bn-btn-border-color": "",
+                        "bn-btn-hover-color": "",
+                        "bn-btn-hover-bg-color": "",
+                        "bn-btn-hover-border-color": ""
+                    }
+                },
+                {
+                    "id": 8,
+                    "slug": "columns",
+                    "name": "Columns",
+                    "content": [
+                        {
+                            "id": 0,
+                            "slug": "column",
+                            "content": [
+                                {
+                                    "id": 0,
+                                    "slug": "offers",
+                                    "name": "Product Offers",
+                                    "settings": {
+                                        "className": "product-offers-0"
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "className": "column-0",
+                                "bg-color": "",
+                                "border-color": "",
+                                "width": {
+                                    "desktop": "50%",
+                                    "laptop": "50%",
+                                    "tab": "50%",
+                                    "mobile": "100%"
+                                }
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "slug": "column",
+                            "content": [
+                                {
+                                    "id": 0,
+                                    "slug": "shipping_info",
+                                    "name": "Product Shipping Info",
+                                    "settings": {
+                                        "className": "product-shipping-info-0",
+                                        "heading-show": {
+                                            "desktop": true,
+                                            "laptop": true,
+                                            "tab": true,
+                                            "mobile": true
+                                        }
+                                    }
+                                }
+                            ],
+                            "settings": {
+                                "className": "column-1",
+                                "bg-color": "",
+                                "border-color": "",
+                                "width": {
+                                    "desktop": "50%",
+                                    "laptop": "50%",
+                                    "tab": "50%",
+                                    "mobile": "100%"
+                                }
+                            }
+                        }
+                    ],
+                    "settings": {
+                        "className": "columns-8",
+                        "css-margin": {
+                            "desktop": "10px 0% 10px 0%",
+                            "laptop": "10px 0% 10px 0%",
+                            "tab": "10px 0% 10px 0%",
+                            "mobile": "10px 0% 10px 0%"
+                        },
+                        "gap": {
+                            "desktop": "30px",
+                            "laptop": "30px",
+                            "tab": "30px",
+                            "mobile": "30px"
+                        },
+                        "bg-color": "",
+                        "border-color": ""
+                    }
+                },
+                {
+                    "id": 17,
+                    "slug": "separator",
+                    "name": "Separator",
+                    "settings": {
+                        "className": "separator-17"
+                    }
+                },
+                {
+                    "id": 9,
+                    "slug": "add_to_wishlist",
+                    "name": "Add to Wishlist Icon",
+                    "settings": {
+                        "className": "add-to-wishlist-icon-9",
+                        "css-margin": {
+                            "desktop": "10px 0% 10px 0%",
+                            "laptop": "10px 0% 10px 0%",
+                            "tab": "10px 0% 10px 0%",
+                            "mobile": "10px 0% 10px 0%"
+                        },
+                        "color": "",
+                        "background-color": "",
+                        "border-color": "",
+                        "hover-color": "",
+                        "hover-background-color": "",
+                        "hover-border-color": ""
+                    }
+                },
+                {
+                    "id": 16,
+                    "slug": "separator",
+                    "name": "Separator",
+                    "settings": {
+                        "className": "separator-16"
+                    }
+                },
+                {
+                    "id": 10,
+                    "slug": "add_to_compare",
+                    "name": "Add to Compare Icon",
+                    "settings": {
+                        "className": "add-to-compare-icon-10",
+                        "css-margin": {
+                            "desktop": "10px 0px 10px 0px",
+                            "laptop": "10px 0px 10px 0px",
+                            "tab": "10px 0px 10px 0px",
+                            "mobile": "10px 0px 10px 0px"
+                        },
+                        "color": "",
+                        "background-color": "",
+                        "border-color": "",
+                        "hover-color": "",
+                        "hover-background-color": "",
+                        "hover-border-color": ""
+                    }
+                },
+                {
+                    "id": 18,
+                    "slug": "separator",
+                    "name": "Separator",
+                    "settings": {
+                        "className": "separator-18"
+                    }
+                },
+                {
+                    "id": 11,
+                    "slug": "metadata",
+                    "name": "Meta Data",
+                    "settings": {
+                        "className": "meta-data-11",
+                        "css-margin": {
+                            "desktop": "10px 0px 10px 0px",
+                            "laptop": "10px 0px 10px 0px",
+                            "tab": "10px 0px 10px 0px",
+                            "mobile": "10px 0px 10px 0px"
+                        },
+                        "color": "",
+                        "label-color": "",
+                        "bg-color": "",
+                        "border-color": ""
+                    }
+                },
+                {
+                    "id": 12,
+                    "slug": "compare",
+                    "name": "Compare Similar Products Link",
+                    "settings": {
+                        "className": "compare-similar-products-link-12",
+                        "css-margin": {
+                            "desktop": "10px 0% 0% 0%",
+                            "laptop": "10px 0% 0% 0%",
+                            "tab": "10px 0% 0% 0%",
+                            "mobile": "10px 0% 0% 0%"
+                        },
+                        "color": "",
+                        "background-color": "",
+                        "border-color": "",
+                        "hover-color": "",
+                        "hover-background-color": "",
+                        "hover-border-color": ""
+                    }
+                }
+            ],
+            "settings": {
+                "className": "single_product_summary",
+                "bg-color": "",
+                "border-color": "",
+                "width": {
+                    "desktop": "50",
+                    "laptop": "50",
+                    "tab": "100",
+                    "mobile": "100"
+                },
+                "css-padding": {
+                    "desktop": "0% 0% 0% 3.5%",
+                    "laptop": "0% 0% 0% 3.5%",
+                    "tab": "0% 0% 0% 0%",
+                    "mobile": "0% 0% 0% 0%"
+                }
+            }
+        },
+        {
+            "slug": "after_single_product_summary",
+            "content": [
+                {
+                    "id": 9,
+                    "slug": "spacer",
+                    "name": "Spacer",
+                    "settings": {
+                        "className": "spacer-9",
+                        "height": {
+                            "desktop": "40px",
+                            "laptop": "10px",
+                            "tab": "10px",
+                            "mobile": "10px"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "slug": "separator",
+                    "name": "Separator",
+                    "settings": {
+                        "className": "separator-8"
+                    }
+                },
+                {
+                    "id": 0,
+                    "slug": "fbt",
+                    "name": "Frequently Bought Together Products",
+                    "settings": {
+                        "className": "frequently-bought-together-products-0",
+                        "css-margin": {
+                            "desktop": "30px 0px 30px 0px",
+                            "laptop": "30px 0px 30px 0px",
+                            "tab": "30px 0px 30px 0px",
+                            "mobile": "30px 0px 30px 0px"
+                        },
+                        "heading-color": "",
+                        "product-name-color": "",
+                        "total-price-color": "",
+                        "btn-color": "",
+                        "btn-background-color": "",
+                        "btn-border-color": "",
+                        "btn-hover-color": "",
+                        "btn-hover-background-color": "",
+                        "btn-hover-border-color": "",
+                        "bg-color": "",
+                        "border-color": "",
+                        "image-width": {
+                            "desktop": "180px",
+                            "laptop": "180px",
+                            "tab": "120px",
+                            "mobile": "80px"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "slug": "separator",
+                    "name": "Separator",
+                    "settings": {
+                        "className": "separator-7"
+                    }
+                },
+                {
+                    "id": 1,
+                    "slug": "tabs",
+                    "name": "Product Tabs",
+                    "settings": {
+                        "className": "product-tabs-1",
+                        "tabs-color": "",
+                        "tabs-active-color": "",
+                        "tabs-border-color": "",
+                        "tabs-active-border-color": "",
+                        "tabs-bg-color": "",
+                        "bg-color": "",
+                        "border-color": "",
+                        "accordion-on-mobile": true,
+                        "sticky": true,
+                        "css-padding": {
+                            "desktop": "30px 0px 30px 0px",
+                            "laptop": "30px 0px 30px 0px",
+                            "tab": "30px 0px 30px 0px",
+                            "mobile": "30px 0px 30px 0px"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "slug": "separator",
+                    "name": "Separator",
+                    "settings": {
+                        "className": "separator-6"
+                    }
+                },
+                {
+                    "id": 2,
+                    "slug": "related",
+                    "name": "Related Products",
+                    "settings": {
+                        "className": "related-products-2",
+                        "css-margin": {
+                            "desktop": "30px 0px 30px 0px",
+                            "laptop": "30px 0px 30px 0px",
+                            "tab": "30px 0px 30px 0px",
+                            "mobile": "30px 0px 30px 0px"
+                        },
+                        "heading-color": "",
+                        "bg-color": "",
+                        "border-color": "",
+                        "columns": {
+                            "desktop": "5",
+                            "laptop": "5",
+                            "tab": "3",
+                            "mobile": "2"
+                        },
+                        "inline-on-mobile": {
+                            "desktop": true
+                        },
+                        "display-style": "1a"
+                    }
+                },
+                {
+                    "id": 11,
+                    "slug": "separator",
+                    "name": "Separator",
+                    "settings": {
+                        "className": "separator-11"
+                    }
+                },
+                {
+                    "id": 3,
+                    "slug": "upsell",
+                    "name": "Upsell Products",
+                    "settings": {
+                        "className": "upsell-products-3",
+                        "css-margin": {
+                            "desktop": "30px 0px 30px 0px",
+                            "laptop": "30px 0px 30px 0px",
+                            "tab": "30px 0px 30px 0px",
+                            "mobile": "30px 0px 30px 0px"
+                        },
+                        "heading-color": "",
+                        "bg-color": "",
+                        "border-color": "",
+                        "columns": {
+                            "desktop": "5",
+                            "laptop": "5",
+                            "tab": "3",
+                            "mobile": "2"
+                        },
+                        "display-style": "1a"
+                    }
+                },
+                {
+                    "id": 12,
+                    "slug": "separator",
+                    "name": "Separator",
+                    "settings": {
+                        "className": "separator-12"
+                    }
+                },
+                {
+                    "id": 4,
+                    "slug": "recently_viewed",
+                    "name": "Recently Viewed Products",
+                    "settings": {
+                        "className": "recently-viewed-products-4",
+                        "css-margin": {
+                            "desktop": "30px 0px 30px 0px",
+                            "laptop": "30px 0px 30px 0px",
+                            "tab": "30px 0px 30px 0px",
+                            "mobile": "30px 0px 30px 0px"
+                        },
+                        "heading-color": "",
+                        "bg-color": "",
+                        "border-color": "",
+                        "columns": {
+                            "desktop": "10",
+                            "laptop": "10",
+                            "tab": "5",
+                            "mobile": "4"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "slug": "compare_content",
+                    "name": "Compare Similar Products Content",
+                    "settings": {
+                        "className": "compare-similar-products-content-5",
+                        "css-margin": {
+                            "desktop": "30px 0px 0px 0px",
+                            "laptop": "30px 0px 0px 0px",
+                            "tab": "30px 0px 0px 0px",
+                            "mobile": "30px 0px 0px 0px"
+                        },
+                        "heading-color": "",
+                        "border-color": "",
+                        "label-bg-color": "",
+                        "base-bg-color": "",
+                        "label-color": "",
+                        "value-color": ""
+                    }
+                }
+            ],
+            "settings": {
+                "className": "after_single_product_summary"
+            }
+        }
+    ],
+    "locked": true,
+    "settings": {
+        "className": "product-layout-predefined"
+    }
+}

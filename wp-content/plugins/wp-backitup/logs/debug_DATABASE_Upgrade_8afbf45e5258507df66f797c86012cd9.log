@@ -1,0 +1,24 @@
+[2024-03-27 13:44:59.899518] [wpbackitup_update_database]::[INFO]: Running database upgrade routines.
+[2024-03-27 13:44:59.899590] [wpbackitup_update_database]::[INFO]: Current DB version:0
+[2024-03-27 13:44:59.899637] [wpbackitup_update_database]::[INFO]: Target DB version:4
+[2024-03-27 13:44:59.899681] [wpbackitup_update_database]::[INFO]: New Install.
+[2024-03-27 13:44:59.914104] [debug] *** DROP JOB TABLES ***
+[2024-03-27 13:44:59.914175] [wpbackitup_create_custom_tables]::[INFO]: Drop OLD Job Table:DROP TABLE IF EXISTS wp_wpbackitup_job;
+[2024-03-27 13:44:59.914495] [wpbackitup_create_custom_tables]::[INFO]: OLD Job Table Dropped successfully
+[2024-03-27 13:44:59.914550] [wpbackitup_create_custom_tables]::[INFO]: Drop Job Table:DROP TABLE IF EXISTS wp_wpbackitup_job_control;
+[2024-03-27 13:44:59.914737] [wpbackitup_create_custom_tables]::[INFO]: Job Table Dropped successfully
+[2024-03-27 13:44:59.914808] [wpbackitup_create_custom_tables]::[INFO]: Drop Task Table:DROP TABLE IF EXISTS wp_wpbackitup_job_tasks;
+[2024-03-27 13:44:59.914998] [wpbackitup_create_custom_tables]::[INFO]: Task Table Dropped successfully
+[2024-03-27 13:44:59.915060] [wpbackitup_create_custom_tables]::[INFO]: Drop Job Table:DROP TABLE IF EXISTS wp_wpbackitup_job_items;
+[2024-03-27 13:44:59.915246] [wpbackitup_create_custom_tables]::[INFO]: Item Table Dropped successfully
+[2024-03-27 13:44:59.915307] [debug] *** END DROP JOB TABLES ***
+[2024-03-27 13:44:59.915357] [debug] *** CREATE JOB TABLES ***
+[2024-03-27 13:44:59.920731] [wpbackitup_create_custom_tables]::[INFO]: Table Created:wp_wpbackitup_job_control
+[2024-03-27 13:44:59.924799] [wpbackitup_create_custom_tables]::[INFO]: Table Created:wp_wpbackitup_job_tasks
+[2024-03-27 13:44:59.929713] [wpbackitup_create_custom_tables]::[INFO]: Table Created:wp_wpbackitup_job_items
+[2024-03-27 13:44:59.929775] [debug] *** END CREATE JOB TABLES ***
+[2024-03-27 13:44:59.929816] [debug] ***SCAN & IMPORT BACKUPS ***
+[2024-03-27 13:44:59.929908] [wpbackitup_scan_import_backups]::[INFO]: Backup Sets Found:array (
+)
+[2024-03-27 13:44:59.929955] [debug] ***END SCAN & IMPORT BACKUPS ***
+[2024-03-27 13:44:59.930356] [wpbackitup_update_database]::[INFO]: Updated Db version in settings:4

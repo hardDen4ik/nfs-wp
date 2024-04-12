@@ -1,0 +1,1024 @@
+{
+    "id": 0,
+    "title": "Header Default",
+    "content": {
+        "desktop": [
+            {
+                "rowId": 2,
+                "rowName": "main",
+                "content": [
+                    {
+                        "colId": 1,
+                        "colName": "left",
+                        "content": [
+                            {
+                                "id": "logo",
+                                "settings": {
+                                    "css-height": "",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "logo-2"
+                                }
+                            },
+                            {
+                                "id": "menu-3",
+                                "settings": {
+                                    "menu-3-general-menu-choice": [
+                                        {
+                                            "menu_choice": "",
+                                            "menu_title": "",
+                                            "menu_btn_text": "",
+                                            "menu_btn_link": "",
+                                            "menu-font-choice": [],
+                                            "menu-font-size": "",
+                                            "menu-letter-spacing": "",
+                                            "menu-vertical-gap": "14px",
+                                            "menu-color": "",
+                                            "submenu-color": "",
+                                            "submenu-background-color": ""
+                                        }
+                                    ],
+                                    "menu-3-general-display-style": "1",
+                                    "menu-3-general-display-text": "Shop by",
+                                    "menu-3-general-display-text-2": "Categories",
+                                    "menu-3-general-icon-choice": "",
+                                    "menu-3-general-icon-predefined": "",
+                                    "menu-3-general-icon-custom": "",
+                                    "menu-3-general-dropdown-style": "1",
+                                    "menu-3-general-user-info": "on",
+                                    "menu-3-general-submenu-arrows": "on",
+                                    "menu-3-general-highlight-menu": "on",
+                                    "menu-3-typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-1": "",
+                                    "menu-3-typo-letter-spacing-1": "",
+                                    "menu-3-typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-2": "",
+                                    "menu-3-typo-letter-spacing-2": "",
+                                    "menu-3-typo-font-choice-menu-title": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-menu-title": "",
+                                    "menu-3-typo-letter-spacing-menu-title": "",
+                                    "menu-3-typo-font-choice-menu-button": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-menu-button": "",
+                                    "menu-3-typo-letter-spacing-menu-button": "",
+                                    "menu-3-typo-color": "",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "menu-3-3"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "left-1"
+                        }
+                    },
+                    {
+                        "colId": 3,
+                        "colName": "right",
+                        "content": [
+                            {
+                                "id": "menu-1",
+                                "settings": {
+                                    "menu-1-general-menu-arrow": "on",
+                                    "menu-1-general-menu-active": "",
+                                    "menu-1-general-menu-button": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-menu-color": "",
+                                    "typo-submenu-color": "",
+                                    "typo-submenu-background-color": "",
+                                    "typo-gutter": "",
+                                    "menu-1-mobile-menu-click-choice": "",
+                                    "general-max-width": "640px",
+                                    "general-overflow-wrap": "on",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "menu-1-5"
+                                }
+                            },
+                            {
+                                "id": "search",
+                                "settings": {
+                                    "search-general-icon-choice": "",
+                                    "search-general-icon-predefined": "search",
+                                    "search-general-icon-custom": "",
+                                    "general-icon-size": "",
+                                    "search-general-display-style": "1",
+                                    "search-general-icon-text": "",
+                                    "search-general-category-dropdown": "off",
+                                    "search-general-result-count": "",
+                                    "search-form-height": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-color": "",
+                                    "typo-form-bg-color": "",
+                                    "typo-form-border-color": "",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "search-6"
+                                }
+                            },
+                            {
+                                "id": "my-account",
+                                "settings": {
+                                    "my-account-general-icon-choice": "",
+                                    "my-account-general-icon-predefined": "myaccount",
+                                    "my-account-general-icon-custom": "",
+                                    "my-account-general-display-style": "1",
+                                    "my-account-general-text": "",
+                                    "my-account-general-text-2": "",
+                                    "my-account-general-alignment": "it",
+                                    "my-account-general-show-login-form": "on",
+                                    "my-account-general-menu-choice": "",
+                                    "typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-1": "14px",
+                                    "typo-letter-spacing-1": "0.0em",
+                                    "typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-2": "14px",
+                                    "typo-letter-spacing-2": "0.0em",
+                                    "typo-color": "rgba(0, 0, 0, 1)",
+                                    "typo-submenu-color": "rgba(0, 0, 0, 1)",
+                                    "typo-submenu-background-color": "rgba(255, 255, 255, 1)",
+                                    "styling-padding": "0px 10px 0px 15px",
+                                    "className": "my-account-1"
+                                }
+                            },
+                            {
+                                "id": "wishlist",
+                                "settings": {
+                                    "wishlist-general-icon-choice": "",
+                                    "wishlist-general-icon-predefined": "wishlist",
+                                    "wishlist-general-icon-custom": "",
+                                    "wishlist-general-text": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "14px",
+                                    "typo-letter-spacing": "0.0em",
+                                    "typo-color": "rgba(0, 0, 0, 1)",
+                                    "styling-padding": "0px 10px 0px 10px",
+                                    "className": "wishlist-2"
+                                }
+                            },
+                            {
+                                "id": "cart",
+                                "settings": {
+                                    "cart-account-general-icon-choice": "",
+                                    "cart-general-icon-predefined": "cart",
+                                    "cart-general-icon-custom": "",
+                                    "cart-general-display-style": "1",
+                                    "cart-general-text": "",
+                                    "cart-general-show-count": "on",
+                                    "cart-general-show-amount": "off",
+                                    "cart-general-alignment": "it",
+                                    "cart-general-dropdown-style": "1",
+                                    "cart-general-auto-open": "on",
+                                    "typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-1": "14px",
+                                    "typo-letter-spacing-1": "0.0em",
+                                    "typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-2": "14px",
+                                    "typo-letter-spacing-2": "0.0em",
+                                    "typo-color": "",
+                                    "styling-padding": "0px 15px 0px 10px",
+                                    "className": "cart-0"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "right-3"
+                        }
+                    }
+                ],
+                "settings": {
+                    "className": "main-2"
+                }
+            }
+        ],
+        "tab": [
+            {
+                "rowId": 2,
+                "rowName": "main",
+                "content": [
+                    {
+                        "colId": 1,
+                        "colName": "left",
+                        "content": [],
+                        "settings": {
+                            "className": "left-1"
+                        }
+                    },
+                    {
+                        "colId": 3,
+                        "colName": "right",
+                        "content": [],
+                        "settings": {
+                            "className": "right-3"
+                        }
+                    },
+                    {
+                        "colId": 2,
+                        "colName": "center",
+                        "content": [
+                            {
+                                "id": "search",
+                                "settings": {
+                                    "search-general-icon-choice": "",
+                                    "search-general-icon-predefined": "search",
+                                    "search-general-icon-custom": "",
+                                    "general-icon-size": "",
+                                    "search-general-display-style": "1",
+                                    "search-general-icon-text": "",
+                                    "search-general-category-dropdown": "on",
+                                    "search-general-result-count": "",
+                                    "search-form-width": "",
+                                    "search-form-height": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-color": "",
+                                    "typo-form-bg-color": "",
+                                    "typo-form-border-color": "",
+                                    "styling-padding": "0px 0px 0px 0px",
+                                    "className": "search-0"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "center-2"
+                        }
+                    }
+                ],
+                "settings": {
+                    "className": "main-2",
+                    "bg-color": "rgba(252,223,176,1)",
+                    "flex-type": "1",
+                    "height": "60px"
+                }
+            },
+            {
+                "rowId": 3,
+                "rowName": "additional",
+                "content": [
+                    {
+                        "colId": 2,
+                        "colName": "center",
+                        "content": [
+                            {
+                                "id": "menu-1",
+                                "settings": {
+                                    "menu-1-general-menu-arrow": "on",
+                                    "menu-1-general-menu-active": "",
+                                    "menu-1-general-menu-button": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-menu-color": "",
+                                    "typo-submenu-color": "",
+                                    "typo-submenu-background-color": "",
+                                    "typo-gutter": "",
+                                    "menu-1-mobile-menu-click-choice": "dropdown",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "menu-1-0"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "center-2"
+                        }
+                    }
+                ],
+                "settings": {
+                    "className": "additional-3",
+                    "flex-type": "1",
+                    "border-color": "rgba(0,0,0,0.15)"
+                }
+            },
+            {
+                "rowId": 1,
+                "rowName": "top",
+                "content": [
+                    {
+                        "colId": 1,
+                        "colName": "left",
+                        "content": [
+                            {
+                                "id": "logo",
+                                "settings": {
+                                    "css-height": "",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "logo-0"
+                                }
+                            },
+                            {
+                                "id": "menu-3",
+                                "settings": {
+                                    "menu-3-general-menu-choice": [
+                                        {
+                                            "menu_choice": "",
+                                            "menu_title": "",
+                                            "menu_btn_text": "",
+                                            "menu_btn_link": "",
+                                            "menu-font-choice": [],
+                                            "menu-font-size": "",
+                                            "menu-letter-spacing": "",
+                                            "menu-vertical-gap": "14px",
+                                            "menu-color": "",
+                                            "submenu-color": "",
+                                            "submenu-background-color": ""
+                                        }
+                                    ],
+                                    "menu-3-general-display-style": "1",
+                                    "menu-3-general-display-text": "Shop by",
+                                    "menu-3-general-display-text-2": "Categories",
+                                    "menu-3-general-icon-choice": "",
+                                    "menu-3-general-icon-predefined": "",
+                                    "menu-3-general-icon-custom": "",
+                                    "menu-3-general-dropdown-style": "1",
+                                    "menu-3-general-user-info": "on",
+                                    "menu-3-general-submenu-arrows": "on",
+                                    "menu-3-general-highlight-menu": "on",
+                                    "menu-3-typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-1": "",
+                                    "menu-3-typo-letter-spacing-1": "",
+                                    "menu-3-typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-2": "",
+                                    "menu-3-typo-letter-spacing-2": "",
+                                    "menu-3-typo-font-choice-menu-title": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-menu-title": "",
+                                    "menu-3-typo-letter-spacing-menu-title": "",
+                                    "menu-3-typo-font-choice-menu-button": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-menu-button": "",
+                                    "menu-3-typo-letter-spacing-menu-button": "",
+                                    "menu-3-typo-color": "",
+                                    "mobile-menu-click-choice": "dropdown",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "menu-3-1"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "left-1"
+                        }
+                    },
+                    {
+                        "colId": 3,
+                        "colName": "right",
+                        "content": [
+                            {
+                                "id": "my-account",
+                                "settings": {
+                                    "my-account-general-icon-choice": "",
+                                    "my-account-general-icon-predefined": "myaccount",
+                                    "my-account-general-icon-custom": "",
+                                    "general-icon-size": "",
+                                    "my-account-general-display-style": "1",
+                                    "my-account-general-text": "",
+                                    "my-account-general-text-2": "",
+                                    "my-account-general-alignment": "it",
+                                    "my-account-general-show-login-form": "on",
+                                    "my-account-general-menu-choice": "",
+                                    "typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-1": "",
+                                    "typo-letter-spacing-1": "",
+                                    "typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-2": "",
+                                    "typo-letter-spacing-2": "",
+                                    "typo-color": "",
+                                    "typo-submenu-color": "",
+                                    "typo-submenu-background-color": "",
+                                    "styling-padding": "0px 10px 0px 15px",
+                                    "className": "my-account-1"
+                                }
+                            },
+                            {
+                                "id": "wishlist",
+                                "settings": {
+                                    "wishlist-general-icon-choice": "",
+                                    "wishlist-general-icon-predefined": "wishlist",
+                                    "wishlist-general-icon-custom": "",
+                                    "general-icon-size": "",
+                                    "wishlist-general-text": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-color": "",
+                                    "styling-padding": "0px 10px 0px 10px",
+                                    "className": "wishlist-2"
+                                }
+                            },
+                            {
+                                "id": "cart",
+                                "settings": {
+                                    "cart-account-general-icon-choice": "",
+                                    "cart-general-icon-predefined": "cart",
+                                    "cart-general-icon-custom": "",
+                                    "general-icon-size": "",
+                                    "cart-general-display-style": "1",
+                                    "cart-general-text": "",
+                                    "cart-general-show-count": "on",
+                                    "cart-general-show-amount": "off",
+                                    "cart-general-alignment": "it",
+                                    "cart-general-dropdown-style": "1",
+                                    "cart-general-auto-open": "on",
+                                    "typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-1": "",
+                                    "typo-letter-spacing-1": "",
+                                    "typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-2": "",
+                                    "typo-letter-spacing-2": "",
+                                    "typo-color": "",
+                                    "styling-padding": "0px 15px 0px 10px",
+                                    "className": "cart-3"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "right-3"
+                        }
+                    }
+                ],
+                "settings": {
+                    "className": "top-1",
+                    "bg-color": "rgba(252,223,176,1)",
+                    "height": "50px",
+                    "styling-padding": "5px 0px 0px 0px"
+                }
+            }
+        ],
+        "mobile": [
+            {
+                "rowId": 2,
+                "rowName": "main",
+                "content": [
+                    {
+                        "colId": 1,
+                        "colName": "left",
+                        "content": [],
+                        "settings": {
+                            "className": "left-1"
+                        }
+                    },
+                    {
+                        "colId": 2,
+                        "colName": "center",
+                        "content": [
+                            {
+                                "id": "search",
+                                "settings": {
+                                    "search-general-icon-choice": "",
+                                    "search-general-icon-predefined": "search",
+                                    "search-general-icon-custom": "",
+                                    "general-icon-size": "",
+                                    "search-general-display-style": "1",
+                                    "search-general-icon-text": "",
+                                    "search-general-category-dropdown": "on",
+                                    "search-general-result-count": "",
+                                    "search-form-width": "",
+                                    "search-form-height": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-color": "",
+                                    "typo-form-bg-color": "",
+                                    "typo-form-border-color": "",
+                                    "styling-padding": "0px 0px 0px 0px",
+                                    "className": "search-0"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "center-2"
+                        }
+                    }
+                ],
+                "settings": {
+                    "className": "main-2",
+                    "bg-color": "rgba(252,223,176,1)",
+                    "height": "60px",
+                    "flex-ratio": "4"
+                }
+            },
+            {
+                "rowId": 1,
+                "rowName": "top",
+                "content": [
+                    {
+                        "colId": 1,
+                        "colName": "left",
+                        "content": [
+                            {
+                                "id": "menu-3",
+                                "settings": {
+                                    "menu-3-general-menu-choice": [
+                                        {
+                                            "menu_choice": "",
+                                            "menu_title": "",
+                                            "menu_btn_text": "",
+                                            "menu_btn_link": "",
+                                            "menu-font-choice": [],
+                                            "menu-font-size": "",
+                                            "menu-letter-spacing": "",
+                                            "menu-vertical-gap": "14px",
+                                            "menu-color": "",
+                                            "submenu-color": "",
+                                            "submenu-background-color": ""
+                                        }
+                                    ],
+                                    "menu-3-general-display-style": "3",
+                                    "menu-3-general-display-text": "Shop by",
+                                    "menu-3-general-display-text-2": "Categories",
+                                    "menu-3-general-icon-choice": "",
+                                    "menu-3-general-icon-predefined": "hamburger",
+                                    "menu-3-general-icon-custom": "",
+                                    "menu-3-general-dropdown-style": "1",
+                                    "menu-3-general-user-info": "on",
+                                    "menu-3-general-submenu-arrows": "on",
+                                    "menu-3-general-highlight-menu": "on",
+                                    "menu-3-typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-1": "",
+                                    "menu-3-typo-letter-spacing-1": "",
+                                    "menu-3-typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-2": "",
+                                    "menu-3-typo-letter-spacing-2": "",
+                                    "menu-3-typo-font-choice-menu-title": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-menu-title": "",
+                                    "menu-3-typo-letter-spacing-menu-title": "",
+                                    "menu-3-typo-font-choice-menu-button": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-menu-button": "",
+                                    "menu-3-typo-letter-spacing-menu-button": "",
+                                    "menu-3-typo-color": "",
+                                    "mobile-menu-click-choice": "dropdown",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "menu-3-0"
+                                }
+                            },
+                            {
+                                "id": "logo",
+                                "settings": {
+                                    "css-height": "26px",
+                                    "styling-padding": "0px 15px 0px 0px",
+                                    "className": "logo-0"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "left-1"
+                        }
+                    },
+                    {
+                        "colId": 3,
+                        "colName": "right",
+                        "content": [
+                            {
+                                "id": "my-account",
+                                "settings": {
+                                    "my-account-general-icon-choice": "",
+                                    "my-account-general-icon-predefined": "myaccount",
+                                    "my-account-general-icon-custom": "",
+                                    "general-icon-size": "18px",
+                                    "my-account-general-display-style": "1",
+                                    "my-account-general-text": "",
+                                    "my-account-general-text-2": "",
+                                    "my-account-general-alignment": "it",
+                                    "my-account-general-show-login-form": "on",
+                                    "my-account-general-menu-choice": "",
+                                    "typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-1": "",
+                                    "typo-letter-spacing-1": "",
+                                    "typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-2": "",
+                                    "typo-letter-spacing-2": "",
+                                    "typo-color": "",
+                                    "typo-submenu-color": "",
+                                    "typo-submenu-background-color": "",
+                                    "styling-padding": "0px 8px 0px 15px",
+                                    "className": "my-account-0"
+                                }
+                            },
+                            {
+                                "id": "wishlist",
+                                "settings": {
+                                    "wishlist-general-icon-choice": "",
+                                    "wishlist-general-icon-predefined": "wishlist",
+                                    "wishlist-general-icon-custom": "",
+                                    "general-icon-size": "18px",
+                                    "wishlist-general-text": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-color": "",
+                                    "styling-padding": "0px 8px 0px 8px",
+                                    "className": "wishlist-1"
+                                }
+                            },
+                            {
+                                "id": "cart",
+                                "settings": {
+                                    "cart-account-general-icon-choice": "",
+                                    "cart-general-icon-predefined": "cart",
+                                    "cart-general-icon-custom": "",
+                                    "general-icon-size": "18px",
+                                    "cart-general-display-style": "1",
+                                    "cart-general-text": "",
+                                    "cart-general-show-count": "on",
+                                    "cart-general-show-amount": "off",
+                                    "cart-general-alignment": "it",
+                                    "cart-general-dropdown-style": "1",
+                                    "cart-general-auto-open": "on",
+                                    "typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-1": "",
+                                    "typo-letter-spacing-1": "",
+                                    "typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-2": "",
+                                    "typo-letter-spacing-2": "",
+                                    "typo-color": "",
+                                    "styling-padding": "0px 15px 0px 8px",
+                                    "className": "cart-2"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "right-3"
+                        }
+                    }
+                ],
+                "settings": {
+                    "className": "top-1",
+                    "height": "45px",
+                    "bg-color": "rgba(252,223,176,1)",
+                    "styling-padding": "10px 0px 0px 0px"
+                }
+            },
+            {
+                "rowId": 3,
+                "rowName": "additional",
+                "content": [
+                    {
+                        "colId": 2,
+                        "colName": "center",
+                        "content": [
+                            {
+                                "id": "menu-1",
+                                "settings": {
+                                    "menu-1-general-menu-arrow": "on",
+                                    "menu-1-general-menu-active": "",
+                                    "menu-1-general-menu-button": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-menu-color": "",
+                                    "typo-submenu-color": "",
+                                    "typo-submenu-background-color": "",
+                                    "typo-gutter": "",
+                                    "menu-1-mobile-menu-click-choice": "dropdown",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "menu-1-0"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "center-2"
+                        }
+                    }
+                ],
+                "settings": {
+                    "className": "additional-3",
+                    "border-color": "rgba(0,0,0,0.15)",
+                    "flex-type": "1"
+                }
+            }
+        ],
+        "laptop": [
+            {
+                "rowId": 2,
+                "rowName": "main",
+                "content": [
+                    {
+                        "colId": 1,
+                        "colName": "left",
+                        "content": [
+                            {
+                                "id": "logo",
+                                "settings": {
+                                    "css-height": "",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "logo-0"
+                                }
+                            },
+                            {
+                                "id": "menu-3",
+                                "settings": {
+                                    "menu-3-general-menu-choice": [
+                                        {
+                                            "menu_choice": "",
+                                            "menu_title": "",
+                                            "menu_btn_text": "",
+                                            "menu_btn_link": "",
+                                            "menu-font-choice": [],
+                                            "menu-font-size": "",
+                                            "menu-letter-spacing": "",
+                                            "menu-vertical-gap": "14px",
+                                            "menu-color": "",
+                                            "submenu-color": "",
+                                            "submenu-background-color": ""
+                                        }
+                                    ],
+                                    "menu-3-general-display-style": "1",
+                                    "menu-3-general-display-text": "Shop by",
+                                    "menu-3-general-display-text-2": "Categories",
+                                    "menu-3-general-icon-choice": "",
+                                    "menu-3-general-icon-predefined": "",
+                                    "menu-3-general-icon-custom": "",
+                                    "menu-3-general-dropdown-style": "1",
+                                    "menu-3-general-user-info": "on",
+                                    "menu-3-general-submenu-arrows": "on",
+                                    "menu-3-general-highlight-menu": "on",
+                                    "menu-3-typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-1": "",
+                                    "menu-3-typo-letter-spacing-1": "",
+                                    "menu-3-typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-2": "",
+                                    "menu-3-typo-letter-spacing-2": "",
+                                    "menu-3-typo-font-choice-menu-title": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-menu-title": "",
+                                    "menu-3-typo-letter-spacing-menu-title": "",
+                                    "menu-3-typo-font-choice-menu-button": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "menu-3-typo-font-size-menu-button": "",
+                                    "menu-3-typo-letter-spacing-menu-button": "",
+                                    "menu-3-typo-color": "",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "menu-3-1"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "left-1"
+                        }
+                    },
+                    {
+                        "colId": 3,
+                        "colName": "right",
+                        "content": [
+                            {
+                                "id": "menu-1",
+                                "settings": {
+                                    "menu-1-general-menu-arrow": "on",
+                                    "menu-1-general-menu-active": "",
+                                    "menu-1-general-menu-button": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-menu-color": "",
+                                    "typo-submenu-color": "",
+                                    "typo-submenu-background-color": "",
+                                    "typo-gutter": "",
+                                    "menu-1-mobile-menu-click-choice": "",
+                                    "styling-padding": "0px 15px 0px 15px",
+                                    "className": "menu-1-0"
+                                }
+                            },
+                            {
+                                "id": "my-account",
+                                "settings": {
+                                    "my-account-general-icon-choice": "",
+                                    "my-account-general-icon-predefined": "myaccount",
+                                    "my-account-general-icon-custom": "",
+                                    "general-icon-size": "",
+                                    "my-account-general-display-style": "1",
+                                    "my-account-general-text": "",
+                                    "my-account-general-text-2": "",
+                                    "my-account-general-alignment": "it",
+                                    "my-account-general-show-login-form": "on",
+                                    "my-account-general-menu-choice": "",
+                                    "typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-1": "",
+                                    "typo-letter-spacing-1": "",
+                                    "typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-2": "",
+                                    "typo-letter-spacing-2": "",
+                                    "typo-color": "",
+                                    "typo-submenu-color": "",
+                                    "typo-submenu-background-color": "",
+                                    "styling-padding": "0px 10px 0px 15px",
+                                    "className": "my-account-1"
+                                }
+                            },
+                            {
+                                "id": "wishlist",
+                                "settings": {
+                                    "wishlist-general-icon-choice": "",
+                                    "wishlist-general-icon-predefined": "wishlist",
+                                    "wishlist-general-icon-custom": "",
+                                    "general-icon-size": "",
+                                    "wishlist-general-text": "",
+                                    "typo-font-choice": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size": "",
+                                    "typo-letter-spacing": "",
+                                    "typo-color": "",
+                                    "styling-padding": "0px 10px 0px 10px",
+                                    "className": "wishlist-3"
+                                }
+                            },
+                            {
+                                "id": "cart",
+                                "settings": {
+                                    "cart-account-general-icon-choice": "",
+                                    "cart-general-icon-predefined": "cart",
+                                    "cart-general-icon-custom": "",
+                                    "general-icon-size": "",
+                                    "cart-general-display-style": "1",
+                                    "cart-general-text": "",
+                                    "cart-general-show-count": "on",
+                                    "cart-general-show-amount": "off",
+                                    "cart-general-alignment": "it",
+                                    "cart-general-dropdown-style": "1",
+                                    "cart-general-auto-open": "on",
+                                    "typo-font-choice-1": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-1": "",
+                                    "typo-letter-spacing-1": "",
+                                    "typo-font-choice-2": {
+                                        "css-font-family": "",
+                                        "css-font-weight": ""
+                                    },
+                                    "typo-font-size-2": "",
+                                    "typo-letter-spacing-2": "",
+                                    "typo-color": "",
+                                    "styling-padding": "0px 15px 0px 10px",
+                                    "className": "cart-2"
+                                }
+                            }
+                        ],
+                        "settings": {
+                            "className": "right-3"
+                        }
+                    }
+                ],
+                "settings": {
+                    "className": "main-2",
+                    "bg-color": "rgba(252,223,176,1)",
+                    "height": "70px"
+                }
+            },
+            {
+                "rowId": 1,
+                "rowName": "top",
+                "content": [
+                    {
+                        "colId": 3,
+                        "colName": "right",
+                        "content": [],
+                        "settings": {
+                            "className": "right-3"
+                        }
+                    },
+                    {
+                        "colId": 2,
+                        "colName": "center",
+                        "content": [],
+                        "settings": {
+                            "className": "center-2"
+                        }
+                    },
+                    {
+                        "colId": 1,
+                        "colName": "left",
+                        "content": [],
+                        "settings": {
+                            "className": "left-1"
+                        }
+                    }
+                ],
+                "settings": {
+                    "className": "top-1",
+                    "flex-ratio": "4px",
+                    "flex-type": "1"
+                }
+            }
+        ]
+    },
+    "settings": {
+        "className": "header-predefined"
+    }
+}
