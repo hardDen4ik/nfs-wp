@@ -1,0 +1,121 @@
+2024-04-30T12:01:47+00:00 CRITICAL Cannot redeclare get_order_by_id() (previously declared in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:51) в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 63
+
+2024-04-30T13:04:25+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:04:41+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:06:42+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:08:43+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:10:44+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:12:45+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:14:46+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:19:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_DateTime::date(), 0 passed in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php on line 71 and exactly 1 expected in /var/www/nfs-wp/wp-content/plugins/woocommerce/includes/class-wc-datetime.php:92
+Stack trace:
+#0 /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php(71): WC_DateTime->date()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#3 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#4 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#6 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(418) в /var/www/nfs-wp/wp-content/plugins/woocommerce/includes/class-wc-datetime.php на строке 92
+
+2024-04-30T13:19:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_DateTime::date(), 0 passed in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php on line 71 and exactly 1 expected in /var/www/nfs-wp/wp-content/plugins/woocommerce/includes/class-wc-datetime.php:92
+Stack trace:
+#0 /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php(71): WC_DateTime->date()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#3 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#4 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#6 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(418) в /var/www/nfs-wp/wp-content/plugins/woocommerce/includes/class-wc-datetime.php на строке 92
+
+2024-04-30T13:19:29+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_DateTime as array in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:71
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.php(16): wp()
+#11 /var/www/nfs-wp/index в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:19:59+00:00 CRITICAL Uncaught Error: Call to undefined method WC_DateTime::get_date() in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:71
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.php(16): wp()
+#11 /var/www/nfs-wp/ind в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:22:27+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_amount() in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:71
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.ph в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T13:42:12+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_amount() in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:71
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.ph в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 71
+
+2024-04-30T17:17:08+00:00 CRITICAL syntax error, unexpected '}' в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 77
+
+2024-04-30T17:17:11+00:00 CRITICAL syntax error, unexpected '}' в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 77
+
+2024-04-30T17:17:11+00:00 CRITICAL syntax error, unexpected '}' в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 77
+
+2024-04-30T17:20:40+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 75
+
+2024-04-30T18:36:10+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:78
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.php(16): wp()
+#11 /var/www/nfs-wp/index.ph в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 78
+
