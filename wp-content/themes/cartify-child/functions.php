@@ -57,14 +57,15 @@ function get_order_by_id()
         $resp['status'] = $order->get_status();
         foreach ($order->get_items() as $item) {
             $meta_data = json_decode($item->get_meta('_nfsmir_json_data'));
+            $resp['products'][$item->get_product_id()] = [];
             foreach ($meta_data as $k => $value) {
-                $resp[$item->get_product_id()][] = ['certificate_id' => $k, 'status' => $value->data->status];
+                $resp['products'][$item->get_product_id()][] = ['certificate_id' => $k, 'status' => $value->data->status];
             }
         }
 
-        return json_encode($resp);
+        return $resp;
     } else
-        return json_encode($resp);
+        return $resp;
 }
 
 add_action('rest_api_init', 'update_order_by_id');
