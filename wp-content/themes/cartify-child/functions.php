@@ -59,7 +59,10 @@ function get_order_by_id()
             $meta_data = json_decode($item->get_meta('_nfsmir_json_data'));
             $resp['products'][$item->get_product_id()] = [];
             foreach ($meta_data as $k => $value) {
-                $resp['products'][$item->get_product_id()][] = ['certificate_id' => $k, 'status' => $value->data->status];
+                $resp['products'][$item->get_product_id()][] = [
+                    'certificate_id' => $k,
+                    'status' => $value->data->status,
+                ];
             }
         }
 
@@ -95,13 +98,20 @@ function get_updated_order_by_id()
         $resp['status'] = $order->get_status();
         foreach ($order->get_items() as $item) {
             $meta_data = json_decode($item->get_meta('_nfsmir_json_data'));
+            $resp['products'][$item->get_product_id()] = [];
             foreach ($meta_data as $k => $value) {
-                $resp[$item->get_product_id()][] = ['certificate_id' => $k, 'status' => $value->data->status];
+                $resp['products'][$item->get_product_id()][] = [
+                    'certificate_id' => $k,
+                    'status' => $value->data->status,
+                    'card_number' => $value->data->json->cc_number_musked,
+                    'hash' => $value->data->json->cc_hash->hash,
+                    'payment_system' => $value->data->json->cc_hash->paymentSystem,
+                ];
             }
         }
 
-        return json_encode($resp);
+        return $resp;
     } else
-        return json_encode($resp);
+        return $resp;
 }
 ?>
