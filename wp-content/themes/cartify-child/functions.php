@@ -18,7 +18,7 @@ function http_additional_safe_urls( $http_request_args, $url ) {
     // Do not interfere unless the URL matches a pattern we trust.
     // You could expand this to match against multiple strings, or
     // even use a regular expression, depending on your needs.
-    if ( $url !== 'http://0.0.0.0:82/api/catalog/wp-order') {
+    if ( $url !== 'http://0.0.0.0:82/api/catalog/wp-order' && $url !== 'http://0.0.0.0:82/api/catalog/wp-update') {
         return $http_request_args;
     }
 
