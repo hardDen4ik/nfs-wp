@@ -103,7 +103,7 @@ function get_updated_order_by_id()
                 $resp['products'][$item->get_product_id()][] = [
                     'certificate_id' => $k,
                     'status' => $value->data->status,
-                    'card_number' => $value->data->json->cc_number_musked,
+                    'card_number' => $value->data->json->cc_number_masked,
                     'hash' => $value->data->json->cc_hash->hash,
                     'payment_system' => $value->data->json->cc_hash->paymentSystem,
                 ];
