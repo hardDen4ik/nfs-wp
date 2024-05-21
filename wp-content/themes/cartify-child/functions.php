@@ -62,6 +62,7 @@ function get_order_by_id()
                 $resp['products'][$item->get_product_id()][] = [
                     'certificate_id' => $k,
                     'status' => $value->data->status,
+                    'amount' => wc_get_product($item->get_product_id())->get_price()
                 ];
             }
         }

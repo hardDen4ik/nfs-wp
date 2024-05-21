@@ -1,0 +1,210 @@
+2024-05-21T13:13:06+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 1f2f37e64da4e70cf64ceabc164d648f
+            [Date] => 21.05.2024 в 13:13
+            [URL] => http://0.0.0.0:82/api/catalog/wp-order
+            [Duration] => 0.08786
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.3.0 Hookshot (WordPress/6.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://nfs-wp.loc/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => I60Q6f6PkuwwmL9JIZT/UpXxXsOjUDxcx/GW4XbVxGA=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 1f2f37e64da4e70cf64ceabc164d648f
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => Предоставлен неверный URL.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2024-05-21T13:13:06+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => e74551042a2dfb6d56b93273b5c1bfc0
+            [Date] => 21.05.2024 в 13:13
+            [URL] => http://0.0.0.0:82/api/catalog/wp-update
+            [Duration] => 0.00645
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.3.0 Hookshot (WordPress/6.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://nfs-wp.loc/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => tRjw2tDjG4Dr5y6NLubAqqbU7kvfFMioL81rmMBsF7c=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => e74551042a2dfb6d56b93273b5c1bfc0
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => Предоставлен неверный URL.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2024-05-21T13:24:49+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => b53e27028a5bfec7cf1711b2aaf8977c
+            [Date] => 21.05.2024 в 13:24
+            [URL] => http://0.0.0.0:82/api/catalog/wp-update
+            [Duration] => 0.11155
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.3.0 Hookshot (WordPress/6.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://nfs-wp.loc/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => apBcfvyYlr/28Pvmd4YqYtWPtzL3rjYtKtnXeLh2+Tk=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => b53e27028a5bfec7cf1711b2aaf8977c
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => Предоставлен неверный URL.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2024-05-21T13:26:49+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => f91009b469e6c9621d2c824839f8d26f
+            [Date] => 21.05.2024 в 13:26
+            [URL] => http://0.0.0.0:82/api/catalog/wp-update
+            [Duration] => 0.09679
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.3.0 Hookshot (WordPress/6.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://nfs-wp.loc/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => nAEPupe4YhMqfJWcTefO2WPI2o6lsKmUaYtYnZL//+0=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => f91009b469e6c9621d2c824839f8d26f
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => Предоставлен неверный URL.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2024-05-21T13:27:32+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9ab20c2acee31ef021cf72c90fe9b40a
+            [Date] => 21.05.2024 в 13:27
+            [URL] => http://0.0.0.0:82/api/catalog/wp-update
+            [Duration] => 0.09686
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.3.0 Hookshot (WordPress/6.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://nfs-wp.loc/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => nAEPupe4YhMqfJWcTefO2WPI2o6lsKmUaYtYnZL//+0=
+                            [X-WC-Webhook-ID] => 3
+                            [X-WC-Webhook-Delivery-ID] => 9ab20c2acee31ef021cf72c90fe9b40a
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => Предоставлен неверный URL.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

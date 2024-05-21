@@ -1,0 +1,90 @@
+2024-05-16T16:47:17+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on bool in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:58
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.php(16): wp()
+#11 /var/www/nfs-wp/index. в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 58
+
+2024-05-16T16:51:25+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on bool in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:58
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.php(16): wp()
+#11 /var/www/nfs-wp/index. в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 58
+
+2024-05-16T16:51:45+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on bool in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:58
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.php(16): wp()
+#11 /var/www/nfs-wp/index. в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 58
+
+2024-05-16T16:52:37+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on bool in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:58
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.php(16): wp()
+#11 /var/www/nfs-wp/index. в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 58
+
+2024-05-16T16:53:01+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on bool in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:58
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.php(16): wp()
+#11 /var/www/nfs-wp/index. в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 58
+
+2024-05-16T17:01:36+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on bool in /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php:58
+Stack trace:
+#0 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1230): get_order_by_id()
+#1 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#2 /var/www/nfs-wp/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#3 /var/www/nfs-wp/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#4 /var/www/nfs-wp/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#5 /var/www/nfs-wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/nfs-wp/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/nfs-wp/wp-includes/class-wp.php(418): do_action_ref_array()
+#8 /var/www/nfs-wp/wp-includes/class-wp.php(813): WP->parse_request()
+#9 /var/www/nfs-wp/wp-includes/functions.php(1336): WP->main()
+#10 /var/www/nfs-wp/wp-blog-header.php(16): wp()
+#11 /var/www/nfs-wp/index. в /var/www/nfs-wp/wp-content/themes/cartify-child/functions.php на строке 58
+
