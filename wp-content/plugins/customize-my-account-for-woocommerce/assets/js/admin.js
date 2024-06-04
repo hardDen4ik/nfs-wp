@@ -50,6 +50,8 @@ var $var = jQuery.noConflict();
 
                         return false;
                     }
+
+                    
                      
 
                     if ($new_parent.hasClass('group')) {
@@ -57,6 +59,9 @@ var $var = jQuery.noConflict();
                     } else {
                         $element.find('.wcmamtx_parent_field').val("none");
                     }
+
+
+
 
 
 
@@ -152,10 +157,32 @@ $var( function() {
         } else {
             $var(parentitem).fadeOut('slow').remove();
         }
-
         
         
     });
+
+
+    $var(".wcmamtx_dismiss_renew_notice").on('click',function(event) {
+        
+        event.preventDefault();
+
+        $var(".wcmamtx_notice_div").remove();
+
+        $var.ajax({
+                data: {action: "wcmamtx_dismiss_renew_notice"  },
+                type: 'POST',
+                url: wcmamtxadmin.ajax_url,
+                success: function( response ) { 
+                    
+                }
+        });
+
+        return false;
+
+    });
+
+
+
 
     $var(".wcmamtx_load_elementor_template").select2({
            ajax: {
@@ -191,7 +218,7 @@ $var( function() {
            placeholder: wcmamtxadmin.chose_template,
              minimumInputLength: 3 ,
              width: "200px"// the minimum of symbols to input before perform a search
-    }); 
+    });
 
     $var('.wcmamtx_accordion_onoff').click(function() {
 
@@ -206,6 +233,25 @@ $var( function() {
             $var(this).parents("li."+ parentkey +"").addClass('wcmamtx_disabled');
             $var("."+ parentkey +"_hidden_checkbox").val("no");
             
+        }
+    });
+
+
+    $var('.show_hide_next_tr_checkbox').on("change",function() {
+               
+        if($var(this).prop("checked")) {
+            $var(this).closest('tr').next('tr').show();
+        } else {
+            $var(this).closest('tr').next('tr').hide();
+        }
+    });
+
+    $var('.wcmamtx_show_nav_header_widget').on("change",function() {
+               
+        if($var(this).prop("checked")) {
+            $var('tr.nav_header_widget_tr').show();
+        } else {
+            $var('tr.nav_header_widget_tr').hide();
         }
     });
 
@@ -229,10 +275,9 @@ $var( function() {
         if (result == true) {
      
             $var.ajax({
-                data: {action: "restore_my_account_tabs",nonce:wcmamtxadmin.nonce },
+                data: {action: "restore_my_account_tabs" ,nonce:wcmamtxadmin.nonce },
                 type: 'POST',
                 url: wcmamtxadmin.ajax_url,
-               
                 success: function( response ) { 
                      window.location.reload();
                 }
@@ -241,9 +286,21 @@ $var( function() {
     });
 
 
-
-
+    $var("#wcmamtx_reset_order_button").on('click',function() {
+        var result = confirm(wcmamtxadmin.restorealert);
+        
+        if (result == true) {
      
+            $var.ajax({
+                data: {action: "restore_my_account_order",nonce:wcmamtxadmin.nonce },
+                type: 'POST',
+                url: wcmamtxadmin.ajax_url,
+                success: function( response ) { 
+                     window.location.reload();
+                }
+            });
+        }
+    });
 
     
     $var('.wcmamtx_show_avatar_checkbox').on("change",function() {
@@ -254,7 +311,6 @@ $var( function() {
             $var(".wcmamtx_avatar_size_tr").hide();
         }
     });
-
 
     $var('.override_endpoint_tr_checkbox').on("change",function() {
                
@@ -274,24 +330,26 @@ $var( function() {
             $var(".override_myaccount_tr").hide();
         }
     });
-  
-
-  
 
 
-
-
-    $var('.show_hide_next_tr_checkbox').on("change",function() {
+    $var('.override_cart_tr_checkbox').on("change",function() {
                
         if($var(this).prop("checked")) {
-            $var(this).closest('tr').next('tr').show();
+            $var(".override_cart_tr").show();
         } else {
-            $var(this).closest('tr').next('tr').hide();
+            $var(".override_cart_tr").hide();
         }
     });
 
 
-
+    $var('.override_checkout_tr_checkbox').on("change",function() {
+               
+        if($var(this).prop("checked")) {
+            $var(".override_checkout_tr").show();
+        } else {
+            $var(".override_checkout_tr").hide();
+        }
+    });
 
 
     function wcmamtx_sanitize(string) {
@@ -306,7 +364,6 @@ $var( function() {
         const reg = /[&<>"'/]/ig;
         return string.replace(reg, (match)=>(map[match]));
     }
-
 
 
 
@@ -368,13 +425,43 @@ $var( function() {
     });
 
 
+    $var("select.wcmamtx_value_select").on("change",function(event) {
+               
+        event.preventDefault();
+
+        var evalue = $var(this).val();
+
+        if (evalue == "customkey") {
+            
+            $var("tr.wcmamtx_customkey_tr").show();
+        
+        } else {
+
+            
+            $var("tr.wcmamtx_customkey_tr").hide();
+    
+       
+
+        }
+
+        return false;
+
+    });
+
+
+
+
+
+
+
+
     const capitalize = (s) => {
       if (typeof s !== 'string') return ''
           return s.charAt(0).toUpperCase() + s.slice(1)
     }
 
 
-    $var('#wcmamtx_example_modal').on('show.bs.modal', function (event) {
+    $var('#wcmamtx_example_modal,#wcmamtx_example_modal2,#wcmamtx_example_modal3').on('show.bs.modal', function (event) {
         var button = $var(event.relatedTarget) // Button that triggered the modal
         var etype = button.data('etype') // Extract info from data-* attributes
         // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
@@ -385,6 +472,9 @@ $var( function() {
         
         
     });
+
+
+
     
 
 
@@ -394,22 +484,115 @@ $var( function() {
         var checkvalue = $var(this).val();
         
         if (checkvalue == "custom") {
-            $var(this).parents('tr').next('tr').show();
-        } else if (checkvalue == "dashicon") {
-            $var(this).parents('tr').next('tr').hide();
-            $var("tr.show_dashicon_tr").show();
-        } else {
-            $var(this).parents('tr').next('tr').hide();
+            $var("tr.fa_icon_tr").show();
             $var("tr.show_dashicon_tr").hide();
+            $var("tr.show_upload_tr").hide();
+
+        } else if (checkvalue == "dashicon") {
+            $var("tr.fa_icon_tr").hide();
+            $var("tr.show_dashicon_tr").show();
+            $var("tr.show_upload_tr").hide();
+
+        } else if (checkvalue == "upload") {
+
+            $var("tr.show_upload_tr").show();
+
+             $var("tr.fa_icon_tr").hide();
+            $var("tr.show_dashicon_tr").hide();
+
+        } else {
+            $var("tr.fa_icon_tr").hide();
+            $var("tr.show_dashicon_tr").hide();
+            $var("tr.show_upload_tr").hide();
         }
         
     });
+
     
 
 
-    $var('.wcmamtxvisibleto').on('change',function(){
-        $var(this).closest('tr').next('.wcmamtxroles').toggle();
+    $var('.wcmamtxvisibleto').on('change',function(event){
+        event.preventDefault();
+        var dval = $var(this).val();
+
+        var mkey = $var(this).attr("mkey");
+
+        if ((dval == "specific") || (dval == "specific_exclude")) {
+            $var('.wcmamtxroles_'+mkey+'').show();
+            $var('.wcmamtxusers_'+mkey+'').hide();
+        } else if ((dval == "specific_user") || (dval == "specific_exclude_user")) {
+            $var('.wcmamtxroles_'+mkey+'').hide();
+            $var('.wcmamtxusers_'+mkey+'').show();
+        } else {
+            $var('.wcmamtxroles_'+mkey+'').hide();
+            $var('.wcmamtxusers_'+mkey+'').hide();
+        }
+
+
+        
+        return false;
     });
+
+
+
+    //loads Media upload for each media upload input
+    $var(".image-upload-div").each(function(){
+            var parentId = $var(this).closest('div').attr('idval');
+                 // Only show the "remove image" button when needed
+                 var srcvalue    = $var('.facility_thumbnail_id_' + parentId + '').val();
+
+                 if ( !srcvalue ){
+                    jQuery('.remove_image_button_' + parentId + ' ').hide();
+                 }  
+                // Uploading files
+                var file_frame;
+
+                jQuery(document).on( 'click', '.upload_image_button_' + parentId + ' ', function( event ){
+
+
+                    event.preventDefault();
+
+                    // If the media frame already exists, reopen it.
+                    if ( file_frame ) {
+                        file_frame.open();
+                        return;
+                    }
+
+                    // Create the media frame.
+                    file_frame = wp.media.frames.downloadable_file = wp.media({
+                        title: wcmamtxadmin.uploadimage,
+                        button: {
+                            text: wcmamtxadmin.useimage,
+                        },
+                        multiple: false
+                    });
+
+                    // When an image is selected, run a callback.
+                    file_frame.on( 'select', function() {
+                        var attachment = file_frame.state().get('selection').first().toJSON();
+
+                        jQuery('.facility_thumbnail_id_' + parentId + '').val( attachment.id );
+                        jQuery('#facility_thumbnail_' + parentId + ' img').attr('src', attachment.url );
+                        jQuery('.imagediv_' + parentId + ' img').attr('src', attachment.url );
+                        jQuery('.remove_image_button_' + parentId + '').show();
+                        jQuery('.wcva_imgsrc_sub_header_' + parentId + '').attr('src', attachment.url );
+                    });
+
+                    // Finally, open the modal.
+                    file_frame.open();
+                });
+
+                jQuery(document).on( 'click', '.remove_image_button_' + parentId + '', function( event ){
+
+                    jQuery('#facility_thumbnail_' + parentId + ' img').attr('src', wcmamtxadmin.placeholder );
+                    jQuery('.imagediv_' + parentId + ' img').attr('src', '');
+                    jQuery('.facility_thumbnail_id_' + parentId + '').val('');
+                    jQuery('.remove_image_button_' + parentId + '').hide();
+                    jQuery('.wcva_imgsrc_sub_header_' + parentId + '').attr('src', wcmamtxadmin.placeholder );
+                    return false;
+                });
+
+     });     
 
 
     $var('.wcmamtx_roleselect').select2({
@@ -417,8 +600,45 @@ $var( function() {
         minimumResultsForSearch: -1
     });
 
+    
 
-var icons = [  { icon: 'fa fa-search' }, 
+    $var('.wcmamtx_userselect').select2({
+
+        ajax: {
+                url: wcmamtxadmin.ajax_url, // AJAX URL is predefined in WordPress admin
+                dataType: 'json',
+                delay: 250, // delay in ms while typing when to perform a AJAX search
+                data: function (params) {
+                    return {
+                        q: params.term, // search query
+                        action: 'wcmamtxadmin_get_users_ajax' // AJAX action for admin-ajax.php
+                    };
+                },
+                processResults: function( data ) {
+                    var options = [];
+                    if ( data ) {
+
+                    
+
+                    // data is the array of arrays, and each of them contains ID and the Label of the option
+                    $var.each( data, function( index, text ) { // do not forget that "index" is just auto incremented value
+                        options.push( { id: text[0], text: text[1]  } );
+                    });
+
+                }
+                return {
+                    results: options
+                };
+            },
+            cache: true
+        },
+        minimumInputLength: 2 ,
+        minimumResultsForSearch: -1,
+        width: "300px"// the minimum of symbols to input before perform a search
+    });
+
+
+    var icons = [  { icon: 'fa fa-search' }, 
     { icon: 'fa fa-envelope-o' }, 
     { icon: 'fa fa-star' }, 
     { icon: 'fa fa-user' }, 
@@ -495,10 +715,10 @@ var icons = [  { icon: 'fa fa-search' },
     { icon: 'fa fa-trash' }, 
     { icon: 'fa fa-whatsapp' }, 
     { icon: 'fa fa-server' }, 
-    { icon: 'fa fa-user-plus' }];    
+    { icon: 'fa fa-user-plus' }]; 
 
 
-var itemTemplate = $var('.icon-picker-list').clone(true).html();
+    var itemTemplate = $var('.icon-picker-list').clone(true).html();
 
     $var('.icon-picker-list').html('');
 
@@ -517,8 +737,6 @@ var itemTemplate = $var('.icon-picker-list').clone(true).html();
     
         $var('.icon-picker-list').append(itemtemp);
     });
-
-
 
     // Variable that's passed around for active states of icons
     var selectedIcon = null;
@@ -566,6 +784,30 @@ var itemTemplate = $var('.icon-picker-list').clone(true).html();
         
     });
 
+    $var(".wcmamtx_activate_license").on('click',function(event) {
+
+         event.preventDefault();
+
+         var licensekey = $var(".wcmamtx_license_key_input").val();
+
+         $var.ajax({
+            data: {
+                action    : "wcmamtx_activate_license",
+                licensekey  : licensekey
+
+            },
+            type: 'POST',
+            url: wcmamtxadmin.ajax_url,
+            success: function( response ) { 
+                console.log(response);
+                window.location.reload();
+            }
+        });
+
+         return false;
+
+     });
+
 
 
     function findInObject(object, property, value) {
@@ -580,4 +822,3 @@ var itemTemplate = $var('.icon-picker-list').clone(true).html();
 });
  
 })( jQuery );
-

@@ -10,7 +10,7 @@
 
 include 'helper.php';
 
-function register_customize_widgets_free( $widgets_manager ) {
+function register_customize_widgets( $widgets_manager ) {
 
     $plugin_options = (array) get_option("wcmamtx_plugin_options");
 
@@ -19,15 +19,11 @@ function register_customize_widgets_free( $widgets_manager ) {
         'form-add-payment-method'=>'Add Payment Method',
         'form-edit-account'=>'Edit Account Form',
         'form-edit-address'=>'Edit Address Form',
-        'downloads'=>'Downloads',
         'form-login'=>'Login Form',
-        'my-account'=>'My Account',
         'my-address'=>'My Address',
-        'my-downloads'=>'My Downloads',
         'navigation'=>'Navigation',
         'orders'=>'Orders',
-        'payment-methods'=>'Payment Methods',
-        'view-order'=>'View Order'
+        'payment-methods'=>'Payment Methods'
     );
 
 
@@ -71,13 +67,7 @@ function register_customize_widgets_free( $widgets_manager ) {
 
     }
 
-    if (isset($el_widgets['downloads'])) {
 
-
-        require_once( __DIR__ . '/widgets/downloads.php' );
-        $widgets_manager->register( new \Elementor_downloads_widget() );
-
-    }
 
 
     if (isset($el_widgets['form-login'])) {
@@ -88,13 +78,7 @@ function register_customize_widgets_free( $widgets_manager ) {
 
     }
 
-    if (isset($el_widgets['my-account'])) {   
 
-
-        require_once( __DIR__ . '/widgets/my-account.php' );
-        $widgets_manager->register( new \Elementor_myaccount_widget() );
-
-    }
 
     if (isset($el_widgets['my-address'])) {
 
@@ -104,13 +88,7 @@ function register_customize_widgets_free( $widgets_manager ) {
 
     }
 
-    if (isset($el_widgets['my-downloads'])) {
 
-
-        require_once( __DIR__ . '/widgets/my-downloads.php' ); 
-        $widgets_manager->register( new \Elementor_mydownloads_widget() );
-
-    }
 
     if (isset($el_widgets['navigation'])) {
 
@@ -136,14 +114,7 @@ function register_customize_widgets_free( $widgets_manager ) {
 
     }
 
-    if (isset($el_widgets['view-order'])) { 
 
-
-        require_once( __DIR__ . '/widgets/view-order.php' );   
-        $widgets_manager->register( new \Elementor_vieworder_widget() ); 
-
-
-    }
 
 }
-add_action( 'elementor/widgets/register', 'register_customize_widgets_free' );
+add_action( 'elementor/widgets/register', 'register_customize_widgets' );

@@ -11,9 +11,9 @@ $nonce = isset($_REQUEST['_wpnonce']) ? sanitize_text_field($_REQUEST['_wpnonce'
 
 if($redirect_to !=='')
 {
-
     if(wp_verify_nonce( $nonce, 'p404home_nounce' ))
 	{
+		P404REDIRECT_save_option_value('p404_execlude_media',sanitize_text_field($_POST['p404_execlude_media']));
 		P404REDIRECT_save_option_value('p404_redirect_to',$redirect_to);
         P404REDIRECT_save_option_value('p404_status',sanitize_text_field($_POST['p404_status']));
         P404REDIRECT_save_option_value('img_p404_status',sanitize_text_field($_POST['img_p404_status']));
@@ -48,7 +48,7 @@ RewriteRule \.(gif|jpe?g|png|bmp) <?php echo esc_url($image);?> [NC,L]<br>
                     <?php
                 }
             }else{
-                P404REDIRECT_warning_option_msg('Please upload a new default image');
+                P404REDIRECT_warning_option_msg('Please disable the broken images feature or upload a new image.');
             }
 
         }else{
@@ -130,14 +130,36 @@ if($mytab == "options"){
 		$drop->add('Disabled','2');
 		$drop->dropdown_print();
 		$drop->select($options['p404_status']);
+		
+		
 	?>
 
 	<br/><br/>
 
 	<div class="form-input-titles">Redirect all 404 pages to:</div>
 	<input type="text" name="redirect_to" id="redirect_to" size="30" value="<?php echo esc_attr($options['p404_redirect_to']);?>">
-	<br>
-    <br>
+	
+	
+	<br/><br/>
+	
+	<div class="form-input-titles">Avoid logging any media links:</div>			
+	
+	<?php
+		
+		
+		$drop = new p404redirect_dropdown('p404_execlude_media');
+		$drop->add('Yes','1');
+		$drop->add('No','2');
+		$drop->dropdown_print();
+		$p404_execlude_media_val = '1';
+		if(isset($options['p404_execlude_media'])){
+			$p404_execlude_media_val = $options['p404_execlude_media'];
+		}
+		$drop->select($p404_execlude_media_val);
+		
+	?>
+	
+	<br/><br/>
     
     <h3>404 Images</h3>
     <div class="form-input-titles">Image 404 Redirection Status:</div>
@@ -146,7 +168,7 @@ if($mytab == "options"){
     $drop->add('Enabled','1');
     $drop->add('Disabled','2');
     $drop->dropdown_print();
-    $image_status_val = '';
+    $image_status_val = '2';
     if(isset($options['img_p404_status'])){
         $image_status_val = $options['img_p404_status'];
     }
@@ -161,14 +183,14 @@ if($mytab == "options"){
 	</div>
     <?php
     $image_id = isset($options['image_id_p404_redirect_to'])?absint($options['image_id_p404_redirect_to']):'';
-    if( !wp_get_attachment_image_src($image_id) &&  $image_id == '') {
+   // if( !wp_get_attachment_image_src($image_id) &&  $image_id == '') {
         
     ?>
         <a href="#" class="misha-upl"><span>Upload image</span></a>
           <a href="#" onclick="javascript:document.getElementById('myimage404').style.display='none'; document.getElementById('myimage404_lable').style.display='none'; " class="misha-rmv" style="display:none">Remove image</a>
           <input type="hidden" class="misha-img" name="misha-img" value="" >
     <?php
-    }
+    //}
     ?>
 	<br/>
 	

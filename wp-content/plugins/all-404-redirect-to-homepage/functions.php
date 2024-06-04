@@ -124,11 +124,13 @@ function P404REDIRECT_get_current_URL()
 //----------------------------------------------------
 
 function P404REDIRECT_init_my_options()
-{	
+{
 	add_option(OPTIONS404);
 	$options = array();
 	$options['p404_redirect_to']= site_url();
 	$options['p404_status']= '1';
+	$options['img_p404_status']= '2';
+	$options['p404_execlude_media']= '1';
     $options['links']= 0;
     $options['install_date'] = date("Y-m-d h:i a");
     $options['redirected_links'] = array();
@@ -140,7 +142,7 @@ function P404REDIRECT_init_my_options()
 function P404REDIRECT_update_my_options($options)
 {	
 	update_option(OPTIONS404,$options);
-} 
+}
 
 //---------------------------------------------------- 
 

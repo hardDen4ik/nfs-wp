@@ -1,9 +1,11 @@
 <?php 
-      $advancedsettings = (array) get_option( 'wcmamtx_advanced_settings' );
-      $tabs              = wc_get_account_menu_items();
-      $core_fields       = 'dashboard,orders,downloads,edit-address,edit-account,customer-logout';
-      
-      $core_fields_array =  array(
+$advancedsettings  = (array) get_option('wcmamtx_advanced_settings');  
+
+
+$tabs              = wc_get_account_menu_items();
+$core_fields       = 'dashboard,orders,downloads,edit-address,edit-account,customer-logout';
+
+$core_fields_array =  array(
                          'dashboard'=>'dashboard',
                          'orders'=>'orders',
                          'downloads'=>'downloads',
@@ -11,12 +13,12 @@
                          'edit-account'=>'edit-account',
                          'customer-logout'=>'customer-logout'
                       );
-      
+
 if ((sizeof($advancedsettings) != 1)) {
 
   foreach ($tabs as $ikey=>$ivalue) {
 
-    $match = wcmtxka_find_string_match_free($ikey,$advancedsettings);
+    $match = wcmtxka_find_string_match($ikey,$advancedsettings);
 
     if (!array_key_exists($ikey, $advancedsettings) && !array_key_exists($ikey, $core_fields_array) && ($match == "notfound")) {
 

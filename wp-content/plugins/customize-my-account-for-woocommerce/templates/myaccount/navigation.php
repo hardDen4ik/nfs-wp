@@ -7,11 +7,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 do_action( 'woocommerce_before_account_navigation' );
 
+
+
+$wcmamtx_tabs   =  (array) get_option('wcmamtx_advanced_settings');
+
 $items = wc_get_account_menu_items();
 
-$wcmamtx_tabs   = get_option('wcmamtx_advanced_settings');
-
-$core_fields       = 'dashboard,orders,downloads,edit-address,edit-account,customer-logout';
+$core_fields    = 'dashboard,orders,downloads,edit-address,edit-account,customer-logout';
 
 $core_fields_array =  array(
                          'dashboard'=>'dashboard',
@@ -27,15 +29,26 @@ $core_fields_array =  array(
 
 
 foreach ($items as $ikey=>$ivalue) {
-    if (!array_key_exists($ikey, $wcmamtx_tabs) && !array_key_exists($ikey, $core_fields_array)) {
-        $wcmamtx_tabs[$ikey] = array(
-          'show' => 'yes',
-          'third_party' => 'yes',
-          'endpoint_key' => $ikey,
-          'wcmamtx_type' => 'endpoint',
-          'parent'       => 'none',
-          'endpoint_name'=> $ivalue,
-      );            
+    if (!array_key_exists($ikey, $wcmamtx_tabs) && !array_key_exists($ikey, $core_fields_array) ) {
+        
+        $match_index = 0;
+
+        foreach ($wcmamtx_tabs as $tkey=>$tvalue) {
+            if (isset($tvalue['endpoint_key']) && ($tvalue['endpoint_key'] == $ikey)) {
+                $match_index++;
+            }
+        }
+
+        if ($match_index == 0) {
+            $wcmamtx_tabs[$ikey] = array(
+              'show' => 'yes',
+              'third_party' => 'yes',
+              'endpoint_key' => $ikey,
+              'wcmamtx_type' => 'endpoint',
+              'parent'       => 'none',
+              'endpoint_name'=> $ivalue,
+          );   
+        }           
 
     }
 }
@@ -99,10 +112,12 @@ if (isset($menu_position) && ($menu_position != '')) {
     }
 }
 
+
+
 ?>
 
-<nav class="woocommerce-MyAccount-navigation wsmt_extra_navclass <?php echo $menu_position_extra_class; ?>" style="background-color:<?php echo get_theme_mod('wsmt_nav_background'); ?> !important; ">
-    <p class="wsmt_theme_options"></p>
+<nav class="woocommerce-MyAccount-navigation wsmt_extra_navclass <?php echo $menu_position_extra_class; ?>">
+   
 	<ul>
 		<?php foreach ( $wcmamtx_tabs as $key => $value ) { 
 
@@ -115,13 +130,13 @@ if (isset($menu_position) && ($menu_position != '')) {
             $should_show = 'yes';
 
 
-            if (isset($value['visibleto']) && ($value['visibleto'] == "specific")) {
+            if (isset($value['visibleto']) && ($value['visibleto'] != "all")) {
 
                 $allowedroles  = isset($value['roles']) ? $value['roles'] : "";
 
-                $main_class    = new wcmamtx_add_frontend_class();
+                $allowedusers  = isset($value['users']) ? $value['users'] : array();
 
-                $is_visible = $main_class->wcmamtx_check_role_visibility($allowedroles);
+                $is_visible    = wcmamtx_check_role_visibility($allowedroles,$value['visibleto'],$allowedusers);
                 
             } else {
 
@@ -157,9 +172,19 @@ if (isset($menu_position) && ($menu_position != '')) {
             
             $icon_source       = isset($value['icon_source']) ? $value['icon_source'] : "default";
 
+            $hide_in_navigation = isset($value['hide_in_navigation']) && ($value['hide_in_navigation'] == "01") ? "enabled" : "disabled";
+
+            if (isset($hide_in_navigation) && ($hide_in_navigation == "enabled")) {
+                
+                 $should_show = 'no';
+                
+            }
+
             if (($should_show == "yes") && ($is_visible == "yes")) {
             
                 if (isset($value['wcmamtx_type']) && ($value['wcmamtx_type'] == "group")) {
+
+                    
                     wcmamtx_get_account_menu_group_html( $name,$key ,$value ,$icon_extra_class,$extraclass,$icon_source );
                     
                     
@@ -170,6 +195,7 @@ if (isset($menu_position) && ($menu_position != '')) {
                     if ($parent == "none") {
                         wcmamtx_get_account_menu_li_html( $name,$key ,$value ,$icon_extra_class,$extraclass,$icon_source );
                     }
+
                 } ?>
 
             <?php } ?>

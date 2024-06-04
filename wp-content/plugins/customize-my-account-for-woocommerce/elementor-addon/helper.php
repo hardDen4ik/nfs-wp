@@ -1,7 +1,7 @@
 <?php 
 namespace Elementor;
 
-function category_elementor_init_free(){
+function category_elementor_init(){
     Plugin::instance()->elements_manager->add_category(
         'customize-my-account',
         [
@@ -11,4 +11,4 @@ function category_elementor_init_free(){
         1
     );
 }
-add_action('elementor/init', 'Elementor\category_elementor_init_free');
+add_action('elementor/init', 'Elementor\category_elementor_init');

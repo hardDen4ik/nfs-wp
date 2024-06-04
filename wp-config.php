@@ -24,13 +24,13 @@
 define( 'DB_NAME', 'nfs_wp' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'nfs_wp' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'TySJStwfY2p7ep7Isbco' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'nfs-wp-mysql' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -84,7 +84,7 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy publishing. */
 

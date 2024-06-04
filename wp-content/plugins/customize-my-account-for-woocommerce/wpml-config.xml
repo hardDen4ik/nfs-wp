@@ -2,8 +2,6 @@
     
     <admin-texts>
         <key name="wcmamtx_plugin_options"/>   
-        <key name="wcmamtx_plugin_login"/>
-        <key name="wcmamtx_advanced_settings"/>
-            
+        <key name="wcmamtx_advanced_settings"/>    
     </admin-texts>
 </wpml-config>

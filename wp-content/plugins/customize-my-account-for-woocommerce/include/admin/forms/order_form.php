@@ -1,42 +1,126 @@
-<table>
-	<tr valign="top" >
-		
-		
-		<td width="100%" class="forminp">
-			<?php echo esc_html__('Feature to Manage Order Columns and Actions Available In Pro Version Only','customize-my-account-for-woocommerce'); ?> 
+<?php 
+$advancedsettings  = (array) get_option('wcmamtx_order_settings');  
+$tabs              = wcmamtx_get_account_order_items();
+$core_fields       = 'order-number,order-date,order-status,order-total,order-actions';
 
-			&emsp;
-			<a type="button" href="#" data-toggle="modal" data-target="#wcmamtx_upgrade_modal"  class="btn btn-warning wcmamtx_pro_link" >
-				<span class="dashicons dashicons-lock"></span>
-				<?php echo esc_html__( 'Upgrade to pro' ,'customize-my-account-for-woocommerce'); ?>
-			</a>
+$core_fields_array =  array(
+                         'order-number'=> esc_html__( 'Order', 'woocommerce' ),
+                         'order-date'=> esc_html__( 'Date', 'woocommerce' ),
+                         'order-status'=> esc_html__( 'Status', 'woocommerce' ),
+                         'order-total'=>esc_html__( 'Total', 'woocommerce' ),
+                         'order-actions'=>'&nbsp;',
+                      );
 
-			<div class="modal fade" id="wcmamtx_upgrade_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content">
+if ((sizeof($advancedsettings) != 1)) {
 
-						<div class="modal-body">
+  foreach ($tabs as $ikey=>$ivalue) {
 
-							<a type="button" target="_blank" href="<?php echo pro_url; ?>" name="submit" id="wcmamtx_frontend_link" class="btn btn-primary wcmamtx_frontend_link" >
-								<span class="dashicons dashicons-lock"></span>
-								<?php echo esc_html__( 'Visit Pro Version Page' ,'customize-my-account-for-woocommerce'); ?>
-							</a>
+    $match = wcmtxka_find_string_match($ikey,$advancedsettings);
 
-							<a type="button" target="_blank" href="https://www.sysbasics.com/go/customize-demo/" name="submit" id="wcmamtx_frontend_link" class="btn btn-success wcmamtx_frontend_link" >
-								<span class="dashicons dashicons-lock"></span>
-								<?php echo esc_html__( 'Visit Pro Version Demo' ,'customize-my-account-for-woocommerce'); ?>
-							</a>
+    if (!array_key_exists($ikey, $advancedsettings) && !array_key_exists($ikey, $core_fields_array) && ($match == "notfound")) {
 
-							
+      
 
-						</div>
-						<div class="modal-footer">
-							
-						</div>
-					</div>
-				</div>
-			</div>
-		</table>
-	</td>
-</tr>
-</table>
+      $advancedsettings[$ikey] = array(
+        'show' => 'yes',
+        'third_party' => 'yes',
+        'endpoint_key' => $ikey,
+        'wcmamtx_type' => 'endpoint',
+        'parent'       => 'none',
+        'endpoint_name'=> $ivalue,
+      );           
+
+    }
+  }
+
+}
+      
+
+
+      
+
+      if (!isset($advancedsettings) || (sizeof($advancedsettings) == 1)) {
+        ?>
+        <ol class="accordion wcmamtx-accordion" style="display:none;">
+            <?php
+                $rownum = 0;
+                foreach ($tabs as $key=>$value) {
+
+                    if (preg_match('/\b'.$key.'\b/', $core_fields )) { 
+
+                        $third_party = null;
+
+                    } else {
+
+                        $third_party = 'yes';
+
+                    }
+
+                    
+                    
+                    $this->get_order_content($key,$value,$core_fields,$value,null,$third_party); 
+                    $rownum++;
+
+                }
+        ?>
+        </ol><?php
+      
+      } else {
+
+        ?>
+        <ol class="accordion wcmamtx-accordion" style="display:none;">
+            <?php
+                $rownum = 0;
+                foreach ($advancedsettings as $key=>$value) {
+
+                    
+
+                    $name = isset($value['endpoint_name']) ? $value['endpoint_name'] : "";
+
+                    $third_party = isset($value['third_party']) ? $value['third_party'] : null;
+
+
+
+                    if (isset($value['parent']) && ($value['parent'] == "none")) {
+
+                        $this->get_order_content($key,$name,$core_fields,$value,null,$third_party);
+                    } 
+                
+                    $rownum++;
+
+                }
+        ?></ol><?php
+      }
+    ?>
+        <script>
+            var wmthash=<?php echo $rownum; ?>;
+        </script>
+        <div id="iconPicker" class="modal fade">
+              <div class="modal-dialog">
+                    <div class="modal-content">
+                          <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                  <h4 class="modal-title"><?php  echo esc_html__('Icon Picker','customize-my-account-for-woocommerce'); ?></h4>
+                          </div>
+                          <div class="modal-body">
+                              <div>
+                                  <ul class="icon-picker-list">
+                                    <li>
+                                      <a data-class="{{item}} {{activeState}}" data-index="{{index}}">
+                                        <span class="{{item}}"></span>
+                                         <span class="name-class">{{item}}</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="modal-footer">
+                                <button type="button" id="change-icon" class="btn btn-success">
+                                  <span class="fa fa-check-circle-o"></span>
+                                  <?php  echo esc_html__('Use Selected Icon','customize-my-account-for-woocommerce'); ?>
+                                </button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                          </div>
+                    </div>
+              </div>
+        </div>

@@ -4,7 +4,7 @@ Plugin Name: All 404 Redirect to Homepage
 Plugin URI: https://www.wp-buy.com
 Description: a plugin to redirect 404 pages to home page or any custom page
 Author: wp-buy
-Version: 4.3
+Version: 4.4
 Author URI: https://www.wp-buy.com
 */
 register_activation_hook( __FILE__, 'p404_modify_htaccess' );
@@ -21,6 +21,52 @@ add_action('wp', 'p404_redirect');
 add_action( 'admin_enqueue_scripts', 'p404_enqueue_styles_scripts' );
 add_action('wp_ajax_P404REDIRECT_HideMsg', 'P404REDIRECT_HideMsg'); 
 add_action('wp_ajax_P404REDIRECT_HideAlert', 'P404REDIRECT_HideAlert'); 
+
+add_action('admin_bar_menu', 'p404_free_add_items',  40);
+add_action('wp_enqueue_scripts', 'p404_free_top_bar_enqueue_style');
+add_action('admin_enqueue_scripts', 'p404_free_top_bar_enqueue_style');
+
+
+function p404_free_top_bar_enqueue_style()
+{
+
+?>
+    <style>
+        #wpadminbar #wp-admin-bar-p404_free_top_button .ab-icon:before {
+            content: "\f103";
+            color:red;
+            top: 2px;
+        }
+    </style>
+    <?php
+
+}
+
+function p404_free_add_items($admin_bar)
+{
+	$links_count = P404REDIRECT_read_option_value('links',0);
+	
+    if (!current_user_can('manage_options') or $links_count < 10) {
+        return;
+    }
+    global $pluginsurl;
+    //The properties of the new item. Read More about the missing 'parent' parameter below
+    $args = array(
+        'id'    => 'p404_free_top_button',
+        'parent' => null,
+        'group'  => null,
+        'title' => '<span class="ab-icon"></span>404',
+        'href'  => admin_url('admin.php?page=all-404-redirect-to-homepage.php&mytab=404urls'),
+        'meta'  => array(
+            'title' => '404 Links', //This title will show on hover
+            'class' => ''
+        )
+    );
+
+    //This is where the magic works.
+    $admin_bar->add_menu($args);
+}
+
 
 
 function P404REDIRECT__filter_action_links( $links ) { 
@@ -47,12 +93,25 @@ function p404_redirect()
 	    }
 	    
 	 	if($options['p404_status']=='1' & $options['p404_redirect_to']!=''){
-			$links = P404REDIRECT_read_option_value('links',0);
-			P404REDIRECT_save_option_value('links', $links + 1);
-			P404REDIRECT_add_redirected_link(P404REDIRECT_get_current_URL());
-		 	header ('HTTP/1.1 301 Moved Permanently');
-			header ("Location: " . $options['p404_redirect_to']);
-			exit(); 
+			
+			// check if the execlude media links option is enabled
+		if($options['p404_execlude_media'] =='1' && isset($link) && strpos($link, '/wp-content') !== false)
+			{
+				
+					
+					header ('HTTP/1.1 301 Moved Permanently');
+					header ("Location: " . $options['p404_redirect_to']);
+					exit(); 
+
+			}else{
+			
+					$links = P404REDIRECT_read_option_value('links',0);
+					P404REDIRECT_save_option_value('links', $links + 1);
+					P404REDIRECT_add_redirected_link(P404REDIRECT_get_current_URL());
+					header ('HTTP/1.1 301 Moved Permanently');
+					header ("Location: " . $options['p404_redirect_to']);
+					exit(); 
+			}
 		}
 	}
 }

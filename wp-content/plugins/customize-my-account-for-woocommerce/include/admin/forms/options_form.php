@@ -23,14 +23,14 @@ foreach ($tabs2 as $tkey=>$tvalue) {
 }
 
 
-$core_fields       = 'dashboard,edit-address,edit-account,customer-logout';
+$core_fields       = 'dashboard,edit-address,edit-account,customer-logout,downloads';
 
 ?> 
 
-<table class="widefat">
+<table class="widefat wcmamtx_options_table">
 
 	<tr>
-		<td><label><?php echo esc_html__('Default My Account tab','customize-my-account-for-woocommerce-pro'); ?></label> <br />
+		<td><label><?php echo esc_html__('Default My Account tab','customize-my-account-for-woocommerce'); ?></label> <br />
 		</td>
 		<td>
 			<select class="wcmamtx_default_tab_select" name="<?php  echo esc_html__($this->wcmamtx_plugin_options_key); ?>[default_tab]">
@@ -53,6 +53,71 @@ $core_fields       = 'dashboard,edit-address,edit-account,customer-logout';
 			</select>
 		</td>
 	</tr>
+
+	<tr>
+		<td><label><?php echo esc_html__('Show My Account widget on navigation menu','customize-my-account-for-woocommerce'); ?></label> <br />
+		</td>
+		<td>
+			<input type="checkbox" data-toggle="toggle"  data-on="<?php echo esc_html__('Yes','customize-my-account-for-woocommerce'); ?>" data-off="<?php echo esc_html__('No','customize-my-account-for-woocommerce'); ?>" class="wcmamtx_show_nav_header_widget" name="<?php  echo esc_html__($this->wcmamtx_plugin_options_key); ?>[nav_header_widget]" value="yes" <?php if (isset($plugin_options['nav_header_widget']) && ($plugin_options['nav_header_widget'] == "yes")) { echo 'checked'; } ?>>
+			
+		</td>
+	</tr>
+
+
+	<tr class="nav_header_widget_tr" style="<?php if (isset($plugin_options['nav_header_widget']) && ($plugin_options['nav_header_widget'] == "yes")) { echo 'display:table-row;'; } else { echo 'display:none;'; } ?>">
+		<td><label><?php echo esc_html__('Header Menu Location','customize-my-account-for-woocommerce'); ?></label> <br />
+		</td>
+		<td>
+			<?php 
+             
+               $menu_locations = get_nav_menu_locations();
+
+
+
+			?>
+			<select class="wcmamtx_default_tab_select" name="<?php  echo esc_html__($this->wcmamtx_plugin_options_key); ?>[widget_menu_location]">
+                 <?php foreach ($menu_locations as $key=>$value) { ?>
+                      <option value="<?php echo $key;?>" <?php if (isset($plugin_options['widget_menu_location']) && ($plugin_options['widget_menu_location'] == $key)) {echo 'selected';} ?>><?php echo $key;?></option>
+                 <?php } ?>
+			</select>
+			
+		</td>
+	</tr>
+
+	<tr class="nav_header_widget_tr" style="<?php if (isset($plugin_options['nav_header_widget']) && ($plugin_options['nav_header_widget'] == "yes")) { echo 'display:table-row;'; } else { echo 'display:none;'; } ?>">
+		<td><label><?php echo esc_html__('Widget text (logged in)','customize-my-account-for-woocommerce'); ?></label> <br />
+		</td>
+		<td>
+			<?php             
+               $nav_header_widget_text = isset($plugin_options['nav_header_widget_text']) ? $plugin_options['nav_header_widget_text'] : esc_html__('My Account','customize-my-account-for-woocommerce');
+			?>
+			<input type="text" name="<?php  echo esc_html__($this->wcmamtx_plugin_options_key); ?>[nav_header_widget_text]" value="<?php echo $nav_header_widget_text; ?>">
+			
+		</td>
+	</tr>
+
+
+	<tr class="nav_header_widget_tr" style="<?php if (isset($plugin_options['nav_header_widget']) && ($plugin_options['nav_header_widget'] == "yes")) { echo 'display:table-row;'; } else { echo 'display:none;'; } ?>">
+		<td><label><?php echo esc_html__('Widget text (logged out)','customize-my-account-for-woocommerce'); ?></label> <br />
+		</td>
+		<td>
+			<?php             
+               $nav_header_widget_text_logout = isset($plugin_options['nav_header_widget_text_logout']) ? $plugin_options['nav_header_widget_text_logout'] : esc_html__('Log In','customize-my-account-for-woocommerce');
+			?>
+			<input type="text" name="<?php  echo esc_html__($this->wcmamtx_plugin_options_key); ?>[nav_header_widget_text_logout]" value="<?php echo $nav_header_widget_text_logout; ?>">
+			
+		</td>
+	</tr>
+
+	<tr lass="nav_header_widget_tr" style="<?php if (isset($plugin_options['nav_header_widget']) && ($plugin_options['nav_header_widget'] == "yes")) { echo 'display:table-row;'; } else { echo 'display:none;'; } ?>">
+		<td><label><?php echo esc_html__('Show widget only for logged in','customize-my-account-for-woocommerce'); ?></label> <br />
+		</td>
+		<td>
+			<input type="checkbox" data-toggle="toggle"  data-on="<?php echo esc_html__('Yes','customize-my-account-for-woocommerce'); ?>" data-off="<?php echo esc_html__('No','customize-my-account-for-woocommerce'); ?>" class="wcmamtx_show_only_logged_in" name="<?php  echo esc_html__($this->wcmamtx_plugin_options_key); ?>[show_only_logged_in]" value="yes" <?php if (isset($plugin_options['show_only_logged_in']) && ($plugin_options['show_only_logged_in'] == "yes")) { echo 'checked'; } ?>>
+			
+		</td>
+	</tr>
+	
 
 	
 
@@ -100,15 +165,11 @@ $core_fields       = 'dashboard,edit-address,edit-account,customer-logout';
 					                'form-add-payment-method'=>'Add Payment Method',
 					                'form-edit-account'=>'Edit Account Form',
 					                'form-edit-address'=>'Edit Address Form',
-					                'downloads'=>'Downloads',
 					                'form-login'=>'Login Form',
-					                'my-account'=>'My Account',
 					                'my-address'=>'My Address',
-					                'my-downloads'=>'My Downloads',
 					                'navigation'=>'Navigation',
 					                'orders'=>'Orders',
-					                'payment-methods'=>'Payment Methods',
-					                'view-order'=>'View Order',
+					                'payment-methods'=>'Payment Methods'
 					            );
 
 
@@ -249,6 +310,8 @@ $core_fields       = 'dashboard,edit-address,edit-account,customer-logout';
 
                     $etype_val     = str_replace(' ', '-', $value);
 
+                    
+
                     if (!preg_match('/\b'.$key.'\b/', $core_fields )) { 
 
 					?>
@@ -294,6 +357,8 @@ $core_fields       = 'dashboard,edit-address,edit-account,customer-logout';
 				
 			</td>
 		</tr>
+
+	
 
 	<?php } else { ?>
 		<tr>
