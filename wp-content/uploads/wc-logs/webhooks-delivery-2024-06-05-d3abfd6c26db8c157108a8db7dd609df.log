@@ -1,0 +1,41 @@
+2024-06-05T11:11:17+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 808922bea06c84928811ba09f6fdbea2
+            [Date] => 05.06.2024 в 11:11
+            [URL] => http://0.0.0.0:82/api/catalog/wp-order
+            [Duration] => 0.16153
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.9.1 Hookshot (WordPress/6.5.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://nfs-wp.loc/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => uPa9uO+3kk/UST4JCj63mYLVwi7YdzwDaasSd1ah5xE=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 808922bea06c84928811ba09f6fdbea2
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => Предоставлен неверный URL.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)

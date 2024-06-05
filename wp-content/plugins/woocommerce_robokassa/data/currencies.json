@@ -1,0 +1,113 @@
+{
+    "Result": {
+        "Code": "0"
+    },
+    "Groups": {
+        "Group": {
+            "@attributes": {
+                "Code": "BankCard",
+                "Description": "\u0411\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u043e\u0439 \u043a\u0430\u0440\u0442\u043e\u0439"
+            },
+            "Items": {
+                "Currency": [
+                    {
+                        "@attributes": {
+                            "Label": "BankCardPSBR",
+                            "Alias": "BankCard",
+                            "Name": "\u0411\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043a\u0430\u0440\u0442\u0430"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "BankCardPSR",
+                            "Alias": "BankCard",
+                            "Name": "\u0411\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043a\u0430\u0440\u0442\u0430"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "SBPPSBR",
+                            "Alias": "SBP",
+                            "Name": "\u0411\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043a\u0430\u0440\u0442\u0430",
+                            "MaxValue": "1000000"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "YandexPayPSBR",
+                            "Alias": "YandexPay",
+                            "Name": "\u042f\u043d\u0434\u0435\u043a\u0441 Pay",
+                            "MaxValue": "100000"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "YandexPayPSR",
+                            "Alias": "YandexPay",
+                            "Name": "\u042f\u043d\u0434\u0435\u043a\u0441 Pay",
+                            "MaxValue": "100000"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "Card120DaysPSBR",
+                            "Alias": "Card120Days",
+                            "Name": "\u041a\u0430\u0440\u0442\u0430 120 \u0434\u043d\u0435\u0439 \u0431\u0435\u0437 %"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "Card120DaysPSR",
+                            "Alias": "Card120Days",
+                            "Name": "\u041a\u0430\u0440\u0442\u0430 120 \u0434\u043d\u0435\u0439 \u0431\u0435\u0437 %"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "CardHalvaPSBR",
+                            "Alias": "BankCardHalva",
+                            "Name": "\u041a\u0430\u0440\u0442\u0430 \u0425\u0430\u043b\u0432\u0430"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "CardHalvaPSR",
+                            "Alias": "BankCardHalva",
+                            "Name": "\u041a\u0430\u0440\u0442\u0430 \u0425\u0430\u043b\u0432\u0430"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "MirPayPSBR",
+                            "Alias": "MirPay",
+                            "Name": "\u041cIR Pay"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "MirPayPSR",
+                            "Alias": "MirPay",
+                            "Name": "\u041cIR Pay"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "MtsPayPSBR",
+                            "Alias": "MTSPay",
+                            "Name": "\u041c\u0422\u0421 Pay",
+                            "MaxValue": "100000"
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "Label": "MtsPayPSR",
+                            "Alias": "MTSPay",
+                            "Name": "\u041c\u0422\u0421 Pay",
+                            "MaxValue": "100000"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
