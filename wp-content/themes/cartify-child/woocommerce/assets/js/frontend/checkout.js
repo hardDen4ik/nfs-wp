@@ -16,6 +16,7 @@ jQuery( function( $ ) {
         $order_review: $( '#order_review' ),
         $checkout_form: $( 'form.checkout' ),
         init: function() {
+            $('a.prev').on('click', this.show_order_review);
             $( document.body ).on( 'update_checkout', this.update_checkout );
             $( document.body ).on( 'init_checkout', this.init_checkout );
 
@@ -92,6 +93,9 @@ jQuery( function( $ ) {
         },
         get_payment_method: function() {
             return wc_checkout_form.$checkout_form.find( 'input[name="payment_method"]:checked' ).val();
+        },
+        show_order_review: function () {
+            $('#order_review').css('display', 'block');
         },
         payment_method_selected: function( e ) {
             e.stopPropagation();
@@ -372,10 +376,13 @@ jQuery( function( $ ) {
                     // Always update the fragments
                     if ( data && data.fragments ) {
                         $.each( data.fragments, function ( key, value ) {
-                            if ( ! wc_checkout_form.fragments || wc_checkout_form.fragments[ key ] !== value ) {
-                                $( key ).replaceWith( value );
+                            // if ( ! wc_checkout_form.fragments || wc_checkout_form.fragments[ key ] !== value ) {
+                            //     $( key ).replaceWith( value );
+                            // }
+                            $( key ).unblock();
+                            if ($( "li.active a" ).attr('href') === '#payment' && key === '.woocommerce-checkout-review-order-table') {
+                                $('#order_review').css('display', 'none');
                             }
-                            // $( key ).unblock();
                         } );
                         wc_checkout_form.fragments = data.fragments;
                     }

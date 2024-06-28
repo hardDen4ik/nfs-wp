@@ -118,15 +118,14 @@ function get_updated_order_by_id()
 
 add_action( 'init', 'register_remote_scripts' );
 add_action( 'wp_enqueue_scripts', 'add_remote_scripts' );
-//print_r(get_site_url().'/wp-content/themes/cartify-child/woocommerce/assets/js/frontend/checkout.js');die();
 function register_remote_scripts()
 {
-    wp_register_script( 'checkout-js', get_site_url().'/wp-content/themes/cartify-child/woocommerce/assets/js/frontend/checkout.js' , ['jquery'], '', true );
+    wp_deregister_script('wc-checkout');
+    wp_register_script( 'wc-checkout', get_site_url().'/wp-content/themes/cartify-child/woocommerce/assets/js/frontend/checkout.js' , array( 'jquery', 'woocommerce', 'wc-country-select', 'wc-address-i18n' ), '', array( 'strategy' => 'defer' ) );
 }
 
 function add_remote_scripts()
 {
-    wp_deregister_script('wc-checkout');
-    wp_enqueue_script( 'checkout-js' );
+    wp_enqueue_script( 'wc-checkout' );
 }
 ?>

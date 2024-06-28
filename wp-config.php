@@ -24,13 +24,13 @@
 define( 'DB_NAME', 'nfs_wp' );
 
 /** Database username */
-define( 'DB_USER', 'nfs_wp' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'TySJStwfY2p7ep7Isbco' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
-define( 'DB_HOST', 'nfs-wp-mysql' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
